@@ -1,0 +1,46 @@
+name: PayTec N86
+hersteller: PayTec
+kategorie: mobil
+reihenfolge: 2
+featured: false
+kurz: Mobiles Terminal mit Drucker und grossem Akku, für lange Schichten und raue Umgebungen.
+beschreibung: >-
+  Der N86 ist das Arbeitstier unter den mobilen Terminals: 5.5-Zoll-Display, integrierter Thermodrucker und ein Akku, der laut Hersteller über 600 Belege pro Ladung schafft. Das Gehäuse übersteht Stürze aus 1.5 Metern auf Stein und ist für den Einsatz in anspruchsvollen Umgebungen ausgelegt.
+
+
+  Der Barcode-Scanner liest auch verschmutzte oder beschädigte Codes, was ihn für Lieferdienste und Lager interessant macht. 4G und WLAN wechseln automatisch.
+einsatz:
+  - Restaurant mit Service am Tisch
+  - Lieferdienst und Kurier
+  - Bau und Werkstatt
+  - Event und Festival
+specs:
+  - label: Bauform
+    wert: Mobil, mit Drucker
+  - label: Display
+    wert: 5.5 Zoll HD Touchscreen
+  - label: Verbindung
+    wert: 4G/3G/2G, WLAN, Bluetooth, automatischer Wechsel zwischen Mobilfunk und WLAN
+  - label: Kartenleser
+    wert: Kontaktlos (NFC), Chip (EMV), Magnetstreifen, 1D- und 2D-Barcodes
+  - label: Beleg
+    wert: Integrierter Thermodrucker, Rolle 58 mm
+  - label: Akku
+    wert: 2600 mAh (7.4 V), bis 240 Stunden Standby, über 600 Belege pro Ladung
+  - label: System
+    wert: Android, Quad-Core 1.4 GHz
+  - label: Masse und Gewicht
+    wert: 194 × 80 × 68.8 mm, 420 g
+  - label: Robustheit
+    wert: Sturz aus 1.5 m auf Stein, Betrieb 0 bis 50 °C
+  - label: Zertifizierung
+    wert: PCI PTS 6.x, EMV L1/L2, ep2 (Schweiz)
+  - label: Zubehör
+    wert: Ladestation
+mieteMonat: 24
+kauf: 590
+preisHinweis: Miete inklusive Wartung, Updates und Ersatzgerät. Preise exkl. MwSt.
+datenblatt: https://www.paytec.ch/fileadmin/produkte/N86/n86-data-sheets-2025-deutsch.pdf
+bild: null
+bildAlt: PayTec Smart-POS N86, mobiles Zahlterminal mit Drucker
+metaDescription: 'PayTec N86 bei ibis payment: robustes mobiles Zahlterminal mit Drucker, 5.5-Zoll-Display, 4G und WLAN. Technische Daten, Miete und Kaufpreis.'

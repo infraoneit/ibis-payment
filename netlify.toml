@@ -1,0 +1,101 @@
+# ibis-payment.ch auf Netlify (Next.js Runtime, alle Seiten statisch vorgerendert, Keystatic-API als Function)
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Hauptdomain erzwingen: www und alte Domain ibis-mgmt.ch auf https://ibis-payment.ch
+[[redirects]]
+  from = "https://www.ibis-payment.ch/*"
+  to = "https://ibis-payment.ch/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://ibis-payment.ch/*"
+  to = "https://ibis-payment.ch/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://ibis-mgmt.ch/*"
+  to = "https://ibis-payment.ch/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.ibis-mgmt.ch/*"
+  to = "https://ibis-payment.ch/:splat"
+  status = 301
+  force = true
+
+# Alte Pfade der bisherigen Website
+[[redirects]]
+  from = "/STARTSEITE/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/UeBER-UNS/*"
+  to = "/ueber-uns"
+  status = 301
+
+[[redirects]]
+  from = "/DIENSTLEISTUNGEN/*"
+  to = "/dienstleistungen"
+  status = 301
+
+[[redirects]]
+  from = "/KONTAKT/*"
+  to = "/kontakt"
+  status = 301
+
+# Security-Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), browsing-topics=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests"
+    Cross-Origin-Opener-Policy = "same-origin"
+
+# Keystatic-Admin braucht lockerere Regeln (GitHub-Login, Inline-Styles der UI) und darf nicht indexiert werden
+[[headers]]
+  for = "/keystatic/*"
+  [headers.values]
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://avatars.githubusercontent.com; font-src 'self' data:; connect-src 'self' https://api.github.com https://github.com; frame-ancestors 'none'"
+    X-Robots-Tag = "noindex, nofollow"
+
+# Caching: gehashte Assets ein Jahr, Bilder lang, HTML kurz
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/brand/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/*.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/__forms.html"
+  [headers.values]
+    X-Robots-Tag = "noindex"

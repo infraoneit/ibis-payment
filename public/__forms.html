@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="de-CH">
+<head><meta charset="utf-8"><title>Formulardefinitionen für Netlify</title><meta name="robots" content="noindex"></head>
+<body>
+<!-- Diese Datei wird nicht angezeigt. Netlify liest die Formulare beim Deploy aus und nimmt die Eingaben der React-Formulare entgegen.
+     Benachrichtigungen (E-Mail an info@ibis-payment.ch bzw. an InfraOne für "webdesign") werden im Netlify-Dashboard unter Forms > Notifications eingerichtet. -->
+
+<form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="kontakt">
+  <input name="bot-field">
+  <input name="name" type="text">
+  <input name="betrieb" type="text">
+  <input name="telefon" type="tel">
+  <input name="email" type="email">
+  <select name="thema"><option>Zahlterminal</option></select>
+  <textarea name="nachricht"></textarea>
+  <input name="rechner" type="text">
+  <input name="seite" type="text">
+</form>
+
+<form name="abrechnung" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data">
+  <input type="hidden" name="form-name" value="abrechnung">
+  <input name="bot-field">
+  <input name="name" type="text">
+  <input name="betrieb" type="text">
+  <input name="email" type="email">
+  <input name="telefon" type="tel">
+  <input name="abrechnung" type="file">
+  <textarea name="nachricht"></textarea>
+  <input name="seite" type="text">
+</form>
+
+<form name="webdesign" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="webdesign">
+  <input name="bot-field">
+  <input name="name" type="text">
+  <input name="betrieb" type="text">
+  <input name="telefon" type="tel">
+  <input name="email" type="email">
+  <input name="website" type="text">
+  <select name="branche"><option>Restaurant</option></select>
+  <textarea name="nachricht"></textarea>
+  <input name="seite" type="text">
+</form>
+
+<form name="praemiencheck" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+  <input type="hidden" name="form-name" value="praemiencheck">
+  <input name="bot-field">
+  <select name="branche"><option>Restaurant</option></select>
+  <select name="mitarbeitende"><option>Nur ich</option></select>
+  <input name="email" type="email">
+  <input name="telefon" type="tel">
+  <input name="seite" type="text">
+</form>
+</body>
+</html>

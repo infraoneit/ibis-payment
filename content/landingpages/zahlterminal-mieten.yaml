@@ -1,0 +1,123 @@
+title: Zahlterminal mieten ab CHF 19 pro Monat
+pfad: /zahlterminal-mieten
+cluster: payment
+navTitle: Terminal mieten
+metaTitle: Zahlterminal mieten ab CHF 19 | ibis payment
+metaDescription: 'Zahlterminal mieten ab CHF 19 pro Monat, inklusive Wartung, Updates und Ersatzgerät. Monatlich kündbar, keine Aufschaltgebühr, Installation vor Ort.'
+kicker: Mieten
+lead: Die Miete deckt das Terminal, die Wartung, die Updates und den Ersatz bei Defekt. Sie zahlen einen festen Betrag pro Monat und können monatlich kündigen.
+intro: |
+  Ein Zahlterminal zu mieten ist die Variante mit dem kleinsten Risiko. Sie binden kein Kapital, Sie tragen keine Reparaturkosten, und wenn sich Ihr Betrieb verändert, geben Sie das Terminal zurück oder tauschen es gegen ein anderes Modell. Die Kartenterminal-Miete beginnt bei CHF 19 pro Monat, exkl. MwSt.
+
+  Auf dieser Seite steht, was in der Miete enthalten ist, für welche Betriebe sie sinnvoll ist, wie die Kündigung läuft und wann der Kauf die bessere Wahl wäre. Die Gebühren pro Zahlung sind bei Miete und Kauf gleich und stehen auf der Seite [Konditionen](/konditionen).
+
+  Wenn Sie schon wissen, dass Sie mieten wollen, reicht eine Nachricht über [Kontakt](/kontakt). Sie erhalten innert 24 Stunden eine Offerte mit allen Positionen.
+sections:
+  - heading: Was in der Miete enthalten ist
+    body: |
+      Die Monatsmiete ist ein Pauschalbetrag. Darin enthalten sind:
+
+      - Das Terminal selbst, ep2-zertifiziert, PCI PTS 6.x, mit TWINT, kontaktlos, Apple Pay und Google Pay.
+      - Wartung und Software-Updates, inklusive der Sicherheitsupdates, die die Kartenorganisationen vorschreiben.
+      - Ein Ersatzgerät bei Defekt [Ersatzgerät innert 24 Stunden bei Ihnen, schweizweit].
+      - Einrichtung und Installation vor Ort, inklusive Kassenanbindung und WLAN-Einrichtung. Aufschaltung CHF 0.
+      - Ein Berater mit Direktwahl, der das Terminal selbst installiert hat.
+
+      Nicht in der Miete enthalten sind die Gebühren pro Zahlung. Die sind bei Miete und Kauf identisch: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, plus CHF 0.05 pro Zahlung, exkl. MwSt. Ob die 4G-Datenverbindung der mobilen Modelle in der Miete enthalten ist, steht in Ihrer Offerte [4G-Datenverbindung: in Offerte ausweisen].
+
+      Es gibt keine Mindestgebühr pro Monat. Wer in einem Monat wenig Umsatz hat, zahlt die Miete und die Gebühren auf den tatsächlichen Umsatz, sonst nichts.
+  - heading: Wann sich die Miete lohnt
+    body: |
+      Die Miete passt zu Betrieben, deren Umsatz schwankt oder deren Zukunft noch offen ist.
+
+      **Saisonbetriebe**: Ein Marktstand, ein Badi-Kiosk, eine Skihütte oder ein Weihnachtsmarkt brauchen das Terminal nur einige Monate im Jahr. Da die Miete monatlich kündbar ist, zahlen Sie nur für die Monate, in denen Sie das Terminal nutzen [Saisonpause: Rückgabe und Neustart in Offerte regeln].
+
+      **Neugründungen**: Wer gerade startet, weiss noch nicht, wie viel Kartenumsatz kommt und ob ein mobiles oder ein stationäres Terminal besser passt. Mit der Miete können Sie nach einigen Monaten das Modell wechseln, ohne ein gekauftes Terminal abschreiben zu müssen.
+
+      **Ersatz- und Zweitgeräte**: Ein zweites Terminal für den Sommer auf der Terrasse, für den Stand an einer Messe oder als Reserve lässt sich für die Dauer des Bedarfs mieten.
+
+      **Terminalwechsel 2027**: Wer heute mietet, muss sich nicht darum kümmern, ob das Terminal die neuen Anforderungen der Kartenorganisationen erfüllt. Updates und Ersatz sind Sache des Vermieters.
+
+      Die Beispielrechnung unten zeigt einen saisonalen Marktstand mit kleinem Bon. Setzen Sie Ihre eigenen Zahlen ein.
+  - heading: Kündigung und Rückgabe
+    body: |
+      Die Miete hat keine Mindestlaufzeit. Sie kündigen monatlich, ohne Begründung und ohne Gebühr. Das Terminal geht an uns zurück; den Ablauf klärt Ihr Berater mit Ihnen, bei Bedarf holt er es ab.
+
+      Das unterscheidet die Miete von vielen Terminalverträgen auf dem Markt, bei denen Laufzeiten von mehreren Jahren mit automatischer Verlängerung üblich sind [Beispiel: Laufzeit und Kündigungsfrist eines Grossanbieters, Quelle und Datum eintragen]. Wenn Sie heute in einem solchen Vertrag sind, prüfen wir Ihre Kündigungsfrist und übernehmen die Kündigung, inklusive Terminplanung für den Wechsel.
+
+      Was Sie beim Mietvertrag lesen sollten, egal bei welchem Anbieter: Laufzeit, Kündigungsfrist, Verlängerungsklausel, was bei Defekt passiert, ob Updates enthalten sind, und ob die Terminalmiete getrennt vom Acquiring-Vertrag gekündigt werden kann. Bei uns stehen diese Punkte in der Offerte.
+  - heading: Miete oder Kauf
+    body: |
+      Beim Kauf gehört das Terminal Ihnen, mit zwei Jahren Garantie, ab CHF 390. Als Faustregel lohnt sich der Kauf ab etwa zwei Jahren Nutzung an einem festen Standort mit stabilem Betrieb. Davor ist die Miete im Vorteil, weil sie Wartung, Updates und Ersatz einschliesst und sich ohne Verlust beenden lässt.
+
+      Die Entscheidung hängt an zwei Fragen: Wie sicher ist es, dass Sie das Terminal in zwei Jahren noch so brauchen wie heute, und wollen Sie das Risiko für Defekt und Nachrüstung selbst tragen. Wer beides mit Ja beantwortet, kauft. Alle anderen mieten.
+
+      Einrichtung und Installation vor Ort sind bei beiden Varianten inbegriffen, die Gebühren pro Zahlung sind gleich. Einen Wechsel von Miete auf Kauf können Sie später besprechen [Konditionen für Übernahme eines Mietterminals klären]. Mehr zu den Kaufpreisen auf der Seite [Zahlterminal kaufen](/zahlterminal-kaufen).
+  - heading: Diese Terminals können Sie mieten
+    body: |
+      Die Mietpreise unterscheiden sich nach Modell, alle exkl. MwSt.
+
+      - [PayTec N62](/geraete/paytec-n62), mobil, kompakt, ohne Drucker, Beleg digital: CHF 19 pro Monat.
+      - [PayTec V3CT3](/geraete/paytec-v3ct3), stationäres Tischterminal mit Tastatur und Drucker: CHF 19 pro Monat.
+      - [PayTec N86](/geraete/paytec-n86), mobil mit Drucker, robust: CHF 24 pro Monat.
+      - [PayTec N96](/geraete/paytec-n96), mobil mit Drucker und 6.5-Zoll-Display: CHF 24 pro Monat.
+      - [PayTec CT20P](/geraete/paytec-ct20p), stationär, kassenintegriert, mit PIN-Pad: CHF 24 pro Monat.
+
+      Automatenterminals wie der [PayTec UN20](/geraete/paytec-un20) werden pro Projekt offeriert, weil Einbau und Anbindung je nach Automat verschieden sind. Eine Übersicht mit technischen Daten finden Sie unter [Geräte](/geraete).
+beispiel:
+  aktiv: true
+  titel: Beispiel Marktstand, saisonal
+  umsatz: 6000
+  bon: 18
+  kreditanteil: 20
+  vergleich: gross
+  erklaerung: Für einen Marktstand nehmen wir einen kleinen Bon und einen tiefen Kreditkartenanteil an, wie er bei Lebensmitteln und Kleinbeträgen typisch ist; die Werte sind Platzhalter für die Saisonmonate.
+preisliste:
+  - label: Miete N62 oder V3CT3
+    beschreibung: Mobil ohne Drucker oder Tischterminal mit Drucker
+    wert: CHF 19.00 / Monat
+  - label: Miete N86, N96 oder CT20P
+    beschreibung: Mobil mit Drucker oder kassenintegriert
+    wert: CHF 24.00 / Monat
+  - label: Im Mietpreis enthalten
+    beschreibung: Wartung, Updates, Ersatzgerät, Installation vor Ort
+    wert: inbegriffen
+  - label: Mindestlaufzeit
+    beschreibung: Monatlich kündbar, keine Kündigungsgebühr
+    wert: keine
+faq:
+  - frage: Was kostet die Miete eines Zahlterminals?
+    antwort: |
+      Ab CHF 19 pro Monat für den N62 oder den V3CT3, CHF 24 pro Monat für N86, N96 und CT20P, exkl. MwSt. Darin sind Wartung, Updates und Ersatzgerät enthalten. Dazu kommen die Gebühren pro Zahlung gemäss [Konditionen](/konditionen).
+  - frage: Kann ich das Terminal nur für die Saison mieten?
+    antwort: |
+      Ja. Die Miete ist monatlich kündbar, Sie zahlen nur für die Monate, in denen Sie das Terminal nutzen. Wie Rückgabe und Wiederaufschaltung in der nächsten Saison ablaufen, regeln wir in der Offerte [Ablauf bestätigen].
+  - frage: Was passiert, wenn das gemietete Terminal kaputtgeht?
+    antwort: |
+      Sie erhalten ein Ersatzgerät [innert 24 Stunden, schweizweit], ohne zusätzliche Kosten. Bis dahin können Sie mit dem [Handy als Terminal](/handy-als-terminal) Kartenzahlungen annehmen, wenn Sie die App eingerichtet haben.
+  - frage: Ist die Installation bei der Miete inbegriffen?
+    antwort: |
+      Ja. Ihr Berater kommt vor Ort, richtet das Terminal ein, bindet die Kasse an und prüft das WLAN. Aufschaltung und Einrichtung kosten CHF 0.
+  - frage: Kann ich das Modell während der Miete wechseln?
+    antwort: |
+      Ja. Wenn sich Ihr Ablauf ändert, etwa von Tresen auf Service am Tisch, tauschen wir das Terminal gegen ein passendes Modell. Die Miete passt sich dem neuen Modell an.
+  - frage: Ab wann lohnt sich der Kauf statt der Miete?
+    antwort: |
+      Als Faustregel ab etwa zwei Jahren Nutzung an einem festen Standort. Beim Kauf tragen Sie Reparatur und Nachrüstung nach Ablauf der Garantie selbst. Wir rechnen es Ihnen mit Ihren Zahlen vor, siehe [Zahlterminal kaufen](/zahlterminal-kaufen).
+bausteine:
+  rechner: true
+  geraete: true
+  zerlegung: false
+  preisliste: true
+formular: none
+cta:
+  titel: Beratung vor Ort anfragen.
+  text: Sagen Sie uns, wo bezahlt wird. Wir bringen das passende Terminal mit und richten es ein.
+  label: Beratung anfragen
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /zahlterminal-kaufen
+  - /zahlterminal
+  - /geraete
+  - /support

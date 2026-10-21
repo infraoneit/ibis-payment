@@ -1,0 +1,37 @@
+name: PayTec N62 Vending
+hersteller: PayTec
+kategorie: automat
+reihenfolge: 7
+featured: false
+kurz: Die Automaten-Variante des N62 für Verkaufsautomaten mit wenig Platz.
+beschreibung: 'Der N62 Vending bringt den kompakten N62 in Automaten, in denen ein grosses Einbauterminal keinen Platz hat: Getränke- und Snackautomaten, Kaffeeautomaten im Büro, Selbstbedienungs-Kühlschränke. Kontaktlos bezahlen mit Karte oder Handy, Anbindung an die Automatensteuerung, Betrieb ohne Personal.
+
+
+  Ob N62 Vending oder UN20 besser passt, hängt vom Automaten, vom Standort (innen oder aussen) und von der Steuerung ab. Das klären wir vor Ort.'
+einsatz:
+- Snack- und Getränkeautomaten
+- Kaffeeautomaten im Büro
+- Selbstbedienungs-Kühlschränke
+- Hofladen mit Automat
+specs:
+- label: Bauform
+  wert: Kompaktes Automatenterminal
+- label: Display
+  wert: 4 Zoll Touchscreen
+- label: Verbindung
+  wert: 4G und WLAN
+- label: Kartenleser
+  wert: Kontaktlos (NFC), Chip (EMV)
+- label: Anbindung
+  wert: An die Automatensteuerung (Details nach Automatentyp)
+- label: Einsatzort
+  wert: Innenbereich, geschützte Standorte
+- label: Zertifizierung
+  wert: PCI PTS 6.x, EMV, ep2 (Schweiz)
+mieteMonat: null
+kauf: null
+preisHinweis: Offerte pro Projekt, abhängig von Automat und Anbindung.
+datenblatt: https://www.paytec.ch/produkte/automatenterminals/n62-vending
+bild: null
+bildAlt: PayTec N62 Vending, kompaktes Automatenterminal
+metaDescription: 'PayTec N62 Vending bei ibis payment: kompaktes Zahlterminal für Snack-, Getränke- und Kaffeeautomaten, kontaktlos mit Karte und Handy. Offerte pro Projekt.'

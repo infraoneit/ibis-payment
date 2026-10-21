@@ -1,0 +1,44 @@
+name: PayTec UN20
+hersteller: PayTec
+kategorie: automat
+reihenfolge: 6
+featured: true
+kurz: Das Einbauterminal für Automaten, Parking und Ladestationen, wetterfest und rund um die Uhr im Einsatz.
+beschreibung: 'Der UN20 wird in den Automaten eingebaut und läuft ohne Personal: IP65 gegen Staub und Strahlwasser, IK10 gegen Schläge, Betrieb von minus 20 bis plus 70 Grad. Das 5-Zoll-Display lässt sich mit Handschuhen bedienen.
+
+
+  Angebunden wird das Terminal über MDB, RS232, LAN oder 4G an die Automatensteuerung; Fernwartung und automatische Updates sind Standard. Einbau und Anbindung unterscheiden sich je nach Automat, darum offerieren wir Automaten-Projekte einzeln.'
+einsatz:
+- Verkaufs- und Getränkeautomaten
+- Parking und Ticketing
+- Waschanlagen und Waschsalons
+- Ladestationen für Elektrofahrzeuge
+- Self-Service-Kioske
+specs:
+- label: Bauform
+  wert: Einbauterminal, unbeaufsichtigt
+- label: Display
+  wert: 5 Zoll HD Touchscreen, 1280 × 720 Pixel, mit Handschuhen bedienbar
+- label: Verbindung
+  wert: 4G/3G/2G, WLAN, Bluetooth 5.x, LAN, externe Antenne
+- label: Schnittstellen
+  wert: MDB (Master und Slave), 2 × RS232, USB-A, USB-C, Digital I/O, HDMI
+- label: Kartenleser
+  wert: Kontaktlos (NFC), Chip (EMV), Magnetstreifen
+- label: Schutz
+  wert: IP65, IK10, UV-beständig, ATEX, Betrieb -20 bis +70 °C
+- label: System
+  wert: Android 11, Quad-Core 2.0 GHz, 2 GB RAM, 8 GB Speicher
+- label: Stromversorgung
+  wert: DC 12 bis 48 V
+- label: Masse und Gewicht
+  wert: 146 × 101 × 57 mm, 620 g, Ausschnitt 108.7 × 86.4 mm
+- label: Zertifizierung
+  wert: PCI PTS 6.x, EMV L1/L2, EMV CL1, ep2 (Schweiz)
+mieteMonat: null
+kauf: null
+preisHinweis: Offerte pro Projekt, weil Einbau und Anbindung je nach Automat verschieden sind.
+datenblatt: https://www.paytec.ch/fileadmin/pdf/un20-data-sheet-2026-eng.pdf
+bild: null
+bildAlt: PayTec UN20, Einbauterminal für Automaten
+metaDescription: 'PayTec UN20 bei ibis payment: wetterfestes Einbauterminal für Verkaufsautomaten, Parking und Ladestationen, IP65, MDB und RS232. Technische Daten und Offerte.'

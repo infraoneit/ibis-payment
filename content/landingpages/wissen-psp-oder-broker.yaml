@@ -1,0 +1,101 @@
+title: 'PSP oder Payment Broker: Wer macht was'
+pfad: /wissen/psp-oder-broker
+cluster: wissen
+navTitle: PSP oder Broker
+metaTitle: PSP oder Payment Broker im Vergleich | ibis payment
+metaDescription: 'PSP, Payment Broker oder Orchestrator: Definitionen, Verantwortlichkeiten, wann welches Modell passt, wie Vermittler bezahlt werden, Fragen an Anbieter.'
+kicker: Wissen
+lead: Ein PSP betreibt die Technik, ein Broker vermittelt und ordnet ein, ein Orchestrator verteilt Zahlungen auf mehrere Anbieter. Drei Rollen, die oft verwechselt werden.
+intro: |
+  Wer ein Zahlterminal oder eine Online-Zahlung sucht, trifft auf Anbieter mit sehr unterschiedlichen Rollen, die alle "Payment" im Namen tragen. Die einen betreiben eine Plattform, über die Zahlungen laufen. Die anderen betreiben nichts, sondern kennen den Markt und vermitteln. Die dritten schalten mehrere Plattformen hintereinander und entscheiden pro Zahlung, welche sie nimmt.
+
+  Für den Betrieb ist der Unterschied wichtig, weil er bestimmt, wer bei einem Problem zuständig ist, wer die Gebühr festlegt und wer woran verdient. Ein Vermittler, der von einem Anbieter bezahlt wird, berät anders als einer, der vom Betrieb bezahlt wird. Das muss kein Nachteil sein, aber es muss auf dem Tisch liegen.
+
+  Diese Seite definiert PSP, Payment Broker und Payment Orchestrator, grenzt die Verantwortlichkeiten ab, sagt, für welchen Betrieb welches Modell passt, erklärt, wie Vermittler bezahlt werden, und listet die Fragen auf, die Sie jedem Anbieter stellen sollten. Die Konditionen von ibis payment stehen unter [Konditionen](/konditionen), für Fragen nutzen Sie [Kontakt](/kontakt).
+sections:
+  - heading: Was ein PSP ist
+    body: |
+      Ein Payment Service Provider betreibt eine technische Plattform. Er verbindet das Terminal oder den Online-Shop mit einem oder mehreren Acquirern, bündelt Zahlungsmethoden wie Karten, TWINT und PostFinance, stellt Schnittstellen und Plugins bereit und liefert die Transaktionsdaten an den Betrieb. Im Online-Handel ist der PSP das Gateway, das der Shop anspricht.
+
+      Der PSP ist verantwortlich für die Verfügbarkeit der Plattform, die Korrektheit der Schnittstellen und die Sicherheit der Datenübertragung. Er ist nicht verantwortlich für die Auszahlung, die beim Acquirer liegt, und nicht für das Terminal vor Ort, es sei denn, er liefert es selbst. Manche Anbieter sind PSP und Acquirer in einem; dann vereinen sie beide Verantwortungen, und der Betrieb hat einen einzigen Vertrag. Bei ibis payment ist Planet/Datatrans der PSP für Online-Zahlungen.
+  - heading: Was ein Payment Broker ist
+    body: |
+      Ein Payment Broker betreibt keine Plattform. Er kennt die Anbieter, ihre Preismodelle und ihre Stärken, analysiert die Situation des Betriebs und vermittelt ihn an einen Acquirer, PSP oder Terminal-Anbieter. Oft begleitet er die Einrichtung, erklärt die Abrechnung und bleibt Ansprechpartner.
+
+      Seine Verantwortung ist die Beratung: Passt das Modell zum Betrieb, stimmen die Konditionen, ist der Vertrag kündbar. Er ist nicht verantwortlich für den Betrieb der Technik oder die Auszahlung; das bleibt bei den vermittelten Anbietern. Ein guter Broker sagt das offen und benennt, wer für was zuständig ist. Wer die Rollen dahinter kennen will, findet sie unter [Rollen im Payment](/wissen/rollen-im-payment).
+  - heading: Was ein Payment Orchestrator ist
+    body: |
+      Ein Payment Orchestrator sitzt über mehreren PSPs und Acquirern und entscheidet pro Zahlung, über welchen Weg sie läuft, etwa nach Kosten, Erfolgsquote oder Ausfall eines Anbieters. Das Modell stammt aus dem Online-Handel mit hohem Volumen und vielen Ländern, wo ein zweiter Acquirer die Ausfallsicherheit erhöht und pro Kartenart der jeweils günstigere Weg gewählt werden kann.
+
+      Für einen Betrieb mit einem Terminal am Verkaufspunkt bringt Orchestrierung nichts, weil das Terminal mit einem Acquirer verbunden ist und der Betrag klein ist. Für einen Online-Shop mit Umsatz in mehreren Ländern kann sie sinnvoll sein. Sie kostet eine zusätzliche Schicht mit eigener Gebühr und eigenem Vertrag.
+  - heading: Verantwortlichkeiten im Vergleich
+    body: |
+      Wer verantwortlich ist, zeigt sich am einfachsten an drei Fragen. Wer betreibt die Technik? PSP und Orchestrator ja, Broker nein. Wer zahlt aus? Keiner der drei, das tut der Acquirer; nur ein PSP mit eigener Acquiring-Lizenz zahlt selbst aus. Wer berät? Der Broker als Hauptaufgabe, PSP und Orchestrator im Rahmen ihres Vertriebs.
+
+      Daraus folgt, wen der Betrieb bei einem Problem anruft. Bei einem technischen Fehler der Plattform den PSP, bei einer fehlenden Gutschrift den Acquirer, bei einer Frage zur Abrechnung oder zum Wechsel den Broker. Ein Anbieter, der Technik und Beratung aus einer Hand liefert, muss intern dieselben Stellen ansprechen; der Vorteil für den Betrieb ist, dass er es nicht selbst tun muss.
+  - heading: Wann welches Modell passt
+    body: |
+      Ein Betrieb mit einem oder mehreren Terminals am Verkaufspunkt braucht einen Acquirer, ein ep2-zertifiziertes Terminal und jemanden, der beides einrichtet und erklärt. Ein separater PSP ist dafür nicht nötig, die Verbindung ist Teil des Angebots. Hier ist die Frage nicht PSP oder Broker, sondern wer die Beratung macht und wie transparent die Konditionen sind.
+
+      Ein Online-Shop braucht einen PSP als Gateway. Die Wahl hängt von Shop-System, Zahlungsmethoden und Ländern ab. Ein Broker hilft, das passende Gateway zu wählen und den Acquiring-Vertrag dahinter zu verhandeln.
+
+      Ein Händler mit hohem Online-Volumen in mehreren Ländern prüft Orchestrierung. Für die meisten Schweizer Betriebe mit Terminal und Shop ist ein PSP mit breitem Methodenangebot, bei uns Planet/Datatrans mit über 40 Zahlungsmethoden und 14 Shop-Plugins, die einfachere Lösung. Details unter [Online-Zahlungen](/online-zahlungen).
+  - heading: Wie ein Vermittler bezahlt wird
+    body: |
+      Es gibt drei Modelle. Erstens Provision vom Anbieter: Der Broker erhält vom Acquirer oder PSP einen Anteil der Marge, solange der Betrieb Kunde ist. Für den Betrieb kostet die Beratung nichts, der Anbieter kalkuliert die Provision in seine Marge ein. Zweitens Honorar vom Betrieb: Der Broker verrechnet seine Beratung direkt, unabhängig vom Anbieter. Drittens Mischformen, etwa ein Honorar für die Analyse und eine Provision bei Vertragsabschluss.
+
+      Keines der Modelle ist unseriös. Entscheidend ist, dass der Vermittler sagt, welches gilt und ob er von allen empfohlenen Anbietern gleich bezahlt wird. ibis payment ist exklusiver Vertriebspartner der SwiPay AG und wird über die Marge bezahlt, die in der Offerte ausgewiesen ist. Wir vermitteln nicht zwischen mehreren Acquirern, sondern verkaufen ein Angebot und zeigen seine Bestandteile.
+  - heading: Fragen, die Sie jedem Anbieter stellen sollten
+    body: |
+      Bevor Sie einen Vertrag unterschreiben, klären Sie diese Punkte schriftlich:
+
+      - Betreiben Sie die Plattform selbst, oder vermitteln Sie an einen Anbieter? Wer ist der Acquirer, und wer zahlt mir das Geld aus?
+      - Wie werden Sie bezahlt? Provision, Honorar oder Marge, und steht der Betrag in der Offerte?
+      - Welche Positionen können auf meiner Abrechnung erscheinen? Gibt es Mindestgebühren, Monatsgebühren, Aufschaltgebühren, Portalgebühren?
+      - Wie lange läuft der Vertrag, und wie kündige ich? Was passiert mit dem Terminal bei Kündigung?
+      - Wer ist bei einem Ausfall des Terminals zuständig, wie schnell kommt Ersatz, und ist das im Preis inbegriffen?
+      - Ist das Terminal ep2-zertifiziert, und bleibt es nach 2027 zugelassen?
+      - Weisen Sie Interchange, Netzwerkgebühr und Marge getrennt aus?
+
+      Ein Anbieter, der alle Fragen auf einer Seite beantwortet, hat nichts zu verbergen. Unsere Antworten stehen unter [Konditionen](/konditionen); was dort nicht steht, wird nicht verrechnet. Wer eine davon in seiner Situation geklärt haben will, meldet sich über [Kontakt](/kontakt).
+beispiel:
+  aktiv: false
+  titel: Keine Beispielrechnung
+  umsatz: 25000
+  bon: 45
+  kreditanteil: 35
+  vergleich: gross
+  erklaerung: Auf dieser Seite gibt es keine Beispielrechnung.
+preisliste: []
+faq:
+  - frage: Ist ibis payment ein PSP oder ein Broker?
+    antwort: |
+      Weder noch im engen Sinn. ibis payment ist exklusiver Vertriebspartner der SwiPay AG. Wir verkaufen ein Angebot mit Terminal, Acquiring über TeleCash/Fiserv und Online-Zahlungen über Planet/Datatrans, und wir weisen in der Offerte aus, welche Anteile wohin gehen.
+  - frage: Kostet mich ein Broker Geld?
+    antwort: |
+      Das hängt vom Modell ab. Bei Provision zahlt der Anbieter, und die Provision ist in dessen Marge enthalten. Bei Honorar zahlen Sie direkt. Fragen Sie, welches Modell gilt, und lassen Sie es in die Offerte schreiben.
+  - frage: Brauche ich für ein Terminal einen PSP?
+    antwort: |
+      Nein, nicht als separaten Vertrag. Die technische Verbindung zwischen Terminal und Acquirer ist Teil des Angebots. Einen PSP als Gateway brauchen Sie für einen Online-Shop.
+  - frage: Was bringt mir Payment Orchestrierung?
+    antwort: |
+      Für Online-Händler mit hohem Volumen in mehreren Ländern eine zweite Abwicklungsstrecke und die Wahl des jeweils günstigeren Wegs pro Zahlung. Für einen Betrieb mit Terminal am Verkaufspunkt bringt sie nichts und kostet eine zusätzliche Schicht.
+  - frage: Woran erkenne ich einen transparenten Anbieter?
+    antwort: |
+      Er sagt, wer der Acquirer ist, wie er bezahlt wird, welche Positionen auf der Abrechnung erscheinen können und wie der Vertrag endet. Alles auf einer Seite, schriftlich, vor der Unterschrift.
+bausteine:
+  rechner: false
+  geraete: false
+  zerlegung: false
+  preisliste: false
+formular: none
+cta:
+  titel: Stellen Sie uns die sieben Fragen.
+  text: Wir beantworten sie schriftlich in der Offerte, mit Acquirer, Marge und jeder Position, die auf Ihrer Abrechnung erscheinen kann.
+  label: Offerte anfordern
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /wissen/rollen-im-payment
+  - /online-zahlungen
+  - /wissen/typische-fehler

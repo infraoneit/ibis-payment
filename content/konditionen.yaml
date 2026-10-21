@@ -1,0 +1,56 @@
+stand: 2026-10-01
+hinweis: Alle Preise exkl. MwSt.
+debit: 0.75
+debitKarten: Maestro, V Pay, Debit Mastercard, Visa Debit, PostFinance Card
+kredit: 1.25
+kreditKarten: Visa, Mastercard
+twint: 1
+amex: 1.9
+auslandZuschlag: 0.9
+txFix: 0.05
+miete: 19
+kauf: 390
+walletHinweis: >-
+  Apple Pay, Google Pay und Samsung Pay werden zum Satz der hinterlegten Karte
+  abgerechnet (Debit oder Kredit).
+weitere:
+  - label: Aufschaltung und Einrichtung
+    beschreibung: Installation vor Ort inbegriffen
+    wert: CHF 0.00
+  - label: Mindestlaufzeit
+    beschreibung: Monatlich kündbar
+    wert: keine
+  - label: Gutschrift
+    beschreibung: Gesammelt pro Tag auf Ihr Geschäftskonto
+    wert: nächster Werktag
+  - label: Mindestgebühr pro Monat
+    beschreibung: Es gibt keine. Wer wenig Umsatz hat, zahlt wenig.
+    wert: keine
+zerlegung:
+  interchange: 0.12
+  netzwerk: 0.09
+  quelle: >-
+    Interchange Debit Mastercard Inland am Verkaufspunkt: 0.12 % (Einigung WEKO
+    mit Mastercard, Mai 2024; Deckel 30 Rappen ab CHF 300). Netzwerkgebühr:
+    [Platzhalter, Wert von SwiPay bestätigen lassen].
+rechner:
+  umsatz: 25000
+  bon: 45
+  kreditanteil: 35
+vergleiche:
+  - id: gross
+    label: Grossanbieter, Listenpreis
+    debit: 1.29
+    kredit: 1.29
+    tx: 0.15
+    fix: 35
+    quelle: '[Quelle eintragen, z. B. öffentliche Preisliste des Anbieters mit Link]'
+    stand: Oktober 2026
+  - id: app
+    label: App-Anbieter, Listenpreis
+    debit: 1.5
+    kredit: 2.5
+    tx: 0
+    fix: 0
+    quelle: '[Quelle eintragen, z. B. öffentliche Preisliste des Anbieters mit Link]'
+    stand: Oktober 2026

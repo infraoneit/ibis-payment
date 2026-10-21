@@ -1,0 +1,4 @@
+frage: Funktioniert TWINT auf dem Terminal?
+antwort: Ja. TWINT wird direkt auf dem Terminal angezeigt, ohne separaten QR-Aufsteller, und erscheint auf derselben Abrechnung. Ebenso PostFinance Card, Reka, Lunch-Check, Apple Pay und Google Pay.
+bereich: support
+reihenfolge: 2

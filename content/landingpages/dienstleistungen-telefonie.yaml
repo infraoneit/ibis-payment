@@ -1,0 +1,99 @@
+title: 'Cloud-Telefonanlage für KMU: eine Geschäftsnummer auf jedem Gerät'
+pfad: /dienstleistungen/telefonie
+cluster: dienstleistung
+navTitle: Telefonie
+metaTitle: Cloud-Telefonanlage für KMU Schweiz | ibis payment
+metaDescription: 'Cloud-Telefonanlage für KMU: Geschäftsnummer auf Handy und Tischtelefon, Öffnungszeiten-Ansage, Anrufbeantworter per E-Mail. Monatlich kündbar.'
+kicker: Dienstleistung
+lead: Eine Telefonanlage in der Cloud statt eines Kastens im Keller. Die Geschäftsnummer klingelt auf dem Tischtelefon und auf dem Handy, die Öffnungszeiten-Ansage läuft automatisch, und die Nummer nehmen Sie mit. Vermittelt über ibis payment, betrieben von [Telefonie-Partner].
+intro: |
+  Die meisten Betriebe telefonieren noch mit einer Anlage, die vor Jahren installiert wurde, oder mit dem privaten Handy der Inhaberin. Beides hat Grenzen: Die alte Anlage ist an den Standort gebunden und kennt keine Handy-App, das private Handy hat keine Geschäftsnummer, keine Ansage und keine Vertretung in den Ferien.
+
+  Eine Cloud-Telefonanlage löst das. Die Anlage läuft beim Anbieter, der Betrieb braucht nur Internet und Endgeräte. ibis payment vermittelt die Telefonie an [Telefonie-Partner]; die Einrichtung vor Ort übernimmt derselbe Berater, der Terminal und Kasse installiert hat, zusammen mit unserem IT-Partner für Netzwerk und WLAN. Die Preise stehen unten als Platzhalter und werden in der Offerte bestätigt.
+
+  Diese Seite beschreibt, was die Anlage kann, wie sie mit Ihrem Netzwerk zusammenspielt und wie der Umzug der Nummer abläuft. Die Übersicht aller Dienstleistungen finden Sie unter [Dienstleistungen](/dienstleistungen).
+sections:
+  - heading: Eine Geschäftsnummer auf Handy und Tischtelefon
+    body: |
+      Der Kern der Cloud-Telefonanlage ist die Geschäftsnummer, die nicht an ein Gerät gebunden ist. Ein Anruf auf die Nummer des Betriebs klingelt gleichzeitig oder nacheinander auf dem Tischtelefon am Empfang, auf dem Handy der Inhaberin über eine App und bei Bedarf auf dem Telefon in der Küche oder im Lager. Wer abnimmt, hat das Gespräch; die anderen Geräte hören auf zu klingeln.
+
+      Umgekehrt zeigt ein Anruf aus der App die Geschäftsnummer an, nicht die private Handynummer. Das ist für Rückrufe an Gäste oder Patienten wichtig: Die Nummer bleibt beim Betrieb, auch wenn die Person wechselt. Mitarbeitende installieren die App auf dem eigenen Handy und können sie ausserhalb der Arbeitszeit abmelden, damit sie abends nicht mehr klingelt.
+
+      Tischtelefone werden vorkonfiguriert geliefert, beschriftet und angeschlossen. Sie brauchen einen Netzwerkanschluss oder WLAN; Strom kommt bei Bedarf über das Netzwerkkabel (PoE).
+  - heading: Öffnungszeiten-Ansage und Anrufbeantworter per E-Mail
+    body: |
+      Ausserhalb der Öffnungszeiten hört der Anrufer eine Ansage mit den Zeiten und, wenn gewünscht, dem Hinweis auf die Online-Reservation oder die Website. Die Ansage schaltet sich nach dem hinterlegten Zeitplan selbst ein und aus, inklusive Feiertagen und Betriebsferien, die Sie selbst eintragen. Sie sprechen den Text selbst auf oder lassen ihn als Textansage erzeugen.
+
+      Hinterlässt jemand eine Nachricht, kommt sie als Tondatei per E-Mail, auf Wunsch mit automatischer Abschrift. Sie hören die Nachricht auf dem Handy ab, ohne die Anlage anzurufen, und sehen, wer wann angerufen hat. Verpasste Anrufe während des Service werden ebenfalls per E-Mail gemeldet, mit Nummer und Uhrzeit, sodass ein Rückruf nach dem Service möglich ist.
+  - heading: Warteschlange und Vertretung
+    body: |
+      Wenn zwei Anrufe gleichzeitig kommen, landet der zweite in einer Warteschlange mit Ansage statt im Besetztzeichen. Die Schlange lässt sich nach Zeit begrenzen: Nach einer eingestellten Wartezeit wird der Anruf an das Handy weitergeleitet oder auf den Anrufbeantworter gelegt. Für einen Betrieb mit einer Person am Telefon reicht das; grössere Betriebe mit mehreren Standorten können Gruppen bilden, etwa Empfang, Küche, Büro.
+
+      Für Ferien oder Krankheit richten Sie eine Umleitung ein, selbst über die Oberfläche oder per Anruf an den Berater. Die Geschäftsnummer bleibt erreichbar, auch wenn niemand im Betrieb ist.
+  - heading: Zusammenspiel mit WLAN und Netzwerk
+    body: |
+      Eine Cloud-Telefonanlage ist nur so gut wie die Internetverbindung. Gespräche brauchen wenig Bandbreite, aber eine stabile Leitung ohne Aussetzer. Darum prüfen wir vor der Einrichtung dieselben Dinge wie beim Terminal: Ist das Kassennetz vom Gäste-WLAN getrennt, gibt es einen Netzwerkanschluss am Empfang, läuft das Internet über eine Leitung, die auch bei vielen Gästen im WLAN nicht einbricht.
+
+      Tischtelefone hängen idealerweise am Kabel, nicht am WLAN. Die Handy-App funktioniert über WLAN und Mobilfunk und wechselt selbst. Wenn das Internet ausfällt, läuft die Geschäftsnummer automatisch auf das Handy im Mobilfunknetz weiter. Diese Einstellungen macht unser IT-Partner InfraOne bei der Einrichtung, zusammen mit dem Netzwerk für [Terminal und Kasse](/kassensysteme).
+  - heading: Monatlich kündbar, keine Anlage im Keller
+    body: |
+      Die Anlage wird pro Benutzer und Monat abgerechnet, ohne Mindestlaufzeit und ohne Investition in Hardware, die nach fünf Jahren ersetzt werden muss. Kommt ein Mitarbeiter dazu, kommt ein Benutzer dazu; geht er, fällt der Benutzer weg. Updates und Funktionen kommen vom Anbieter, ohne Technikereinsatz vor Ort.
+
+      Die Preise stehen in der Preisliste unten als Platzhalter und werden in der Offerte mit allen Positionen bestätigt, nach demselben Grundsatz wie auf unserer Seite [Konditionen](/konditionen): jede Gebühr steht in der Offerte, nichts kommt nachträglich dazu. Alle Preise exkl. MwSt. Tischtelefone werden gekauft, nicht gemietet, und gehören Ihnen.
+  - heading: Umzug der Nummer
+    body: |
+      Ihre bisherige Geschäftsnummer nehmen Sie mit. Die Portierung beantragt [Telefonie-Partner] beim bisherigen Anbieter; Sie unterschreiben ein Formular, der Rest läuft zwischen den Anbietern. Die Nummer wechselt an einem festgelegten Datum, meist innert weniger Wochen nach Auftrag, abhängig von der Kündigungsfrist beim alten Anbieter.
+
+      Wichtig: Kündigen Sie den alten Vertrag nicht selbst, bevor die Portierung bestätigt ist, sonst kann die Nummer verloren gehen. Wir prüfen die Kündigungsfrist und stimmen das Datum mit dem Wechsel von Terminal oder Internet ab, wenn Sie beides gleichzeitig umstellen. Den Start machen Sie über [Kontakt](/kontakt); Sie erhalten eine Offerte mit Anzahl Benutzer, Geräten und Portierung.
+beispiel:
+  aktiv: false
+  titel: Keine Beispielrechnung
+  umsatz: 0
+  bon: 0
+  kreditanteil: 0
+  vergleich: gross
+  erklaerung: Auf dieser Seite gibt es keine Beispielrechnung.
+preisliste:
+  - label: Telefonanlage
+    beschreibung: Pro Benutzer, inklusive Anlagefunktionen und Handy-App
+    wert: 'ab CHF [9.00] pro Benutzer und Monat'
+  - label: Tischtelefon
+    beschreibung: Eingerichtet, beschriftet und angeschlossen
+    wert: 'ab CHF [120.00]'
+  - label: Nummernportierung
+    beschreibung: Ihre bisherige Geschäftsnummer wird übernommen
+    wert: CHF 0.00
+faq:
+  - frage: Brauche ich für die Cloud-Telefonanlage neue Telefone?
+    antwort: |
+      Nicht zwingend. Die Handy-App funktioniert auf vorhandenen Smartphones. Für den Empfang empfehlen wir ein Tischtelefon, das für Cloud-Anlagen gebaut ist; alte analoge Telefone lassen sich nur mit Adapter weiterverwenden, was wir in der Regel nicht empfehlen.
+  - frage: Was passiert, wenn das Internet ausfällt?
+    antwort: |
+      Die Geschäftsnummer wird automatisch auf das Handy im Mobilfunknetz weitergeleitet. Tischtelefone sind in dieser Zeit nicht erreichbar. Bei der Einrichtung legen wir fest, auf welches Handy die Umleitung läuft.
+  - frage: Kann ich meine bisherige Nummer behalten?
+    antwort: |
+      Ja. Die Portierung ist in der Preisliste mit CHF 0.00 enthalten. Sie unterschreiben ein Formular, der Rest läuft zwischen den Anbietern. Kündigen Sie den alten Vertrag erst, wenn die Portierung bestätigt ist.
+  - frage: Sehen Mitarbeitende auf der App meine privaten Anrufe?
+    antwort: |
+      Nein. Die App ist von der privaten Telefonfunktion getrennt. Mitarbeitende sehen nur Anrufe auf die Geschäftsnummer und können die App ausserhalb der Arbeitszeit abmelden.
+  - frage: Wie lange bin ich gebunden?
+    antwort: |
+      Die Anlage ist monatlich kündbar, nach demselben Grundsatz wie das Terminal. Gekaufte Tischtelefone gehören Ihnen. Die genauen Bedingungen stehen in der Offerte von [Telefonie-Partner].
+bausteine:
+  rechner: false
+  geraete: false
+  zerlegung: false
+  preisliste: false
+formular: kontakt
+cta:
+  titel: Offerte für Ihre Telefonie.
+  text: Nennen Sie uns Anzahl Benutzer und Standorte. Sie erhalten eine Offerte mit jeder Position, inklusive Portierung Ihrer Nummer.
+  label: Offerte anfordern
+  href: /kontakt
+verwandt:
+  - /dienstleistungen
+  - /dienstleistungen/versicherungen
+  - /dienstleistungen/treuhand
+  - /webdesign
+  - /konditionen
+  - /kontakt

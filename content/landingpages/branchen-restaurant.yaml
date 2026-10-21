@@ -1,0 +1,98 @@
+title: Zahlterminal für Restaurants
+pfad: /branchen/restaurant
+cluster: branche
+navTitle: Restaurant
+metaTitle: Zahlterminal für Restaurants | ibis payment
+metaDescription: 'Zahlterminal für die Gastronomie: Trinkgeld und Belegsplitting am Tisch, Kassenanbindung an der Bar, Kartenzahlung ab 0.75 %. Monatlich kündbar.'
+kicker: Branche
+lead: Trinkgeld und Rechnung teilen direkt am Tisch, die Bar an die Kasse angebunden, und eine Abrechnung, die zum Tagesabschluss passt.
+intro: |
+  Im Restaurant entscheidet sich die Zahlung am Tisch. Der Gast will nicht an die Theke, der Service will nicht zweimal laufen, und bei einer Vierergruppe will jeder seinen Teil zahlen. Dazu kommt das Trinkgeld, das bei Kartenzahlung nur funktioniert, wenn das Terminal danach fragt.
+
+  Gleichzeitig hat die Gastronomie das engste Zeitfenster aller Branchen. Die meisten Zahlungen fallen in zwei Stunden am Abend, und ein Terminal, das in dieser Zeit hängt, kostet Tische. Das Terminal muss deshalb schnell reagieren, einen Akku für den ganzen Service haben und mit der Kasse sprechen, damit niemand Beträge abtippt.
+
+  Diese Seite beschreibt den Ablauf am Tisch und an der Bar, welches Terminal wohin gehört, wie Kassenanbindung und Trinkgeld funktionieren und was auf der Abrechnung steht. Die Preisliste finden Sie unter [Konditionen](/konditionen), die Offerte mit Ihren Zahlen über [Kontakt](/kontakt).
+sections:
+  - heading: Zahlen am Tisch, nicht an der Theke
+    body: |
+      Der Gast verlangt die Rechnung, der Service bringt das Terminal mit. Der Betrag kommt aus der Kasse, indem der Tisch auf dem Terminal gewählt wird, oder er wird eingetippt. Der Gast sieht den Betrag, beantwortet die Trinkgeldfrage, hält Karte oder Handy hin und gibt bei Bedarf die PIN ein. Der Beleg wird am Tisch gedruckt, auf Wunsch mit Ihrem Logo.
+
+      Für Gruppen gibt es das Belegsplitting: Der Service teilt die Rechnung auf dem Terminal in Teilbeträge, jeder Gast zahlt seinen Teil mit seiner Karte, jede Teilzahlung erhält einen eigenen Beleg. TWINT läuft direkt auf dem Terminal, ebenso Reka und Lunch-Check, was in der Gastronomie häufiger vorkommt als anderswo.
+  - heading: N96 am Tisch, CT20P an der Bar
+    body: |
+      Für den Service am Tisch empfehlen wir den [PayTec N96](/geraete/paytec-n96). Das 6.5-Zoll-Display ist gross genug für Trinkgeldeingabe und Belegsplitting, der Drucker schafft 80 Millimeter pro Sekunde, der Akku laut Datenblatt über 1500 Belege pro Ladung und bis zu 18 Tage Standby. 4G und WLAN wechseln automatisch. Miete CHF 24 pro Monat, Kauf CHF 590, exkl. MwSt.
+
+      Für Gartenwirtschaft und Festbetrieb, wo das Terminal auch mal herunterfällt, ist der [PayTec N86](/geraete/paytec-n86) die robustere Wahl, mit Drucker und einem Gehäuse, das Stürze aus 1.5 Metern auf Stein übersteht, zum gleichen Preis.
+
+      An der Bar und an der Theke steht der [PayTec CT20P](/geraete/paytec-ct20p). Er ist an die Kasse angebunden, hat ein physisches PIN-Pad für den Gast, druckt über den Kassendrucker und hängt am LAN, auf Wunsch mit Strom über das Netzwerkkabel. Miete CHF 24 pro Monat, Kauf CHF 590, exkl. MwSt.
+
+      Als Faustregel gilt: ein mobiles Terminal pro Servicebereich, dazu eines an der Bar. Jedes Terminal hat seine eigene Miete, und weil die Miete monatlich kündbar ist, passen Sie die Anzahl der Saison an.
+  - heading: Kassenanbindung, damit der Abschluss stimmt
+    body: |
+      Ohne Kassenanbindung tippt der Service jeden Betrag ab. Im Stossbetrieb entstehen so Zahlendreher, die am Abend beim Abschluss als Differenz zwischen Kasse und Terminal auftauchen und eine halbe Stunde Suche kosten.
+
+      Mit Anbindung übergibt die Kasse den Betrag ans Terminal, der Tisch wird nach der Zahlung geschlossen, und die Kartenzahlungen stehen im Tagesabschluss der Kasse. In der Schweiz laufen diese Anbindungen über die Protokolle OPI, ZVT oder KIT. Der N96 unterstützt alle drei, der CT20P ebenfalls, mit KIT auch über die Cloud.
+
+      Ob Ihre Kasse eines der Protokolle spricht, klären wir vor der Installation mit Ihrem Kassenanbieter. Die Installation vor Ort inklusive Kassenanbindung und WLAN ist im Preis inbegriffen. Wer die Kasse gleich mit erneuern will, findet unter [Kassensysteme](/kassensysteme) die Systeme, die wir mitbringen.
+  - heading: Trinkgeld und geteilte Rechnungen
+    body: |
+      Das Terminal fragt den Gast vor der Bestätigung nach einem Trinkgeld, wahlweise mit Prozentvorschlägen oder als freier Betrag. Wie die Abfrage aussieht, legen wir bei der Installation fest. Das Trinkgeld ist Teil der Kartenzahlung, wird mit dem Umsatz gutgeschrieben und mit demselben Satz belastet wie der Grundbetrag. Im Händlerportal sehen Sie es pro Zahlung, damit Sie es dem Team zuordnen können. Die Verbuchung klären Sie mit Ihrem Treuhänder.
+
+      Beim Belegsplitting ist jede Teilzahlung eine eigene Zahlung. Der Fixbetrag von CHF 0.05 fällt deshalb pro Teilzahlung an, bei vier Gästen also viermal. Das ist bei jedem Anbieter mit Fixbetrag so. Wir nennen es hier, damit es auf der Abrechnung keine Überraschung gibt.
+  - heading: Stosszeiten, Terrasse und Ausfall
+    body: |
+      Zwischen 19 und 21 Uhr darf nichts hängen. Die mobilen Terminals laufen über WLAN und wechseln automatisch auf 4G, wenn das WLAN auf der Terrasse oder im Gewölbekeller nicht reicht. Bei der Installation messen wir die Abdeckung und richten das WLAN bei Bedarf gleich mit ein.
+
+      Der Akku des N96 reicht laut Datenblatt für mehrere Servicetage. Legen Sie das Terminal trotzdem nach jedem Service auf die Ladung, dann gibt es keine Diskussion. Als Reserve für den Ausfall eines Terminals eignet sich ein [PayTec N62](/geraete/paytec-n62) für CHF 19 pro Monat, ohne Drucker, mit Beleg per QR-Code. Bei einem Defekt schicken wir ein Ersatzgerät, das ist in der Miete inbegriffen. Ihr Berater ist über die Direktwahl erreichbar, siehe [Support](/support).
+  - heading: Abrechnung, Kartenmix und Wechsel
+    body: |
+      In der Gastronomie ist der Kreditkartenanteil höher als im Detailhandel, und wer Touristen bedient, sieht mehr ausländische Karten. Auf der Abrechnung stehen dafür getrennte Positionen: Debit Inland 0.75 %, Kredit Inland 1.25 %, TWINT 1.00 %, ausländische und Firmenkarten mit einem Zuschlag von 0.90 Prozentpunkten, American Express auf Wunsch 1.90 %, dazu CHF 0.05 pro Zahlung und die Terminalmiete, alles exkl. MwSt. Keine Aufschaltgebühr, keine Mindestgebühr.
+
+      Die Gutschrift erfolgt gesammelt pro Tag am nächsten Werktag, was zum Tagesabschluss passt. Einmal pro Monat erhalten Sie die Abrechnung auf einer Seite. Die Beispielrechnung unten zeigt, was ein Restaurant mit den genannten Annahmen pro Monat zahlt, verglichen mit dem Listenpreis eines Grossanbieters.
+
+      Für den Wechsel schicken Sie uns Ihre letzte Abrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden nach und unterbieten sie, oder wir sagen Ihnen, dass es nicht geht. Die Installation legen wir ausserhalb der Servicezeiten auf den Stichtag Ihres alten Vertrags. Alle Sätze stehen unter [Konditionen](/konditionen).
+beispiel:
+  aktiv: true
+  titel: Beispiel Restaurant
+  umsatz: 30000
+  bon: 48
+  kreditanteil: 35
+  vergleich: gross
+  erklaerung: Annahmen für ein Restaurant mit Mittag- und Abendservice, mittlerem Betrag pro Zahlung und dem für die Gastronomie typischen höheren Kreditkartenanteil; Platzhalter, setzen Sie Ihre Zahlen aus der letzten Abrechnung ein.
+preisliste: []
+faq:
+  - frage: Wie viele Terminals braucht mein Restaurant?
+    antwort: |
+      Als Faustregel ein mobiles Terminal pro Servicebereich und eines an der Bar. Weil die Miete monatlich kündbar ist, können Sie für die Gartensaison ein Terminal dazunehmen und im Herbst wieder abgeben. Wir schauen uns den Betrieb vor der Offerte an.
+  - frage: Funktioniert das Terminal auf der Terrasse ohne WLAN?
+    antwort: |
+      Ja. N96 und N86 wechseln automatisch auf 4G, sobald das WLAN nicht mehr reicht. Bei der Installation prüfen wir die Abdeckung und erweitern das WLAN, wenn es sinnvoll ist.
+  - frage: Kann der Gast das Trinkgeld selbst eingeben?
+    antwort: |
+      Ja. Das Terminal fragt vor der Bestätigung nach, der Gast wählt einen Vorschlag, tippt einen Betrag ein oder überspringt die Frage. Das Trinkgeld ist im Händlerportal pro Zahlung sichtbar.
+  - frage: Was kostet es, wenn eine Gruppe getrennt zahlt?
+    antwort: |
+      Jede Teilzahlung ist eine eigene Zahlung mit dem Prozentsatz der jeweiligen Karte plus CHF 0.05 Fixbetrag. Bei vier Teilzahlungen fällt der Fixbetrag viermal an. Die Prozentsätze bleiben gleich.
+  - frage: Kann ich Reka und Lunch-Check annehmen?
+    antwort: |
+      Ja, alle Terminals nehmen Reka und Lunch-Check direkt an, ebenso TWINT, PostFinance Card, Apple Pay und Google Pay. Die Bedingungen für Reka und Lunch-Check weisen wir in der Offerte aus.
+  - frage: Wie lange dauert der Wechsel?
+    antwort: |
+      Der Vergleich Ihrer Abrechnung dauert 24 Stunden. Danach prüfen wir die Kündigungsfrist Ihres heutigen Vertrags, übernehmen die Kündigung und installieren am Stichtag ausserhalb der Servicezeiten, inklusive Kassenanbindung.
+bausteine:
+  rechner: true
+  geraete: true
+  zerlegung: false
+  preisliste: false
+formular: none
+cta:
+  titel: Offerte für Ihr Restaurant innert 24 Stunden.
+  text: Schicken Sie uns Ihre letzte Abrechnung. Wir rechnen Position für Position nach und sagen Ihnen, ob es günstiger geht.
+  label: Offerte anfordern
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /geraete/paytec-n96
+  - /geraete/paytec-ct20p
+  - /kassensysteme
+  - /branchen/detailhandel

@@ -1,0 +1,83 @@
+title: 'Homepage für Coiffeur: Terminbuchung, Preisliste, Bewertungen'
+pfad: /webdesign/homepage-coiffeur
+cluster: webdesign
+navTitle: Homepage Coiffeur
+metaTitle: Homepage für Coiffeursalon erstellen | ibis payment
+metaDescription: 'Homepage für Ihren Coiffeursalon: Online-Terminbuchung, Preisliste, Team, Instagram und Google-Bewertungen für die lokale Suche in Ihrer Region.'
+kicker: Webdesign
+lead: Kundinnen und Kunden suchen einen Coiffeur in der Nähe, schauen Preise und Bewertungen an und wollen einen Termin buchen, ohne anzurufen. Eine Salon-Website muss genau das leisten.
+intro: |
+  Ein Coiffeursalon lebt von Stammkundschaft und von Neukunden aus dem Quartier. Beide Gruppen nutzen die Website anders: Stammkunden wollen schnell einen Termin, Neukunden wollen wissen, was ein Schnitt kostet, wer ihn macht und was andere über den Salon sagen. Die Website muss beides auf dem Handy in wenigen Sekunden beantworten.
+
+  ibis payment vermittelt Salon-Websites an InfraOne IT Solutions GmbH in Winterthur ([infraone.ch](https://infraone.ch)). Das ist der IT-Partner, der in Salons auch WLAN und E-Mail einrichtet, während unser Berater das Terminal an der Theke installiert. Ein Ansprechpartner für Kasse, Terminal, Netzwerk und Website.
+
+  Diese Seite zeigt, was eine Coiffeur-Website braucht. Preisfaktoren und Ablauf stehen auf der Seite [Webdesign](/webdesign), die Checkliste für die Anfrage unter [Website erstellen lassen](/webdesign/website-erstellen-lassen).
+sections:
+  - heading: Online-Terminbuchung, die den Telefondienst entlastet
+    body: |
+      Während Sie schneiden, klingelt das Telefon. Entweder lassen Sie die Kundin im Stuhl warten oder den Anrufer. Eine Online-Terminbuchung löst das: Kundinnen und Kunden sehen freie Zeiten, wählen die Leistung und die Person im Team und buchen selbst, auch abends nach Ladenschluss.
+
+      Für die Website gibt es zwei Wege. Erstens die Einbindung eines Terminbuchungssystems, das viele Salons schon nutzen; die Website bekommt dann einen Buchen-Button, der das bestehende System öffnet. Zweitens ein Buchungsmodul, das InfraOne direkt in die Website einbaut. Welcher Weg richtig ist, hängt davon ab, ob Sie schon ein System haben und ob Ihre [Kasse](/kassensysteme) damit verbunden ist. Wichtig in beiden Fällen: Der Buchen-Button steht auf jeder Seite sichtbar oben, auch auf dem Handy, und die Buchungsbestätigung geht automatisch an die Kundin und an Sie.
+  - heading: Preisliste, die Fragen beantwortet, bevor sie gestellt werden
+    body: |
+      Die Preisliste ist die meistbesuchte Unterseite einer Salon-Website. Sie als PDF zu hinterlegen ist ein Fehler: auf dem Handy schlecht lesbar, für Google unsichtbar, bei jeder Preisänderung ein neuer Upload. Als Text auf der Seite ist sie lesbar, auffindbar und in zwei Minuten angepasst.
+
+      Gliedern Sie nach Leistungen (Schnitt, Farbe, Styling, Bart, Kinder) und geben Sie dort, wo der Preis vom Aufwand abhängt, eine Spanne mit dem Hinweis, dass der Endpreis nach Beratung festgelegt wird. Das vermeidet Diskussionen an der Theke. Wer mit Online-Zahlung Gutscheine verkaufen will, kann die Preisliste direkt mit dem Gutschein-Kauf verbinden; die Zahlung läuft über [Online-Zahlungen](/online-zahlungen) und erscheint auf derselben Abrechnung wie das Terminal.
+  - heading: Das Team zeigen
+    body: |
+      Kundinnen und Kunden buchen eine Person, nicht einen Salon. Eine Teamseite mit Foto, Vorname, Schwerpunkt (Farbe, Herrenschnitt, Hochsteckfrisuren) und den Tagen, an denen die Person arbeitet, erhöht die Buchungen über die Website messbar. Fotos vom Team im Salon, bei Tageslicht, ohne Stockbilder. Wenn jemand das Team verlässt, nehmen Sie die Person selbst von der Seite; das sollte nicht über den Dienstleister laufen müssen.
+
+      Die Teamseite ist auch der richtige Ort für Lehrstellen und offene Stellen. Wer Personal sucht, erreicht über die eigene Website Leute aus der Region, die den Salon schon kennen.
+  - heading: Instagram einbinden, ohne davon abhängig zu sein
+    body: |
+      Viele Salons zeigen ihre Arbeit auf Instagram. Das ist sinnvoll, aber Instagram gehört nicht Ihnen, und die Reichweite dort ändert sich mit den Regeln der Plattform. Die Website kann die letzten Beiträge automatisch anzeigen, sodass die Startseite ohne Aufwand aktuell bleibt. Umgekehrt gehört in jedes Instagram-Profil der Link zur Terminbuchung auf der Website.
+
+      Technisch wichtig: Die Instagram-Einbindung darf die Website nicht verlangsamen und muss in der Datenschutzerklärung erwähnt sein, weil dabei Daten an Meta fliessen. InfraOne baut die Einbindung so, dass die Bilder erst nach Zustimmung oder in einer datensparsamen Variante geladen werden.
+  - heading: Google-Bewertungen und lokale Suche
+    body: |
+      Wer «Coiffeur Winterthur» oder «Coiffeur in der Nähe» sucht, sieht zuerst die Google-Karte mit drei Einträgen. Dort zu stehen hängt vom Google-Business-Profil ab: vollständige Angaben, aktuelle Öffnungszeiten, Fotos, Buchungslink und vor allem Bewertungen mit Antworten. Die Website unterstützt das, indem Name, Adresse und Telefonnummer exakt übereinstimmen und die Seite die Leistungen und den Ort im Text nennt.
+
+      Bewertungen bekommen Sie, wenn Sie danach fragen. Ein QR-Code an der Theke oder auf dem Beleg, der direkt zur Bewertungsseite führt, bringt mehr als jede Bitte im Vorbeigehen. Antworten Sie auf jede Bewertung, auch auf die kritischen, kurz und sachlich. InfraOne richtet das Profil beim Start ein oder bereinigt ein bestehendes, und zeigt Ihnen, wie Sie es selbst pflegen. Fragen zum Zusammenspiel von Website, Terminal und Abrechnung beantworten wir über [Kontakt](/kontakt); die Gebühren für Zahlungen stehen auf der Seite [Konditionen](/konditionen).
+beispiel:
+  aktiv: false
+  titel: Keine Beispielrechnung
+  umsatz: 0
+  bon: 0
+  kreditanteil: 0
+  vergleich: gross
+  erklaerung: Auf dieser Seite gibt es keine Beispielrechnung.
+preisliste: []
+faq:
+  - frage: Was kostet eine Website für einen Coiffeursalon?
+    antwort: |
+      Eine Website mit bis zu zehn Unterseiten, Preisliste als Text, Teamseite, Impressum und Datenschutzerklärung beginnt bei InfraOne pauschal bei [ab CHF 1'200] exkl. MwSt. Terminbuchung, Instagram-Einbindung und Gutscheinverkauf stehen als eigene Positionen in der Offerte.
+  - frage: Ich habe schon ein Terminbuchungssystem. Kann es eingebunden werden?
+    antwort: |
+      In der Regel ja. Die meisten Systeme bieten einen Buchungslink oder ein Einbettungsmodul, das InfraOne auf der Website platziert. Nennen Sie im Formular den Namen des Systems, dann wird die Einbindung in der Offerte berücksichtigt.
+  - frage: Kann ich Preise und Team selbst ändern?
+    antwort: |
+      Ja. Preisliste, Teamseite, Öffnungszeiten und Fotos pflegen Sie über eine Oberfläche ohne Programmierkenntnisse. Bei der Abnahme erhalten Sie eine Einführung dazu.
+  - frage: Wie komme ich in die Google-Karte bei der lokalen Suche?
+    antwort: |
+      Über ein vollständig gepflegtes Google-Business-Profil mit Bewertungen, Fotos und aktuellen Öffnungszeiten, dessen Angaben mit der Website übereinstimmen. Eine Garantie für eine Platzierung gibt es nicht; die Grundlagen lassen sich aber beim Start richtig einrichten.
+  - frage: Kann ich Gutscheine über die Website verkaufen?
+    antwort: |
+      Ja. Die Kundin wählt einen Betrag, bezahlt mit TWINT oder Karte und erhält den Gutschein per E-Mail. Die Zahlung läuft über Online-Zahlungen von ibis payment, die Gebühren stehen auf der Seite Konditionen.
+bausteine:
+  rechner: false
+  geraete: false
+  zerlegung: false
+  preisliste: false
+formular: webdesign
+cta:
+  titel: Webdesign-Angebot von InfraOne
+  text: Anfragen über dieses Formular gehen direkt an InfraOne IT Solutions in Winterthur.
+  label: Zum Webdesign-Angebot
+  href: https://infraone.ch
+verwandt:
+  - /webdesign
+  - /webdesign/website-erstellen-lassen
+  - /webdesign/homepage-restaurant
+  - /webdesign/homepage-praxis
+  - /dienstleistungen
+  - /konditionen

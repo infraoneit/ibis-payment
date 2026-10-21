@@ -1,0 +1,45 @@
+name: PayTec CT20P
+hersteller: PayTec
+kategorie: kassenintegriert
+reihenfolge: 4
+featured: true
+kurz: Das stationäre Terminal für den Kassenplatz, mit physischem PIN-Pad und Kassenanbindung.
+beschreibung: 'Der CT20P steht am Kassenplatz und spricht mit Ihrer Kasse: Der Betrag wird von der Kasse ans Terminal übergeben, niemand tippt ihn ab. Das physische PIN-Pad mit 15 Tasten und fühlbaren Punkten ist auch für Menschen mit Sehbehinderung bedienbar, was im Detailhandel zunehmend verlangt wird.
+
+
+  Angebunden wird das Gerät per LAN oder WLAN, auf Wunsch mit Strom über das Netzwerkkabel (PoE). Ein Kensington-Schloss sichert es am Tresen. Für den Beleg nutzt der CT20P den Drucker Ihrer Kasse.'
+einsatz:
+- Kasse im Detailhandel
+- Praxis und Empfang
+- Bar und Theke
+- Self-Checkout
+specs:
+- label: Bauform
+  wert: Stationär, kassenintegriert, ohne eigenen Drucker
+- label: Display
+  wert: 4 Zoll IPS Touchscreen, 480 × 800 Pixel
+- label: Tastatur
+  wert: Physisches PIN-Pad mit 15 Tasten, fühlbare Markierungen
+- label: Verbindung
+  wert: LAN und WLAN (2.4 und 5 GHz, 802.11ac), Bluetooth 5.x, PoE optional
+- label: Kartenleser
+  wert: Kontaktlos (NFC), Chip (EMV), Magnetstreifen
+- label: Beleg
+  wert: Über den Kassendrucker
+- label: System
+  wert: Android 11, Quad-Core 2.0 GHz, 2 GB RAM, 8 GB Speicher
+- label: Anschlüsse
+  wert: Multifunktionskabel mit USB, LAN und RS232, Kensington-Schloss
+- label: Masse
+  wert: 166 × 82 × 30 mm
+- label: Zertifizierung
+  wert: PCI PTS 6.x, EMV L1/L2, EMV CL1, ep2 (Schweiz)
+- label: Kassenanbindung
+  wert: KIT (Cloud, API, JSON, TLV), ZVT-LAN, OPI-LAN
+mieteMonat: 24
+kauf: 590
+preisHinweis: Miete inklusive Wartung, Updates und Ersatzgerät. Preise exkl. MwSt.
+datenblatt: https://www.paytec.ch/fileadmin/produkte/CT20p/ct20p-data-sheets-2025-deutsch.pdf
+bild: null
+bildAlt: PayTec Smart-POS CT20P, stationäres Zahlterminal mit PIN-Pad
+metaDescription: 'PayTec CT20P bei ibis payment: stationäres Zahlterminal mit PIN-Pad, LAN und WLAN, Kassenanbindung über OPI, ZVT und KIT. Technische Daten, Miete und Kaufpreis.'

@@ -1,0 +1,91 @@
+title: Zahlterminal für Marktstand und Event
+pfad: /branchen/marktstand
+cluster: branche
+navTitle: Marktstand
+metaTitle: Zahlterminal für Marktstand und Event | ibis payment
+metaDescription: 'Mobiles Kartenterminal für Marktstand und Event: Akku, 4G, Beleg per QR-Code, Kartenzahlung ab 0.75 %. Keine Mindestgebühr, monatlich kündbar.'
+kicker: Branche
+lead: Ein Terminal mit Akku und 4G, das ohne Steckdose und ohne WLAN den ganzen Markttag durchhält. Monatlich kündbar, auch für eine Saison.
+intro: |
+  Am Marktstand und am Event gibt es keine Steckdose, kein WLAN und keine Zeit. Die Beträge sind klein, die Schlange ist lang, und wer kein Bargeld dabei hat, geht zum nächsten Stand. Das Terminal muss deshalb in der Jackentasche Platz haben, einen ganzen Tag mit einer Akkuladung auskommen und über das Mobilfunknetz zahlen.
+
+  Dazu kommt die Kostenfrage. Bei kleinen Beträgen fällt jeder Fixbetrag pro Zahlung ins Gewicht, und ein Stand, der nur von April bis Oktober verkauft, will im Winter keine Miete zahlen. Beides lässt sich lösen, wenn man es vor der Unterschrift anschaut.
+
+  Diese Seite zeigt, welches Terminal für Markt und Event passt, wann das Handy als Terminal reicht, wie sich Kleinbeträge auf die Gebühr auswirken und wie Saisonbetriebe die Miete handhaben. Alle Sätze stehen unter [Konditionen](/konditionen), die Offerte erhalten Sie über [Kontakt](/kontakt).
+sections:
+  - heading: Betrag eintippen, Karte vorhalten, nächster Kunde
+    body: |
+      Am Stand gibt es keine Kasse, der Betrag wird eingetippt. Der Kunde hält Karte oder Handy an das Terminal, bei Kleinbeträgen meist ohne PIN, und die Zahlung ist in wenigen Sekunden bestätigt. Einen Beleg verlangt am Markt kaum jemand; wer einen will, scannt den QR-Code auf dem Display oder erhält ihn per SMS.
+
+      TWINT läuft direkt auf dem Terminal, ohne separaten QR-Aufsteller, der bei Wind umfällt. Apple Pay und Google Pay werden wie die hinterlegte Karte abgerechnet. Mit zwei Verkäufern am Stand reicht in der Regel ein Terminal, weil die Zahlung selbst kürzer dauert als das Einpacken der Ware.
+  - heading: N62 mit Akku, 4G und ohne Drucker
+    body: |
+      Der [PayTec N62](/geraete/paytec-n62) ist für den Stand gebaut. Er wiegt 176 Gramm, hat ein 4-Zoll-Touchdisplay und keinen Drucker, also auch keine Papierrolle, die ausgeht. Verbunden ist er über 4G, WLAN braucht es nicht. Der Akku schafft laut Datenblatt über 550 Zahlungen und mehr als 14 Stunden Bildschirmzeit pro Ladung, die Ladezeit beträgt 2.5 Stunden. Das Gehäuse übersteht Stürze aus 1.5 Metern und arbeitet zwischen 0 und 50 Grad.
+
+      Miete CHF 19 pro Monat, Kauf CHF 390, exkl. MwSt. In der Miete sind Wartung, Updates und das Ersatzgerät inbegriffen.
+
+      Wer am Event gedruckte Belege braucht, etwa in der Festwirtschaft mit Konsumationskarten, nimmt den [PayTec N86](/geraete/paytec-n86) mit Drucker, grösserem Akku und über 600 Belegen pro Ladung, für CHF 24 pro Monat.
+  - heading: Handy als Terminal, als Einstieg oder als Reserve
+    body: |
+      Wer nur an wenigen Markttagen pro Jahr verkauft, kann mit dem Smartphone starten. Mit der App Softpay wird das Handy zum Terminal und nimmt Visa, Mastercard, American Express, Apple Pay und Google Pay kontaktlos an. Es gibt kein Gerät zu mieten und nichts zu laden ausser dem Handy, das ohnehin dabei ist.
+
+      Zwei Einschränkungen muss man kennen: TWINT und PostFinance Card funktionieren über die App nicht. An einem Schweizer Markt sind das zwei häufige Zahlungsmittel. Deshalb empfehlen wir das Handy entweder als Einstieg, um zu sehen, wie viel Kartenumsatz überhaupt zusammenkommt, oder als Reserve neben dem N62, wenn dessen Akku leer ist oder eine zweite Linie gebraucht wird. Die Details stehen unter [Handy als Terminal](/handy-als-terminal).
+  - heading: Kleinbeträge und der Fixbetrag pro Zahlung
+    body: |
+      Bei einem Betrag von CHF 5 entsprechen CHF 0.05 Fixbetrag einem ganzen Prozent des Umsatzes, bei CHF 50 nur einem Zehntel davon. Wer viele kleine Beträge hat, muss deshalb den Fixbetrag genauso anschauen wie den Prozentsatz. Bei uns liegt er bei CHF 0.05 pro Zahlung, der Debitsatz bei 0.75 %, TWINT bei 1.00 %, exkl. MwSt.
+
+      App-Anbieter verzichten oft auf den Fixbetrag, verlangen dafür einen höheren Prozentsatz [1.5 % Debit / 2.5 % Kredit, Quelle und Datum eintragen]. Grossanbieter rechnen mit einem höheren Fixbetrag [CHF 0.15, Quelle und Datum eintragen]. Welche Variante bei Ihrem Durchschnittsbetrag günstiger ist, lässt sich nur mit Ihren Zahlen beantworten. Die Beispielrechnung unten vergleicht einen Stand mit kleinem Durchschnittsbetrag mit dem Listenpreis eines App-Anbieters.
+
+      Eine Mindestgebühr gibt es bei uns nicht. Ein Monat mit wenig Umsatz kostet wenig, und der Vertrag ist monatlich kündbar.
+  - heading: Saisonbetrieb und monatliche Kündbarkeit
+    body: |
+      Ein Stand, der im Winter geschlossen ist, braucht im Winter kein Terminal. Die Miete ist monatlich kündbar und die Aufschaltung kostet CHF 0, auch bei einer Neubestellung im Frühling. Ob Sie das Terminal über den Winter behalten oder zurückgeben, rechnen Sie mit der Monatsmiete von CHF 19 schnell aus.
+
+      Wer das Terminal viele Jahre nutzt, kann es für CHF 390 kaufen. Was dann wegfällt und was dazukommt, steht unter [Mieten oder kaufen](/wissen/mieten-oder-kaufen). Für Standbetreiber mit einzelnen Events pro Jahr ist das Handy als Terminal oft die passende dritte Variante.
+  - heading: Akku, Empfang, Gutschrift und Wechsel
+    body: |
+      Laden Sie den N62 am Vorabend, dann reicht die Ladung nach Datenblatt für den ganzen Markttag. In Hallen und Kellern prüfen Sie vor dem ersten Markttag den 4G-Empfang; wo WLAN vorhanden ist, nutzt das Terminal auch dieses. Fällt das Terminal aus, ist das Ersatzgerät in der Miete inbegriffen, und Ihr Berater ist über die Direktwahl erreichbar, siehe [Support](/support).
+
+      Die Umsätze werden gesammelt pro Tag am nächsten Werktag gutgeschrieben. Einmal pro Monat erhalten Sie eine Abrechnung auf einer Seite mit jeder Position. Wenn Sie heute schon ein Terminal oder eine App nutzen, schicken Sie uns Ihre letzte Abrechnung über [Kontakt](/kontakt). Wir vergleichen innert 24 Stunden und sagen Ihnen, ob wir günstiger sind. Die Preisliste finden Sie unter [Konditionen](/konditionen).
+beispiel:
+  aktiv: true
+  titel: Beispiel Marktstand
+  umsatz: 6000
+  bon: 18
+  kreditanteil: 20
+  vergleich: app
+  erklaerung: Annahmen für einen Stand mit kleinen Beträgen, überwiegend Debit und TWINT und wenigen Kreditkarten, verglichen mit dem Listenpreis eines App-Anbieters ohne Fixbetrag; Platzhalter, setzen Sie Ihre Zahlen ein.
+preisliste: []
+faq:
+  - frage: Brauche ich am Stand WLAN?
+    antwort: |
+      Nein. Der N62 zahlt über 4G, WLAN nutzt er nur zusätzlich, wenn eines vorhanden ist. Die Mobilfunkverbindung richten wir bei der Übergabe ein, Sie müssen nichts konfigurieren.
+  - frage: Was ist, wenn der Akku während des Markts leer ist?
+    antwort: |
+      Laut Datenblatt reicht eine Ladung für über 550 Zahlungen. Wer länger verkauft, lädt das Terminal in 2.5 Stunden wieder auf oder hält das Handy als Terminal als Reserve bereit.
+  - frage: Kann ich das Terminal im Winter zurückgeben?
+    antwort: |
+      Ja. Die Miete ist monatlich kündbar, die Aufschaltung kostet auch bei der Neubestellung im Frühling CHF 0. Ob sich das gegenüber dem Durchmieten lohnt, rechnen Sie mit CHF 19 pro Monat selbst aus.
+  - frage: Reicht das Handy als Terminal für meinen Stand?
+    antwort: |
+      Für wenige Zahlungen und Kundschaft mit Visa oder Mastercard ja. TWINT und PostFinance Card gehen über das Handy nicht, und das sind am Markt häufige Zahlungsmittel. Wer regelmässig verkauft, fährt mit dem N62 besser.
+  - frage: Kann ich am Markt einen Beleg drucken?
+    antwort: |
+      Mit dem N62 nicht, er zeigt den Beleg als QR-Code oder schickt ihn per SMS oder E-Mail. Wer Papier braucht, nimmt den N86 mit eingebautem Drucker für CHF 24 pro Monat.
+bausteine:
+  rechner: true
+  geraete: true
+  zerlegung: false
+  preisliste: false
+formular: none
+cta:
+  titel: Terminal für die nächste Saison.
+  text: Sagen Sie uns, wie viele Markttage Sie haben und wie hoch der durchschnittliche Betrag ist. Wir rechnen innert 24 Stunden vor, ob Miete, Kauf oder Handy passt.
+  label: Offerte anfordern
+  href: /konditionen
+verwandt:
+  - /konditionen
+  - /geraete/paytec-n62
+  - /handy-als-terminal
+  - /wissen/mieten-oder-kaufen
+  - /wissen/kartenzahlung-gebuehren-schweiz

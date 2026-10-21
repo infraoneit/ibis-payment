@@ -1,0 +1,89 @@
+title: Zahlterminal für Arztpraxis, Zahnarzt und Physiotherapie
+pfad: /branchen/praxis
+cluster: branche
+navTitle: Praxis
+metaTitle: Zahlterminal für Arztpraxen | ibis payment
+metaDescription: 'Zahlterminal für Arztpraxis, Zahnarzt und Physiotherapie: Anbindung an die Praxissoftware, PIN-Pad am Empfang, keine Gesundheitsdaten auf dem Terminal.'
+kicker: Branche
+lead: Ein Terminal am Empfang, das den Betrag aus der Praxissoftware übernimmt, diskret bedient wird und nichts über die Behandlung weiss.
+intro: |
+  In der Praxis wird nach der Behandlung bezahlt: der Selbstzahler-Anteil, die Zahnarztrechnung in Teilbeträgen, die Physiotherapie ohne Verordnung, die kosmetische Behandlung. Die Beträge sind höher als im Detailhandel, Kreditkarten sind häufiger, und die Zahlung findet am Empfang statt, wo die nächsten Patientinnen und Patienten bereits warten.
+
+  Das stellt drei Anforderungen. Der Betrag soll aus der Praxissoftware kommen, damit Debitorenliste und Kartenabrechnung übereinstimmen. Die Zahlung soll diskret ablaufen, mit einem PIN-Pad, das der Patient selbst bedient. Und das Terminal darf nichts über die Behandlung wissen, weder auf dem Display noch auf dem Beleg.
+
+  Diese Seite zeigt, welches Terminal an den Empfang gehört, wie die Anbindung an die Praxissoftware funktioniert, was beim Datenschutz gilt und was höhere Beträge für die Gebühr bedeuten. Die Preisliste finden Sie unter [Konditionen](/konditionen), die Offerte über [Kontakt](/kontakt).
+sections:
+  - heading: Zahlen am Empfang, ohne Zuschauer
+    body: |
+      Die Behandlung ist abgeschlossen, die Praxissoftware erstellt die Rechnung. Wer direkt bezahlt, spart der Praxis den Versand, die Debitorenüberwachung und das Mahnwesen. Der Betrag wird von der Software ans Terminal übergeben oder am Empfang eingetippt. Der Patient hält die Karte an das PIN-Pad, gibt bei höheren Beträgen die PIN ein, und der Beleg kommt aus dem Drucker, mit Praxisname, Betrag und Datum, ohne Angaben zur Leistung.
+
+      Das PIN-Pad steht auf der Patientenseite. Der Patient bedient es selbst, das Personal sieht die PIN nicht, und die Karte wechselt nicht den Besitzer. In Zahnarztpraxen mit Teilzahlungen ist jede Teilzahlung eine eigene Kartenzahlung mit eigenem Beleg, der zur Rechnungsnummer passt.
+  - heading: CT20P mit Praxissoftware oder V3CT3 ohne Kasse
+    body: |
+      Für den Empfang mit Praxissoftware passt der [PayTec CT20P](/geraete/paytec-ct20p). Er ist kassenintegriert, hat ein physisches PIN-Pad mit 15 Tasten und fühlbaren Markierungen, das auch Menschen mit Sehbehinderung bedienen können, und hängt am LAN oder WLAN, auf Wunsch mit Strom über das Netzwerkkabel. Den Beleg druckt er über den Drucker, der am Empfang ohnehin steht. Ein Kensington-Schloss sichert ihn am Tresen. Miete CHF 24 pro Monat, Kauf CHF 590, exkl. MwSt.
+
+      Für Praxen ohne anbindbare Software oder für den Zweitstandort reicht der [PayTec V3CT3](/geraete/paytec-v3ct3). Das Tischterminal hat Tastatur und eigenen Drucker, der Betrag wird eingetippt, optional mit einem Kunden-Pinpad P200 für die Patientenseite. Miete CHF 19 pro Monat, Kauf CHF 390, exkl. MwSt.
+
+      Für Hausbesuche, Spitex und Therapeuten, die beim Patienten abrechnen, kommt der mobile [PayTec N62](/geraete/paytec-n62) mit 4G dazu. Alle Modelle stehen unter [Geräte](/geraete).
+  - heading: Anbindung an die Praxissoftware über OPI, ZVT oder KIT
+    body: |
+      Die Anbindung übergibt den Rechnungsbetrag von der Praxissoftware ans Terminal. Niemand tippt ab, die Zahlung wird in der Software als beglichen verbucht, und die Debitorenliste stimmt mit der Kartenabrechnung überein. In der Schweiz laufen diese Anbindungen über die Protokolle OPI, ZVT oder KIT. Der CT20P unterstützt alle drei, KIT auch über die Cloud.
+
+      Ob Ihre Praxissoftware eines der Protokolle unterstützt, klären wir vor der Installation mit dem Softwareanbieter. Die Installation vor Ort, inklusive Anbindung und Netzwerk, ist im Preis inbegriffen. Praxen, die zusätzlich ein Kassensystem für Produkte oder Selbstzahlerleistungen suchen, finden die Systeme unter [Kassensysteme](/kassensysteme).
+  - heading: Datenschutz, das Terminal kennt nur den Betrag
+    body: |
+      Das Terminal verarbeitet den Betrag und die Kartendaten, sonst nichts. Bei der Anbindung übergibt die Praxissoftware nur den Betrag und eine Referenz, keine Patientendaten und keine Leistungen. Die Kartendaten werden im Terminal verschlüsselt, alle Modelle sind nach PCI PTS 6.x zertifiziert und ep2-zugelassen. Auf dem Beleg stehen Praxisname, Betrag, Datum und die üblichen Zahlungsangaben, keine Behandlung.
+
+      Die Zahlungsdaten gehen über das SwiPay-Bezahlnetzwerk an den Acquirer TeleCash/Fiserv. Gesundheitsdaten bleiben in der Praxissoftware. Wer eine Datenschutzerklärung für die Praxis pflegt, kann das Terminal damit in einem Satz abhandeln, weil keine besonders schützenswerten Daten über das Zahlungssystem laufen.
+  - heading: Höhere Beträge, mehr Kreditkarten, und was das für die Gebühr heisst
+    body: |
+      Bei höheren Beträgen verliert der Fixbetrag pro Zahlung an Bedeutung, CHF 0.05 auf eine dreistellige Rechnung fallen kaum ins Gewicht. Entscheidend ist der Prozentsatz, und zwar der für Kreditkarten, weil Patientinnen und Patienten höhere Beträge häufiger mit der Kreditkarte zahlen. Bei uns kostet Debit Inland 0.75 %, Kredit Inland 1.25 %, TWINT 1.00 %, exkl. MwSt.
+
+      Ausländische und Firmenkarten tragen einen Zuschlag von 0.90 Prozentpunkten, was in Praxen mit internationaler Kundschaft eine sichtbare Position ist. American Express schalten wir auf Wunsch zu 1.90 % frei. Es gibt keine Mindestgebühr und keine Aufschaltgebühr. Die Beispielrechnung unten zeigt, was eine Praxis mit den genannten Annahmen pro Monat zahlt, verglichen mit dem Listenpreis eines Grossanbieters.
+  - heading: Montagmorgen, Ausfall, Abrechnung und Wechsel
+    body: |
+      Am Montagmorgen und nach den Ferien stehen die Patienten am Empfang Schlange. Ein zweites Terminal an einem zweiten Arbeitsplatz entlastet. Der CT20P hängt am Kabel, nicht am WLAN, was in Praxen mit dicken Wänden die zuverlässigere Variante ist. Bei einem Defekt schicken wir ein Ersatzgerät, in der Miete inbegriffen, und Ihr Berater ist über die Direktwahl erreichbar, siehe [Support](/support).
+
+      Die Umsätze werden gesammelt pro Tag am nächsten Werktag gutgeschrieben. Einmal pro Monat erhalten Sie eine Abrechnung auf einer Seite, die Ihr Treuhänder ohne Rückfrage verbuchen kann. Wenn Sie heute schon ein Terminal haben, schicken Sie uns die letzte Abrechnung über [Kontakt](/kontakt). Wir vergleichen innert 24 Stunden und unterbieten sie, oder wir sagen Ihnen, dass es nicht geht. Alle Sätze unter [Konditionen](/konditionen).
+beispiel:
+  aktiv: true
+  titel: Beispiel Praxis
+  umsatz: 18000
+  bon: 120
+  kreditanteil: 40
+  vergleich: gross
+  erklaerung: Annahmen für eine Praxis mit hohem Betrag pro Zahlung und dem für Praxen typischen höheren Kreditkartenanteil; Platzhalter, setzen Sie Ihre Zahlen aus der letzten Abrechnung ein.
+preisliste: []
+faq:
+  - frage: Lässt sich das Terminal an unsere Praxissoftware anbinden?
+    antwort: |
+      Wenn die Software OPI, ZVT oder KIT unterstützt, ja. Das klären wir vor der Installation mit Ihrem Softwareanbieter. Ohne Anbindung wird der Betrag am V3CT3 eingetippt.
+  - frage: Sieht das Terminal, welche Behandlung bezahlt wird?
+    antwort: |
+      Nein. Übergeben werden nur Betrag und eine Referenz. Auf dem Beleg stehen Praxisname, Betrag und Datum. Gesundheitsdaten bleiben in der Praxissoftware.
+  - frage: Kann der Patient die PIN eingeben, ohne dass das Personal zuschaut?
+    antwort: |
+      Ja. Der CT20P hat ein physisches PIN-Pad auf der Patientenseite, der V3CT3 bekommt auf Wunsch das Kunden-Pinpad P200. Die Karte bleibt in der Hand des Patienten.
+  - frage: Was kosten Teilzahlungen bei einer Zahnarztrechnung?
+    antwort: |
+      Jede Teilzahlung ist eine eigene Kartenzahlung mit dem Satz der jeweiligen Karte plus CHF 0.05 Fixbetrag. Bei dreistelligen Beträgen ist der Fixbetrag vernachlässigbar, der Prozentsatz zählt.
+  - frage: Nehmen wir auch Karten von Patienten aus dem Ausland an?
+    antwort: |
+      Ja. Ausländische und Firmenkarten tragen einen Zuschlag von 0.90 Prozentpunkten auf den jeweiligen Satz, exkl. MwSt. Die Position steht getrennt auf der Abrechnung.
+bausteine:
+  rechner: true
+  geraete: true
+  zerlegung: false
+  preisliste: false
+formular: none
+cta:
+  titel: Offerte für Ihre Praxis innert 24 Stunden.
+  text: Schicken Sie uns Ihre letzte Abrechnung und den Namen Ihrer Praxissoftware. Wir prüfen die Anbindung und rechnen mit Ihren Zahlen.
+  label: Offerte anfordern
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /geraete/paytec-ct20p
+  - /geraete/paytec-v3ct3
+  - /branchen/coiffeur
+  - /wissen/rollen-im-payment

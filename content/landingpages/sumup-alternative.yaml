@@ -1,0 +1,100 @@
+title: SumUp Alternative für Schweizer Betriebe
+pfad: /sumup-alternative
+cluster: payment
+navTitle: SumUp Alternative
+metaTitle: SumUp Alternative Schweiz mit TWINT und ep2 | ibis payment
+metaDescription: 'SumUp Alternative Schweiz: ab wann ein Zahlterminal mit Vertrag günstiger ist als ein Leser ohne Abo, TWINT auf dem Terminal, Kassenanbindung, Support.'
+kicker: Wechsel
+lead: SumUp ist für den Start oft die richtige Wahl. Ab einem gewissen Kartenumsatz wird ein Terminal mit Vertrag günstiger, und TWINT, Kassenanbindung und ep2 kommen dazu.
+intro: |
+  SumUp hat vielen kleinen Betrieben in der Schweiz den Einstieg in Kartenzahlungen ermöglicht: ein kleiner Leser, keine Monatsgebühr, keine Laufzeit, ein Prozentsatz pro Zahlung. Wer einmal im Monat an einem Markt steht oder gerade gegründet hat, fährt damit gut.
+
+  Mit dem Umsatz ändert sich die Rechnung. Ein Prozentsatz ohne Monatsgebühr ist bei kleinen Umsätzen günstig und bei grösseren teuer, weil jeder zusätzliche Franken Umsatz denselben Satz kostet. Ein Terminal mit Vertrag hat eine Miete, dafür tiefere Sätze pro Kartenart. Irgendwo dazwischen liegt der Punkt, an dem sich der Wechsel lohnt. Diese Seite hilft, ihn zu finden; die Sätze von ibis payment stehen auf der Seite [Konditionen](/konditionen).
+
+  Über SumUp machen wir nur Aussagen, die sich belegen lassen. Die Preise von SumUp stehen in eckigen Klammern, bis die Quelle eingetragen ist.
+sections:
+  - heading: Für wen SumUp passt
+    body: |
+      SumUp verrechnet nach eigener Preisliste [1.5 % Debit, 2.5 % Kredit, keine Monatsgebühr; Quelle und Datum eintragen]. Es gibt keine Laufzeit und keine Mindestgebühr. Der Leser wird einmalig gekauft und mit dem Handy gekoppelt oder läuft als eigenständiges Terminal.
+
+      Das Modell passt zu Betrieben mit sehr kleinem oder unregelmässigem Kartenumsatz: ein Verein mit Festwirtschaft an zwei Wochenenden im Jahr, ein Hobbybetrieb, ein Stand an einem einzelnen Markt, ein Nebenerwerb. Wer in einem Monat gar keinen Umsatz hat, zahlt nichts. Diese Flexibilität hat ihren Preis im Prozentsatz, und das ist bei diesen Umsätzen in Ordnung.
+
+      Zwei Punkte sollten Sie dabei kennen. TWINT am Terminal ist bei SumUp nicht verfügbar [Stand prüfen]; TWINT läuft dort über den QR-Aufsteller mit separatem Händlerkonto. Ob die Leser ep2-zertifiziert sind und PostFinance Card, Reka und Lunch-Check unterstützen, prüfen Sie beim Anbieter [Stand prüfen]; ohne ep2 ist beides nicht möglich. Für einen Marktstand ist das meist egal, für eine Bäckerei mit Stammkundschaft nicht.
+  - heading: Ab wann ein Terminal mit Vertrag günstiger wird
+    body: |
+      Die Rechnung hat zwei Seiten. Auf der einen Seite die Terminalmiete von CHF 19 pro Monat, exkl. MwSt., die bei ibis payment unabhängig vom Umsatz anfällt. Auf der anderen Seite die Differenz zwischen den Sätzen: Debitkarten Inland 0.75 % statt [1.5 %], Kreditkarten Inland 1.25 % statt [2.5 %], plus CHF 0.05 pro Zahlung.
+
+      Je höher der Kartenumsatz, desto grösser die Differenz bei den Sätzen, und desto schneller ist die Miete ausgeglichen. Bei welchem Umsatz der Punkt liegt, hängt von Ihrem Kartenmix und Ihrem Durchschnittsbetrag ab; bei vielen kleinen Zahlungen fällt der Fixbetrag von CHF 0.05 stärker ins Gewicht als bei wenigen grossen.
+
+      Die Beispielrechnung unten zeigt einen Coiffeursalon mit mittlerem Bon im Vergleich zum Listenpreis eines App-Anbieters. Setzen Sie Ihre eigenen Zahlen ein. Die Zahlen aus Ihrer SumUp-Übersicht genügen: Kartenumsatz pro Monat, Anzahl Zahlungen, Anteil Kreditkarten.
+
+      Es gibt keine Mindestgebühr bei ibis payment. Die Miete ist der einzige Fixbetrag, und sie ist monatlich kündbar. Wer zurück zu SumUp will, kann das nach einem Monat.
+  - heading: TWINT auf dem Terminal
+    body: |
+      In der Schweiz zahlt ein wachsender Teil der Kundschaft mit TWINT. Bei einem Aufsteller mit statischem QR-Code tippt der Kunde den Betrag selbst ein, Sie kontrollieren auf seinem Handy, und die Zahlung landet in einem separaten TWINT-Konto mit eigener Abrechnung.
+
+      Auf den Terminals von PayTec, die wir vermitteln, ist TWINT integriert. Das Terminal zeigt den QR-Code mit dem Betrag, der Kunde scannt, die Bestätigung erscheint bei Ihnen. TWINT kostet 1.00 % plus CHF 0.05 pro Zahlung [Platzhalter, bestätigen] und steht auf derselben Monatsabrechnung wie die Karten. Mehr dazu auf der Seite [TWINT Terminal](/twint-terminal).
+
+      Für einen Coiffeur, ein Café oder eine Praxis, wo TWINT einen spürbaren Anteil des Umsatzes ausmacht, ist das oft der Hauptgrund für den Wechsel, noch vor den Gebühren.
+  - heading: Kassenanbindung, Support und ep2
+    body: |
+      **Kassenanbindung.** Wer eine Kasse hat, will den Betrag nicht zweimal eintippen. Die Terminals [PayTec CT20P](/geraete/paytec-ct20p), [PayTec N96](/geraete/paytec-n96) und [PayTec V3CT3](/geraete/paytec-v3ct3) sprechen die Schweizer Kassenprotokolle OPI, ZVT und KIT. Die Kasse übergibt den Betrag, das Terminal meldet die Zahlung zurück. Die Anbindung ist Teil der Installation vor Ort. Welche Kassensysteme wir kennen, steht unter [Kassensysteme](/kassensysteme).
+
+      **Support.** Bei ibis payment haben Sie einen Berater mit Direktwahl, der das Terminal selbst installiert hat. Bei Defekt erhalten Sie ein Ersatzgerät [innert 24 Stunden, schweizweit], bei der Miete inbegriffen. Für Betriebe mit Wochenendbetrieb gibt es eine Notfallnummer [Regelung eintragen].
+
+      **ep2.** Der Schweizer Standard für Terminals. Er ist Voraussetzung für PostFinance Card, Reka und Lunch-Check und für die Anbindung an Schweizer Kassensysteme. Alle Terminals, die wir vermitteln, sind ep2-zertifiziert und erfüllen den Sicherheitsstandard PCI PTS 6.x. Damit sind sie für den Terminalwechsel 2027 vorbereitet, bei dem viele ältere Terminals voraussichtlich die Zulassung verlieren.
+  - heading: So wechseln Sie von SumUp
+    body: |
+      Der Wechsel ist einfacher als bei einem Vertrag mit Laufzeit, weil bei SumUp nichts gekündigt werden muss. Sie behalten den SumUp-Leser als Reserve oder geben ihn ab.
+
+      - Schicken Sie uns Ihre Umsatzübersicht der letzten Monate aus dem SumUp-Konto über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden dieselben Umsätze mit unseren Sätzen nach.
+      - Liegt unser Angebot nicht unter Ihren heutigen Kosten, sagen wir Ihnen das. Dann bleiben Sie bei SumUp, bis der Umsatz gewachsen ist.
+      - Lohnt sich der Wechsel, wählen Sie Miete ab CHF 19 oder Kauf ab CHF 390 und das Modell. Für Betriebe, die vom SumUp-Leser kommen, ist der [PayTec N62](/geraete/paytec-n62) oft der nächste Schritt: ähnlich kompakt, ohne Drucker, Beleg per QR, SMS oder E-Mail, aber mit TWINT, 4G und ep2.
+      - Der Berater installiert vor Ort, bindet die Kasse an und macht eine Testzahlung. Aufschaltung CHF 0.
+
+      Ab der ersten Zahlung erhalten Sie die Gutschrift gesammelt pro Tag am nächsten Werktag und einmal pro Monat eine Abrechnung auf einer Seite.
+beispiel:
+  aktiv: true
+  titel: Beispiel Coiffeursalon
+  umsatz: 9000
+  bon: 70
+  kreditanteil: 30
+  vergleich: app
+  erklaerung: Für einen Coiffeursalon nehmen wir einen mittleren Bon und einen Kreditkartenanteil von knapp einem Drittel an, verglichen mit dem Listenpreis eines App-Anbieters ohne Monatsgebühr; die Werte sind Platzhalter.
+preisliste: []
+faq:
+  - frage: Ab welchem Umsatz lohnt sich der Wechsel von SumUp?
+    antwort: |
+      Das hängt von Kartenmix und Durchschnittsbetrag ab. Setzen Sie Ihre Zahlen aus dem SumUp-Konto in den Rechner ein, oder schicken Sie uns die Umsatzübersicht. Wir rechnen innert 24 Stunden nach und sagen Ihnen auch, wenn es sich noch nicht lohnt.
+  - frage: Geht TWINT bei SumUp auf dem Terminal?
+    antwort: |
+      Nach unserem Stand nicht, TWINT läuft dort über den QR-Aufsteller mit separatem Händlerkonto [Stand prüfen]. Auf den Terminals von ibis payment ist TWINT integriert und steht auf derselben Abrechnung wie die Karten.
+  - frage: Muss ich bei ibis payment eine Laufzeit eingehen?
+    antwort: |
+      Nein. Miete und Acquiring-Vertrag sind monatlich kündbar, es gibt keine Mindestgebühr und keine Aufschaltgebühr. Wer nach einem Monat zurück will, kann das.
+  - frage: Kann ich meinen SumUp-Leser weiter nutzen?
+    antwort: |
+      Als Reserve ja, er läuft unabhängig weiter. Für den Alltag ersetzt ihn das Terminal von PayTec, weil TWINT, PostFinance Card und die Kassenanbindung dort laufen. Zwei parallele Systeme bedeuten zwei Abrechnungen.
+  - frage: Was ist der Unterschied zwischen einem SumUp-Leser und einem ep2-Terminal?
+    antwort: |
+      Der ep2-Standard ist die Schweizer Zertifizierung für Terminals. Er ermöglicht PostFinance Card, Reka, Lunch-Check, TWINT am Terminal und die Anbindung an Schweizer Kassensysteme über OPI, ZVT und KIT. Ein Leser ohne ep2 nimmt Karten und Wallets an, mehr nicht.
+  - frage: Brauche ich für das Terminal ein Kassensystem?
+    antwort: |
+      Nein. Die mobilen Terminals und der V3CT3 laufen eigenständig, der Betrag wird am Terminal eingetippt. Eine Kasse lässt sich später anbinden, ohne das Terminal zu wechseln.
+bausteine:
+  rechner: true
+  geraete: true
+  zerlegung: false
+  preisliste: true
+formular: none
+cta:
+  titel: Offerte innert 24 Stunden.
+  text: Schicken Sie uns Ihre Umsatzübersicht. Wir sagen Ihnen, ob sich der Wechsel lohnt, oder ob Sie noch warten sollten.
+  label: Offerte anfordern
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /zahlterminal-vergleich
+  - /twint-terminal
+  - /zahlterminal-mieten
+  - /handy-als-terminal

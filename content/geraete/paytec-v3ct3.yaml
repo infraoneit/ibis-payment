@@ -1,0 +1,41 @@
+name: PayTec V3CT3
+hersteller: PayTec
+kategorie: stationaer
+reihenfolge: 5
+featured: false
+kurz: Das klassische Tischterminal mit eigenem Drucker, für Betriebe ohne Kassensystem.
+beschreibung: 'Der V3CT3 ist das Terminal für alle, die keine Kasse anbinden, aber einen gedruckten Beleg wollen: Tastatur, Drucker und Kartenleser in einem Gehäuse, per LAN oder WLAN verbunden. Betrag eintippen, Karte vorhalten, Beleg abreissen.
+
+
+  Für Bäckereien, Metzgereien und Take-aways gibt es das Zusatz-Pinpad P200 für die Kundenseite, damit der Kunde am Tresen selbst bezahlt, ohne dass das Terminal über die Theke wandert.'
+einsatz:
+- Bäckerei, Metzgerei, Take-away
+- Blumenladen, Kiosk
+- Praxis ohne Kassensystem
+- Vereine und Verkaufsstellen
+specs:
+- label: Bauform
+  wert: Stationär, mit Tastatur und Drucker
+- label: Verbindung
+  wert: Ethernet, WLAN optional, RS232, USB
+- label: Kartenleser
+  wert: Kontaktlos (NFC, ISO 14443), Chip (EMV), Magnetstreifen
+- label: Beleg
+  wert: Thermodrucker, 48 mm Rolle, 100 mm/s
+- label: Tastatur
+  wert: 15 Tasten plus Ein/Aus und Lautstärke
+- label: System
+  wert: Linux, 256 MB Flash, 128 MB RAM, Fernupdate
+- label: Masse und Gewicht
+  wert: 185 × 75 × 84 mm, 350 g
+- label: Zertifizierung
+  wert: PCI PTS 6.x, EMV L1/L2, ep2 (Schweiz)
+- label: Kassenanbindung
+  wert: KIT (Cloud, API, JSON, TLV), ZVT-LAN, optional Kunden-Pinpad P200
+mieteMonat: 19
+kauf: 390
+preisHinweis: Miete inklusive Wartung, Updates und Ersatzgerät. Preise exkl. MwSt.
+datenblatt: https://www.paytec.ch/fileadmin/produkte/V3CT3/fact-sheet_v3ct3_paytec_payment-solutions_2023_deutsch.pdf
+bild: null
+bildAlt: PayTec Classic-POS V3CT3, stationäres Zahlterminal mit Drucker
+metaDescription: 'PayTec V3CT3 bei ibis payment: stationäres Zahlterminal mit Tastatur und Drucker, LAN und WLAN, ep2-zertifiziert. Technische Daten, Miete und Kaufpreis.'

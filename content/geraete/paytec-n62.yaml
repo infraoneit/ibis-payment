@@ -1,0 +1,47 @@
+name: PayTec N62
+hersteller: PayTec
+kategorie: mobil
+reihenfolge: 1
+featured: true
+kurz: Das kompakte Terminal für die Hosentasche, mit 4G und WLAN, ohne Drucker.
+beschreibung: >-
+  Der N62 ist das kleinste Terminal im Sortiment: kaum grösser als ein Kartenstapel, 176 Gramm, mit Touchscreen und Akku für den ganzen Tag. Der Beleg geht digital raus, per QR-Code auf dem Display, per SMS oder E-Mail. Damit entfällt die Papierrolle, und das Terminal passt in jede Schürze.
+
+
+  Verbunden ist der N62 über 4G oder WLAN und wechselt automatisch, wenn eines ausfällt. Karten und Handys werden kontaktlos gelesen, Chipkarten über den Schlitz. Mehr als 550 Zahlungen pro Akkuladung reichen für einen langen Markttag.
+einsatz:
+  - Service am Tisch
+  - Marktstand und Event
+  - Lieferdienst
+  - Coiffeur und Kosmetik
+  - Reserve-Terminal
+specs:
+  - label: Bauform
+    wert: Mobil, kompakt, ohne Drucker
+  - label: Display
+    wert: 4 Zoll Touchscreen, 480 × 480 Pixel
+  - label: Verbindung
+    wert: 4G/3G/2G und WLAN (2.4 und 5 GHz), Bluetooth 4.x
+  - label: Kartenleser
+    wert: Kontaktlos (NFC), Chip (EMV), 1D- und 2D-Barcodes
+  - label: Beleg
+    wert: Digital per QR-Code, SMS oder E-Mail
+  - label: Akku
+    wert: 2000 mAh, über 14 Stunden Bildschirmzeit, über 550 Zahlungen pro Ladung, 2.5 Stunden Ladezeit
+  - label: System
+    wert: Android 10, Quad-Core 1.5 GHz, 1 GB RAM, 8 GB Speicher
+  - label: Masse und Gewicht
+    wert: 92.4 × 89.7 × 17.7 mm, 176 g
+  - label: Robustheit
+    wert: Sturz aus 1.5 m, Betrieb 0 bis 50 °C
+  - label: Zertifizierung
+    wert: PCI PTS 6.x, EMV L1/L2, EMV CL1, ep2 (Schweiz)
+  - label: Kassenanbindung
+    wert: Optional über KIT (Cloud)
+mieteMonat: 19
+kauf: 390
+preisHinweis: Miete inklusive Wartung, Updates und Ersatzgerät. Preise exkl. MwSt.
+datenblatt: https://www.paytec.ch/fileadmin/produkte/N62/n62-data-sheets-2025-deutsch.pdf
+bild: null
+bildAlt: PayTec Smart-POS N62, mobiles Zahlterminal ohne Drucker
+metaDescription: 'PayTec N62 bei ibis payment: kompaktes mobiles Zahlterminal mit 4G und WLAN, digitalem Beleg und ep2-Zertifizierung. Technische Daten, Miete und Kaufpreis.'

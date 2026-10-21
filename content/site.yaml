@@ -1,0 +1,41 @@
+name: ibis payment
+legalName: IBIS Management GmbH
+uid: '[CHE-000.000.000]'
+street: '[Strasse Nr.]'
+zip: '[PLZ]'
+city: '[Ort]'
+region: Schweizweit, Schwerpunkt Zürich, Winterthur und Ostschweiz
+phone: '[052 000 00 00]'
+phoneHref: '+41520000000'
+email: info@ibis-payment.ch
+openingHours: Montag bis Freitag, 08:00 bis 18:00 Uhr
+openingHoursSchema: Mo-Fr 08:00-18:00
+vertretung: '[Name der vertretungsberechtigten Person]'
+berater:
+  name: '[Name Berater]'
+  role: Berater und Techniker
+  region: Region Zürich und Ostschweiz
+  phone: '[052 000 00 00]'
+  phoneHref: '+41520000000'
+  photo: null
+service:
+  ersatzgeraet: '[Ersatzgerät innert 24 Stunden bei Ihnen, schweizweit]'
+  rueckruf: '[Rückruf innert einer Stunde während der Erreichbarkeit]'
+  wochenende: '[Notfallnummer am Samstag und Sonntag für Betriebe mit Wochenendbetrieb]'
+  abrechnung: Einmal pro Monat, eine Seite, jede Kartenart einzeln ausgewiesen
+  wechsel: Kündigung beim bisherigen Anbieter übernehmen wir, inklusive Terminplanung
+bestpreis: >-
+  Wir unterbieten Ihre heutige Abrechnung. Oder wir sagen Ihnen, dass es nicht
+  geht.
+partner:
+  acquiring: SwiPay AG, Baar (Bezahlnetzwerk mit TeleCash/Fiserv als Acquirer)
+  terminals: PayTec AG, Effretikon
+  it: InfraOne IT Solutions GmbH, Winterthur
+  telefonie: '[Telefonie-Partner]'
+  versicherung: '[Versicherungsbroker, unabhängig]'
+  treuhand: '[Treuhandpartner]'
+vertragspartner: >-
+  [Pflichtangabe, mit dem Kunden klären: Wer ist Vertragspartner des Händlers für
+  das Acquiring (SwiPay AG oder TeleCash/Fiserv) und wer für Terminal-Miete und
+  -Kauf (IBIS Management GmbH oder SwiPay AG)?]
+installation: '[Wer installiert vor Ort: IBIS-Berater, Vertriebspartner oder InfraOne?]'

@@ -1,0 +1,93 @@
+title: TWINT Terminal statt QR-Aufsteller
+pfad: /twint-terminal
+cluster: payment
+navTitle: TWINT Terminal
+metaTitle: TWINT Terminal für Händler, 1.00 % | ibis payment
+metaDescription: 'TWINT akzeptieren direkt auf dem Zahlterminal: Betrag vom Terminal, Zahlung auf derselben Abrechnung wie Karten. TWINT Gebühren für Händler offen.'
+kicker: TWINT
+lead: TWINT läuft direkt auf dem Terminal, ohne separaten QR-Aufsteller. Der Betrag kommt vom Terminal, die Zahlung landet auf derselben Abrechnung wie Karten.
+intro: |
+  TWINT ist in der Schweiz an vielen Theken die zweite Zahlart neben der Karte. In vielen Betrieben wird sie aber immer noch über einen QR-Aufsteller abgewickelt: ein Kleber oder Ständer mit statischem QR-Code, bei dem der Kunde den Betrag selbst eintippt, und ein separates TWINT-Händlerkonto mit eigener Abrechnung. Das funktioniert, kostet aber Zeit und Kontrolle.
+
+  Auf den Terminals, die ibis payment vermittelt, ist TWINT integriert. Der Betrag wird vom Terminal oder von der Kasse übergeben, das Terminal zeigt den TWINT-QR-Code auf dem Display, der Kunde scannt ihn mit der TWINT-App, und die Bestätigung erscheint auf dem Terminal. Die Gebühr steht auf der Seite [Konditionen](/konditionen), die Zahlung auf derselben Abrechnung wie Debit- und Kreditkarten.
+
+  Diese Seite erklärt, wie TWINT auf dem Terminal läuft, was es kostet, wie TWINT im Webshop funktioniert und warum das Handy als Terminal kein TWINT kann.
+sections:
+  - heading: So läuft TWINT auf dem Terminal
+    body: |
+      Der Ablauf ist derselbe wie bei einer Kartenzahlung. Sie geben den Betrag ein oder die Kasse übergibt ihn. Der Kunde sagt, dass er mit TWINT zahlt, und Sie wählen TWINT am Terminal. Das Terminal zeigt einen QR-Code mit dem Betrag an. Der Kunde öffnet die TWINT-App, scannt den Code und bestätigt. Das Terminal meldet die Zahlung als erfolgreich, der Beleg wird gedruckt oder digital verschickt.
+
+      Der Unterschied zum QR-Aufsteller liegt in drei Punkten. Erstens: Der Betrag kommt vom Terminal, nicht vom Kunden. Tippfehler und Rückfragen entfallen. Zweitens: Sie sehen die Bestätigung auf Ihrem Terminal, nicht auf dem Handy des Kunden. Drittens: Die Zahlung ist im Tagesabschluss des Terminals und in der Kasse, nicht in einem zweiten System.
+
+      TWINT läuft auf allen Modellen, die wir vermitteln, vom kompakten [PayTec N62](/geraete/paytec-n62) bis zum kassenintegrierten [PayTec CT20P](/geraete/paytec-ct20p). Auch die Automatenterminals [PayTec UN20](/geraete/paytec-un20) und N62 Vending unterstützen TWINT [für Automaten bestätigen].
+  - heading: TWINT Gebühren für Händler
+    body: |
+      TWINT auf dem Terminal kostet bei ibis payment 1.00 % pro Zahlung plus den Fixbetrag von CHF 0.05, exkl. MwSt. [TWINT-Satz: Platzhalter, von SwiPay bestätigen lassen]. Zum Vergleich: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %. TWINT liegt damit zwischen Debit und Kredit.
+
+      Es gibt keine Mindestgebühr, keine Aufschaltgebühr für TWINT und keinen separaten TWINT-Vertrag mit eigener Laufzeit. TWINT ist Teil des Acquiring-Vertrags, der monatlich kündbar ist. Die Gutschrift läuft wie bei Karten gesammelt pro Tag am nächsten Werktag auf Ihr Geschäftskonto [für TWINT bestätigen].
+
+      Was Sie beim Vergleich mit anderen Anbietern beachten sollten: Manche Terminalanbieter bieten TWINT am Terminal nicht an, dann bleibt nur der Aufsteller mit separatem Händlerkonto und separater Gebühr [Beispiel App-Anbieter, Stand prüfen]. Rechnen Sie bei einem Vergleich die TWINT-Umsätze mit ein, nicht nur die Kartenumsätze. Die Beispielrechnung unten zeigt ein Café mit kleinem Bon; den TWINT-Anteil Ihres Betriebs sehen Sie auf Ihrer heutigen Abrechnung.
+  - heading: Abrechnung auf einer Seite
+    body: |
+      Für Betriebe mit QR-Aufsteller kommt TWINT heute oft von einem anderen Anbieter als die Kartenzahlungen. Das heisst zwei Verträge, zwei Abrechnungen, zwei Gutschriften, zwei Ansprechpartner. Wer in der Buchhaltung die Tageseinnahmen mit den Gutschriften abstimmt, kennt den Aufwand.
+
+      Bei ibis payment stehen TWINT, Debitkarten, Kreditkarten, PostFinance Card, Reka und Lunch-Check auf einer Abrechnung pro Monat, jede Kartenart mit Umsatz, Anzahl Zahlungen und Gebühr einzeln ausgewiesen. Die Gutschrift kommt gesammelt pro Tag von einer Stelle. Ihr Treuhänder hat damit eine Quelle statt zwei.
+
+      Wenn Sie den QR-Aufsteller parallel behalten wollen, etwa für Zahlungen ausserhalb der Öffnungszeiten, geht das. Die meisten Betriebe geben ihn nach der Umstellung aber ab, weil das Terminal den Fall abdeckt.
+  - heading: TWINT im Webshop
+    body: |
+      Für Online-Zahlungen arbeiten wir mit dem Gateway Planet/Datatrans. Darüber laufen über 40 Zahlungsmethoden, darunter TWINT, PostFinance, Karten, Apple Pay und Google Pay, mit 14 Shop-Plugins für die gängigen Shopsysteme. Der Kunde wählt im Checkout TWINT, bestätigt in der App, und die Bestellung ist bezahlt.
+
+      Die Konditionen für Online-Zahlungen unterscheiden sich von denen am Terminal, weil im Online-Handel andere Interchange-Sätze gelten [Online-Konditionen eintragen]. Wer sowohl ein Terminal im Betrieb als auch einen Webshop hat, bekommt beides aus einer Hand und mit einem Ansprechpartner. Details auf der Seite [Online-Zahlungen](/online-zahlungen).
+  - heading: Warum das Handy als Terminal kein TWINT kann
+    body: |
+      Mit der App Softpay wird ein Android-Handy zum Terminal, ohne zusätzliches Gerät. Das ist praktisch für Lieferdienste, Marktfahrer oder als Reserve. Die App nimmt Visa, Mastercard, American Express, Apple Pay und Google Pay an. Was sie nicht kann: TWINT und PostFinance Card.
+
+      Der Grund liegt in der Technik. Das Handy als Terminal nutzt den NFC-Chip des Handys für kontaktlose Kartenzahlungen. TWINT läuft über einen QR-Code, der im Schweizer Terminalnetz über ep2 abgewickelt wird, und PostFinance Card ist eine ep2-Karte. Beides setzt ein ep2-zertifiziertes Terminal voraus.
+
+      Für einen Schweizer Betrieb mit Laufkundschaft ist das ein Argument für ein richtiges Terminal, auch wenn das Handy als Terminal auf den ersten Blick günstiger wirkt. Wer TWINT und PostFinance Card braucht, kommt um ein ep2-Terminal nicht herum. Wer nur Karten braucht, findet die Details unter [Handy als Terminal](/handy-als-terminal). Welche Variante zu Ihrem Betrieb passt, klären wir über [Kontakt](/kontakt).
+beispiel:
+  aktiv: true
+  titel: Beispiel Café
+  umsatz: 15000
+  bon: 12
+  kreditanteil: 25
+  vergleich: app
+  erklaerung: Für ein Café nehmen wir viele kleine Zahlungen mit tiefem Kreditkartenanteil an, bei denen Fixbeträge pro Zahlung stark ins Gewicht fallen; die Werte sind Platzhalter, der TWINT-Anteil wird im Rechner als Teil des Debitumsatzes behandelt.
+preisliste: []
+faq:
+  - frage: Funktioniert TWINT auf jedem Terminal von ibis payment?
+    antwort: |
+      Ja. TWINT ist auf allen PayTec-Terminals integriert, die wir vermitteln, mobil wie stationär. Der QR-Code wird auf dem Display angezeigt, der Betrag kommt vom Terminal oder von der Kasse.
+  - frage: Was kostet TWINT für Händler?
+    antwort: |
+      1.00 % pro Zahlung plus CHF 0.05, exkl. MwSt. [Platzhalter, bestätigen]. Es gibt keine Aufschaltgebühr, keine Mindestgebühr und keinen separaten TWINT-Vertrag. Alle Sätze stehen auf der Seite [Konditionen](/konditionen).
+  - frage: Kann ich den QR-Aufsteller behalten?
+    antwort: |
+      Ja, der Aufsteller funktioniert unabhängig vom Terminal weiter. Sie haben dann aber zwei Abrechnungen und zwei Gutschriften. Die meisten Betriebe geben ihn nach der Umstellung ab.
+  - frage: Erscheint TWINT auf derselben Abrechnung wie die Karten?
+    antwort: |
+      Ja. TWINT wird auf der Monatsabrechnung als eigene Kartenart mit Umsatz, Anzahl Zahlungen und Gebühr ausgewiesen, auf derselben Seite wie Debit- und Kreditkarten. Die Gutschrift kommt gesammelt pro Tag.
+  - frage: Geht TWINT auch mit dem Handy als Terminal?
+    antwort: |
+      Nein. Die App Softpay nimmt Visa, Mastercard, American Express, Apple Pay und Google Pay an, aber kein TWINT und keine PostFinance Card. Dafür braucht es ein ep2-zertifiziertes Terminal.
+  - frage: Funktioniert TWINT auch im Webshop?
+    antwort: |
+      Ja, über das Gateway Planet/Datatrans mit Plugins für die gängigen Shopsysteme. Der Kunde wählt TWINT im Checkout und bestätigt in der App. Details unter [Online-Zahlungen](/online-zahlungen).
+bausteine:
+  rechner: true
+  geraete: true
+  zerlegung: false
+  preisliste: true
+formular: none
+cta:
+  titel: Schicken Sie uns Ihre Abrechnung.
+  text: Auch die vom TWINT-Aufsteller. Wir rechnen innert 24 Stunden nach, was TWINT und Karten auf einer Abrechnung kosten.
+  label: Abrechnung einreichen
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /zahlterminal
+  - /handy-als-terminal
+  - /online-zahlungen
+  - /geraete

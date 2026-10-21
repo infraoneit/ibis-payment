@@ -1,0 +1,106 @@
+title: 'Zahlterminal Vergleich Schweiz: neun Kriterien'
+pfad: /zahlterminal-vergleich
+cluster: payment
+navTitle: Terminal vergleichen
+metaTitle: Zahlterminal Vergleich Schweiz, 9 Kriterien | ibis payment
+metaDescription: 'Zahlterminal Vergleich Schweiz: neun Kriterien für Kartenterminal-Anbieter, typische Fallen bei Prozentsätzen und ab-Preisen, Checkliste zum Mitnehmen.'
+kicker: Vergleich
+lead: Ein Prozentsatz allein sagt nichts. Wer Zahlterminal-Anbieter vergleicht, braucht neun Kriterien und die eigene Abrechnung. Hier ist die Checkliste.
+intro: |
+  Der Vergleich von Kartenterminal-Anbietern in der Schweiz scheitert selten an fehlenden Angeboten, sondern an fehlender Vergleichbarkeit. Der eine nennt 1.29 %, der andere 0.75 %, der dritte gar keinen Satz, sondern eine Servicegebühr plus Interchange. Dazu kommen Fixbeträge pro Zahlung, Terminalmieten, Mindestgebühren und Laufzeiten, die auf keiner Startseite stehen.
+
+  Diese Seite macht den Vergleich möglich. Sie nennt die neun Kriterien, die über die tatsächlichen Kosten entscheiden, erklärt die zwei Preismodelle am Markt, benennt die typischen Fallen und ordnet die Anbietertypen ein. Die Konditionen von ibis payment stehen offen auf der Seite [Konditionen](/konditionen), damit Sie sie direkt neben Ihre heutige Abrechnung legen können.
+
+  Wettbewerber nennen wir nur mit belegbaren, neutralen Aussagen. Marktpreise, für die wir keine offizielle Preisliste verlinken können, stehen in eckigen Klammern.
+sections:
+  - heading: Die neun Kriterien, die über die Kosten entscheiden
+    body: |
+      Vergleichen Sie jeden Anbieter anhand derselben Liste. Fehlt ein Punkt in der Offerte, fragen Sie nach.
+
+      - **Satz pro Kartenart**: Debit Inland, Kredit Inland, TWINT, Amex, Ausland- und Firmenkarten. Ein einziger Satz für alles ist selten wirklich günstig.
+      - **Fixbetrag pro Zahlung**: CHF 0.05 oder CHF 0.15 macht bei kleinen Bons mehr aus als der Prozentsatz.
+      - **Terminalmiete oder Kaufpreis**: und was darin enthalten ist, vor allem Updates und Ersatz.
+      - **Mindestgebühr pro Monat**: Wird eine Gebühr fällig, auch wenn kein Umsatz da ist.
+      - **Laufzeit und Kündigungsfrist**: monatlich, ein Jahr, mehrere Jahre, automatische Verlängerung.
+      - **Support**: Wer antwortet, wie schnell, und ob jemand vor Ort kommt.
+      - **TWINT**: auf dem Terminal oder nur per Aufsteller mit separater Abrechnung.
+      - **Kassenanbindung**: OPI, ZVT oder KIT, und ob die Anbindung etwas kostet.
+      - **Ersatzgerät**: Frist und Kosten bei Defekt.
+
+      Dazu kommen zwei Angaben, die nicht der Anbieter liefert, sondern Sie: Ihr Durchschnittsbetrag pro Zahlung und Ihr Kartenmix. Ohne diese beiden Zahlen ist kein Vergleich belastbar.
+  - heading: Zwei Preismodelle, drei Kostenanteile
+    body: |
+      Jede Kartenzahlung besteht aus drei Kostenanteilen. Die Interchange geht an die Bank des Karteninhabers und ist in der Schweiz reguliert: Debit Mastercard Inland am Verkaufspunkt 0.12 %, Visa Debit im Durchschnitt höchstens 0.15 %, Kreditkarten Inland 0.44 %. Die Netzwerkgebühr geht an Visa oder Mastercard. Die Acquiring-Marge deckt Abwicklung, Terminal und Service. Nur der dritte Anteil unterscheidet die Anbieter.
+
+      Daraus ergeben sich zwei Preismodelle. Beim Modell **Blended** nennt der Anbieter einen Satz pro Kartenart, in dem alle drei Anteile enthalten sind. Beim Modell **Interchange++** werden Interchange und Netzwerkgebühr durchgereicht, und der Anbieter nennt nur seine Marge. Beides ist legitim; schwierig wird es, wenn ein Anbieter die Marge nennt, der andere den Gesamtsatz, und beide Zahlen nebeneinander gelegt werden.
+
+      ibis payment arbeitet mit einem Satz pro Kartenart und weist in der Offerte aus, wie viel davon Interchange, Netzwerkgebühr und Marge sind. Die Zerlegung unten zeigt das am Beispiel einer Schweizer Debitkarte.
+  - heading: Typische Fallen beim Vergleich
+    body: |
+      **Prozent ohne Kontext**: 1.29 % klingt nach wenig, bis man den Fixbetrag dazurechnet. Bei einem Bon von CHF 12 sind CHF 0.15 pro Zahlung 1.25 Prozentpunkte zusätzlich. Vergleichen Sie immer die effektive Gebühr auf Ihren Monatsumsatz, nicht den Satz.
+
+      **ab-Preise**: Ein Satz mit "ab" gilt meist für die Kartenart mit dem tiefsten Satz beim höchsten Umsatz. Fragen Sie nach dem Satz für jede Kartenart bei Ihrem Umsatz.
+
+      **Auslandzuschläge**: Karten aus dem Ausland und Firmenkarten kosten bei allen Anbietern mehr. Entscheidend ist, wie viel mehr und ob der Zuschlag in der Offerte steht. Bei uns sind es 0.90 Prozentpunkte auf den jeweiligen Satz. Ein Betrieb mit Touristen oder Geschäftskunden sollte diesen Anteil aus der heutigen Abrechnung lesen.
+
+      **Mindestgebühren und Laufzeiten**: Eine Mindestgebühr macht einen tiefen Satz in umsatzschwachen Monaten zunichte. Eine Laufzeit von mehreren Jahren mit automatischer Verlängerung nimmt Ihnen die Möglichkeit, bei besseren Angeboten zu wechseln.
+
+      **Terminalmiete separat**: Manche Verträge trennen Acquiring und Terminalmiete mit unterschiedlichen Laufzeiten. Wer das Acquiring kündigt, zahlt die Terminalmiete weiter.
+  - heading: Vier Anbietertypen
+    body: |
+      **Grossanbieter**: Betreiben eigene Acquiring-Plattformen und Terminalflotten. Listenpreis beispielsweise [1.29 % + CHF 0.15 pro Zahlung, Terminalmiete CHF 35; Quelle und Datum eintragen]. Teilweise werden keine Endpreise publiziert, sondern eine Servicegebühr plus Interchange.
+
+      **App-Anbieter**: Kleine Leser, die mit dem Handy gekoppelt werden, ohne Abo und ohne Laufzeit. Listenpreis beispielsweise [1.5 % Debit, 2.5 % Kredit, keine Monatsgebühr; Quelle und Datum eintragen]. Oft ohne TWINT am Terminal und ohne ep2. Günstig bei sehr kleinen Umsätzen, teuer ab einigen tausend Franken Kartenumsatz pro Monat.
+
+      **Banken**: Vermitteln Terminals und Acquiring als Teil der Geschäftsbeziehung, meist über einen Grossanbieter im Hintergrund. Vorteil: ein Ansprechpartner für Konto und Karten. Preise sind selten öffentlich.
+
+      **Vermittler und Payment Broker**: Betreiben keine eigene Plattform, sondern ordnen den Betrieb einem passenden Netzwerk zu und übernehmen Beratung, Installation und Support. ibis payment gehört zu diesem Typ: exklusiver Vertriebspartner der SwiPay AG, Terminals von PayTec, Acquiring über TeleCash/Fiserv. Der Vorteil für Sie liegt in der Nähe: ein Berater, der installiert und erreichbar bleibt, und Preise, die öffentlich sind.
+  - heading: So vergleichen Sie mit Ihren Zahlen
+    body: |
+      Ein Vergleich auf Papier reicht bis zu einem gewissen Punkt. Verbindlich wird er erst mit Ihrer eigenen Abrechnung. Drei Angaben genügen: Kartenumsatz pro Monat, Durchschnittsbetrag pro Zahlung, Anteil Kreditkarten. Setzen Sie sie in den Rechner unten ein und vergleichen Sie mit dem Listenpreis eines Grossanbieters oder eines App-Anbieters. Die Beispielrechnung zeigt eine Praxis mit hohem Bon und hohem Kreditkartenanteil.
+
+      Genauer als jeder Rechner ist die echte Abrechnung. Schicken Sie uns Ihre letzte Monatsabrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden dieselben Umsätze mit unseren Sätzen nach, Position für Position. Liegt unser Angebot nicht unter Ihrer heutigen Abrechnung, sagen wir Ihnen das.
+
+      Ein Hinweis zum Schluss: Die meisten Betriebe prüfen ihre Terminalkonditionen nur, wenn ein Problem da ist. Dabei ändern sich die Rahmenbedingungen laufend, zuletzt mit den tieferen Interchange-Sätzen für Debitkarten. Ein Vergleich alle zwei Jahre, oder spätestens beim Terminalwechsel 2027, lohnt sich auch ohne Problem.
+beispiel:
+  aktiv: true
+  titel: Beispiel Praxis
+  umsatz: 18000
+  bon: 120
+  kreditanteil: 40
+  vergleich: gross
+  erklaerung: Für eine Praxis nehmen wir wenige Zahlungen mit hohem Bon und einem hohen Kreditkartenanteil an, bei denen der Prozentsatz mehr zählt als der Fixbetrag; die Werte sind Platzhalter.
+preisliste: []
+faq:
+  - frage: Gibt es einen Zahlterminal-Anbieter, der für alle Betriebe günstiger ist?
+    antwort: |
+      Das hängt von Ihrem Durchschnittsbetrag und Kartenmix ab, darum gibt es keine allgemeine Antwort. Bei sehr kleinen Umsätzen kann ein App-Anbieter ohne Monatsgebühr vorne liegen, ab einigen tausend Franken Kartenumsatz pro Monat meist ein Terminal mit Vertrag. Rechnen Sie es mit Ihren Zahlen nach.
+  - frage: Was bedeutet Interchange++ im Vergleich zu einem festen Satz?
+    antwort: |
+      Bei Interchange++ werden Interchange und Netzwerkgebühr durchgereicht, der Anbieter nennt nur seine Marge. Bei einem festen Satz, auch Blended genannt, ist alles in einem Prozentsatz enthalten. Vergleichbar werden beide erst, wenn Sie den Gesamtsatz pro Kartenart kennen.
+  - frage: Warum ist der Fixbetrag pro Zahlung so wichtig?
+    antwort: |
+      Weil er bei kleinen Bons mehr ausmacht als der Prozentsatz. CHF 0.15 auf eine Zahlung von CHF 10 sind 1.5 %, CHF 0.05 sind 0.5 %. Ein Café oder eine Bäckerei sollte den Fixbetrag zuerst vergleichen.
+  - frage: Darf ich meine heutige Abrechnung zum Vergleich weitergeben?
+    antwort: |
+      Ja, die Abrechnung gehört Ihnen. Wir nutzen sie nur für den Vergleich und löschen sie danach. Sie erhalten innert 24 Stunden dieselben Umsätze mit unseren Sätzen gerechnet.
+  - frage: Wie oft sollte ich meine Terminalkonditionen prüfen?
+    antwort: |
+      Alle zwei Jahre, bei jeder Änderung der Interchange-Sätze und spätestens beim Terminalwechsel 2027. Verträge mit langer Laufzeit sollten Sie vor dem Verlängerungsdatum prüfen, sonst verlängern sie sich automatisch.
+bausteine:
+  rechner: true
+  geraete: false
+  zerlegung: true
+  preisliste: true
+formular: none
+cta:
+  titel: Schicken Sie uns Ihre Abrechnung.
+  text: Wir rechnen dieselben Umsätze mit unseren Sätzen nach, Position für Position, innert 24 Stunden.
+  label: Abrechnung einreichen
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /zahlterminal
+  - /worldline-alternative
+  - /sumup-alternative
+  - /zahlterminal-mieten

@@ -1,0 +1,97 @@
+title: Fünf Fehler beim Zahlterminal, die Betriebe Geld kosten
+pfad: /wissen/typische-fehler
+cluster: wissen
+navTitle: Typische Fehler
+metaTitle: 'Zahlterminal: 5 Fehler vermeiden | ibis payment'
+metaDescription: 'Fünf häufige Fehler bei Zahlterminal und Kartenzahlung, je mit Beispiel aus dem Betrieb und Gegenmassnahme. Checkliste zur jährlichen Abrechnungsprüfung.'
+kicker: Wissen
+lead: Die teuren Fehler bei der Kartenzahlung passieren nicht bei der Auswahl des Terminals, sondern in den Jahren danach, wenn niemand mehr hinschaut.
+intro: |
+  Ein Zahlterminal wird einmal ausgewählt und dann vergessen. Es funktioniert, die Gutschrift kommt, die Abrechnung landet beim Treuhänder. Das ist der Normalfall, und genau darin liegt das Problem. Rahmenbedingungen ändern sich, der Betrieb wächst, die Interchange-Sätze werden gesenkt, und die Konditionen von damals bleiben.
+
+  Die Fehler, die wir in Abrechnungen sehen, wiederholen sich. Es sind keine Fehler der Technik, sondern der Gewohnheit: Entscheidungen werden nicht mehr geprüft, Setups nur ergänzt, Prozentsätze ohne Kontext verglichen, Erwartungen an die falsche Stelle gerichtet, und hingeschaut wird erst, wenn etwas nicht mehr geht.
+
+  Diese Seite beschreibt die fünf Fehler mit je einem Beispiel aus dem Alltag eines Betriebs und einer Gegenmassnahme, die sich ohne Fachwissen umsetzen lässt. Am Ende steht eine Checkliste für die jährliche Prüfung der Abrechnung. Die Sätze, mit denen Sie vergleichen können, stehen unter [Konditionen](/konditionen), Hilfe beim Vergleich gibt es über [Kontakt](/kontakt).
+sections:
+  - heading: 'Fehler 1: Die Entscheidung von damals nicht mehr prüfen'
+    body: |
+      Ein Restaurant hat vor sechs Jahren ein Terminal mit einem Vertrag abgeschlossen, der damals in Ordnung war. Seither hat die Wettbewerbskommission die Interchange für Debitkarten gesenkt, 2024 bei Mastercard und 2025 bei Visa, der Anteil der Kartenzahlungen am Umsatz ist gestiegen, und der Betrieb hat eine Terrasse dazubekommen. Die Konditionen sind dieselben wie am ersten Tag, und niemand hat gefragt, ob der Anbieter die gesunkenen Kosten weitergegeben hat.
+
+      Die Gegenmassnahme ist ein fixer Termin: einmal im Jahr eine Monatsabrechnung nehmen und den effektiven Satz ausrechnen, alle Gebühren geteilt durch den Umsatz. Wer den Wert von Jahr zu Jahr notiert, sieht, ob sich etwas bewegt. Mit einem monatlich kündbaren Vertrag kostet die Konsequenz aus der Prüfung nichts ausser einem Telefonat.
+  - heading: 'Fehler 2: Das gewachsene Setup nur ergänzen'
+    body: |
+      Ein Laden hat eine Kasse von einem Anbieter, ein Terminal von einem zweiten und einen Online-Shop mit Gateway von einem dritten. Jedes Teil kam dazu, als es gebraucht wurde. Heute gibt es drei Abrechnungen, drei Hotlines, drei Verträge mit unterschiedlichen Laufzeiten, und die Kartenzahlung an der Kasse wird abgetippt, weil die beiden Anbieter nie miteinander gesprochen haben.
+
+      Die Gegenmassnahme: Bei jeder Erweiterung das Ganze anschauen, nicht nur das neue Teil. Was muss mit was sprechen, welche Verträge laufen wann aus, wer ist bei welchem Fehler zuständig. Oft zeigt sich, dass ein Anbieter, der Terminal, Kassenanbindung und Online-Zahlung zusammen liefert, die Verträge von zwei anderen überflüssig macht. Die Protokolle, die Kasse und Terminal verbinden, heissen in der Schweiz OPI, ZVT und KIT; welche Ihre Kasse spricht, steht in deren Dokumentation.
+  - heading: 'Fehler 3: Prozentsätze ohne Kontext vergleichen'
+    body: |
+      Ein Café bekommt zwei Offerten. Die eine nennt 0.9 % für Debit und keinen Fixbetrag, die andere 0.75 % plus CHF 0.05 pro Zahlung. Der Inhaber wählt den tieferen Prozentsatz. Bei einem Durchschnittsbetrag von CHF 6 entsprechen CHF 0.05 aber rund 0.8 Prozentpunkten, und die zweite Offerte wäre teurer gewesen. Bei einem Durchschnittsbetrag von CHF 60 wäre es umgekehrt.
+
+      Der Prozentsatz allein sagt nichts. Er wird erst vergleichbar mit dem Durchschnittsbetrag, dem Kartenmix, den Fixbeträgen pro Zahlung, den Mindest- und Monatsgebühren und der Terminalmiete. Die Gegenmassnahme ist, beide Offerten auf dieselbe Monatsabrechnung anzuwenden und den Gesamtbetrag zu vergleichen. Der Rechner auf dieser Seite macht genau das mit drei Angaben; wie Sie sie aus der Abrechnung lesen, steht unter [Kartenzahlung Gebühren Schweiz](/wissen/kartenzahlung-gebuehren-schweiz).
+  - heading: 'Fehler 4: Erwartungen an die falsche Stelle richten'
+    body: |
+      Eine Praxis stellt am Montag fest, dass die Gutschrift vom Freitag fehlt. Die Praxisassistentin ruft die Nummer auf dem Terminal an, landet beim Terminal-Hersteller, der nichts über Gutschriften weiss, und wird an den Acquirer verwiesen, dessen Nummer niemand kennt. Am Dienstag stellt sich heraus, dass die Gutschrift wegen eines Feiertags im Kanton des Acquirers einen Tag später kam.
+
+      Die Gegenmassnahme ist, die Rollen einmal zu notieren: Wer liefert das Terminal, wer zahlt aus, wer betreibt die Kasse, wer hat die Offerte gestellt. Mit einer Telefonnummer pro Rolle, an einem Ort, den jede Mitarbeiterin kennt. Noch einfacher ist ein Anbieter mit einem Berater, der alle Rollen kennt und weiterleitet. Was die Rollen genau tun, steht unter [Rollen im Payment](/wissen/rollen-im-payment).
+  - heading: 'Fehler 5: Erst hinschauen, wenn ein Problem da ist'
+    body: |
+      Ein Coiffeursalon nutzt sein Terminal seit Jahren. Im Frühling 2027 meldet es, dass es nicht mehr zugelassen ist, weil die Kartennetzwerke neue Sicherheitsanforderungen durchsetzen. Der Salon braucht innert Tagen ein neues Terminal, nimmt das erste Angebot und unterschreibt einen Vertrag mit Laufzeit, weil keine Zeit für einen Vergleich bleibt.
+
+      Der Terminalwechsel ist angekündigt, viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung. Wer das heute weiss, hat Zeit, Offerten zu vergleichen, die Kündigungsfrist des alten Vertrags zu prüfen und den Wechsel auf einen ruhigen Monat zu legen. Die Gegenmassnahme ist eine Frage an den heutigen Anbieter, schriftlich: Bleibt mein Terminal nach 2027 zugelassen, und was kostet der Ersatz. Ob Miete oder Kauf beim Ersatz sinnvoller ist, steht unter [Mieten oder kaufen](/wissen/mieten-oder-kaufen).
+  - heading: 'Checkliste: Abrechnung einmal im Jahr prüfen'
+    body: |
+      Eine Monatsabrechnung, eine halbe Stunde, einmal im Jahr. Das reicht, um alle fünf Fehler zu vermeiden:
+
+      - Kartenumsatz, Anzahl Zahlungen und Summe aller Gebühren inklusive Miete notieren.
+      - Effektiven Satz berechnen: Gebühren geteilt durch Umsatz. Mit dem Vorjahreswert vergleichen.
+      - Durchschnittsbetrag berechnen: Umsatz geteilt durch Anzahl Zahlungen. Hat er sich verändert, verändert sich die Wirkung des Fixbetrags.
+      - Kartenmix ablesen: Anteil Debit, Kredit, TWINT, Auslandkarten. Ein steigender Kreditanteil macht den Kreditsatz wichtiger.
+      - Jede Position auf der Abrechnung einer Zeile der Offerte zuordnen. Was sich nicht zuordnen lässt, beim Anbieter schriftlich nachfragen.
+      - Vertragslaufzeit und Kündigungsfrist prüfen. Datum notieren, bis wann gekündigt werden müsste.
+      - Terminal prüfen: Zertifizierung, Zulassung nach 2027, Alter des Geräts, Zustand des Akkus.
+      - Anbindungen prüfen: Kommt der Betrag von der Kasse ans Terminal, oder wird abgetippt.
+      - Zuständigkeiten prüfen: Liegt pro Rolle eine Telefonnummer vor, und kennt das Team sie.
+
+      Wer den Vergleich nicht selbst rechnen will, schickt uns die Abrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden mit den Sätzen unter [Konditionen](/konditionen) nach und sagen Ihnen, ob wir günstiger sind oder nicht.
+beispiel:
+  aktiv: false
+  titel: Keine Beispielrechnung
+  umsatz: 25000
+  bon: 45
+  kreditanteil: 35
+  vergleich: gross
+  erklaerung: Auf dieser Seite gibt es keine Beispielrechnung, der Rechner arbeitet mit Ihren Zahlen.
+preisliste: []
+faq:
+  - frage: Wie oft sollte ich die Konditionen prüfen?
+    antwort: |
+      Einmal im Jahr mit einer vollständigen Monatsabrechnung, und zusätzlich, wenn sich etwas ändert: neue Kasse, zweiter Standort, deutlich mehr Kartenumsatz oder eine Senkung der Interchange-Sätze durch die WEKO.
+  - frage: Was ist der wichtigste Wert auf der Abrechnung?
+    antwort: |
+      Der effektive Satz, also alle Gebühren eines Monats geteilt durch den Kartenumsatz. Er enthält Prozentsätze, Fixbeträge, Zuschläge und Miete und lässt sich mit jedem Angebot vergleichen.
+  - frage: Woran erkenne ich, ob mein Terminal nach 2027 noch zugelassen ist?
+    antwort: |
+      Fragen Sie Ihren Anbieter schriftlich. Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung wegen neuer Sicherheitsanforderungen der Kartenorganisationen. Aktuelle Terminals sind nach PCI PTS 6.x zertifiziert.
+  - frage: Lohnt sich der Wechsel, wenn mein Vertrag noch läuft?
+    antwort: |
+      Das hängt von Restlaufzeit und Differenz ab. Wir rechnen Ihnen vor, ob die Ersparnis die Restlaufzeit aufwiegt, und sagen es Ihnen, wenn sich das Warten bis zum Vertragsende mehr lohnt.
+  - frage: Was kostet mich die Prüfung durch ibis payment?
+    antwort: |
+      Nichts. Sie schicken die letzte Monatsabrechnung, wir rechnen innert 24 Stunden mit unseren Sätzen nach. Liegt unser Angebot nicht unter Ihrer heutigen Abrechnung, sagen wir Ihnen das.
+bausteine:
+  rechner: true
+  geraete: false
+  zerlegung: false
+  preisliste: false
+formular: none
+cta:
+  titel: Die halbe Stunde übernehmen wir.
+  text: Schicken Sie uns Ihre letzte Monatsabrechnung. Sie erhalten innert 24 Stunden den Vergleich, Position für Position.
+  label: Abrechnung prüfen lassen
+  href: /kontakt
+verwandt:
+  - /konditionen
+  - /wissen/kartenzahlung-gebuehren-schweiz
+  - /wissen/rollen-im-payment
+  - /wissen/mieten-oder-kaufen
+  - /support
