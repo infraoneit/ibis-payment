@@ -9,13 +9,13 @@ import { CtaBand } from '@/components/content/CtaBand';
 
 export const metadata: Metadata = pageMeta({
   title: 'Dienstleistungen für Ihren Betrieb',
-  description: 'Website und IT mit InfraOne, Cloud-Telefonie, Prämien-Check für Versicherungen und Treuhand mit Anbindung an Kasse und Kartenabrechnung. Ein Ansprechpartner.',
+  description: 'Website und IT, Telefonie und Internet mit InfraOne, Prämien-Check für Versicherungen und Treuhand mit Anbindung an Kasse und Kartenabrechnung. Ein Ansprechpartner.',
   path: '/dienstleistungen',
 });
 
 const ITEMS = [
   { href: '/webdesign', t: 'Website und IT', p: 'Website, E-Mail auf Microsoft 365, WLAN und Netzwerk im Betrieb, Backup und Support. Mit InfraOne IT Solutions, Winterthur.', by: 'InfraOne IT Solutions GmbH' },
-  { href: '/dienstleistungen/telefonie', t: 'Telefonie', p: 'Geschäftsnummer, Telefonanlage in der Cloud, Tischtelefone und Handy-App. Monatlich kündbar.', by: '[Telefonie-Partner]' },
+  { href: '/dienstleistungen/telefonie', t: 'Telefonie und Internet', p: 'Geschäftsnummer und Telefonanlage in der Cloud (peoplefone), Business-Internet bis 1 Gbit/s (iway), Netzwerk und WLAN im Betrieb. Eingerichtet und betreut von InfraOne.', by: 'InfraOne IT Solutions GmbH mit peoplefone und iway' },
   { href: '/dienstleistungen/versicherungen', t: 'Versicherungen', p: 'Betriebshaftpflicht, Sachversicherung, Cyber und Personal. Unabhängiger Prämienvergleich, kostenlos.', by: '[Versicherungsbroker]' },
   { href: '/dienstleistungen/treuhand', t: 'Treuhand', p: 'Buchhaltung, Mehrwertsteuer, Lohn und Jahresabschluss, angebunden an Kasse und Kartenabrechnung.', by: '[Treuhandpartner]' },
 ];

@@ -24,7 +24,7 @@ export function DeviceGrid({ geraete, cols = 3 }: { geraete: Geraet[]; cols?: 3 
               <DeviceMini kind={miniKind(g)} />
             </div>
             <div>
-              <div className="lbl" style={{ paddingTop: 0, marginBottom: 8 }}>
+              <div className="lbl" style={{ marginBottom: 8 }}>
                 {KATEGORIE_LABEL[g.kategorie]}
               </div>
               <h3>{g.name}</h3>

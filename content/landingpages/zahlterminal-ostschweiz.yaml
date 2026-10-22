@@ -3,21 +3,19 @@ pfad: /zahlterminal-ostschweiz
 cluster: regional
 navTitle: Ostschweiz
 metaTitle: Zahlterminal Ostschweiz, St. Gallen, Thurgau | ibis payment
-metaDescription: 'Zahlterminal in der Ostschweiz: Beratung und Installation vor Ort in St. Gallen, Thurgau, Appenzell, Schaffhausen und Graubünden. Offene Konditionen.'
+metaDescription: 'Zahlterminal in der Ostschweiz: Beratung und Installation im Betrieb in St. Gallen, Thurgau, Appenzell, Schaffhausen und Graubünden. Konditionen offen.'
 kicker: Ostschweiz
 lead: Für Betriebe in St. Gallen, Thurgau, Appenzell, Schaffhausen und Graubünden kommt der Berater vorbei, installiert das Terminal und bleibt erreichbar. Die Konditionen sind offen und monatlich kündbar.
 intro: |
-  In der Ostschweiz sind die Wege länger als in Zürich, und die Betriebe sind anders: Hofläden mit Selbstbedienung, Bergrestaurants mit wechselndem Empfang, Dorfbäckereien, Gewerbe mit Werkstatt und Laden, Märkte und Feste mit saisonalem Umsatz. Ein Terminal per Post und eine Hotline reichen dafür oft nicht.
+  In der Ostschweiz sind die Wege länger, und viele Betriebe liegen abseits: Hofläden mit Selbstbedienung, Bergrestaurants mit wechselndem Empfang, Dorfbäckereien, Gewerbe mit Werkstatt und Laden, Märkte und Feste mit saisonalem Umsatz. Dort zählt, dass jemand vorbeikommt, der das Terminal kennt.
 
-  ibis payment vermittelt Terminals des Schweizer Herstellers PayTec aus Effretikon, mit Abwicklung über das SwiPay-Bezahlnetzwerk. Die Gebühren stehen auf der Seite [Konditionen](/konditionen) und gelten in der Ostschweiz wie überall. Der Berater für die Region kommt in den Betrieb, installiert vor Ort und bleibt danach Ihr Ansprechpartner mit Direktwahl.
-
-  Diese Seite zeigt, wie Beratung und Installation in der Ostschweiz ablaufen, welche Terminals zu den typischen Betrieben der Region passen, was Automaten und Hofläden brauchen und was es kostet.
+  ibis payment vermittelt Terminals des Herstellers PayTec aus Effretikon, mit Abwicklung über das SwiPay-Bezahlnetzwerk. Die Gebühren stehen auf der Seite [Konditionen](/konditionen) und gelten in der Ostschweiz wie überall. Der Berater für die Region kommt in den Betrieb, installiert vor Ort und bleibt danach Ihr Ansprechpartner mit Direktwahl.
 sections:
   - heading: Beratung und Installation in der Ostschweiz
     body: |
       Der erste Schritt ist ein Gespräch, im Betrieb oder am Telefon. Es geht um den Zahlort: Tresen, Tisch, Kasse, Stand, Automat. Dann schicken Sie uns Ihre letzte Abrechnung oder drei Zahlen, und Sie erhalten innert 24 Stunden eine Offerte, in der jede Gebühr einzeln steht.
 
-      Die Installation macht der Berater selbst. Er bringt das Terminal, richtet es ein, bindet die Kasse über OPI, ZVT oder KIT an, prüft WLAN und Mobilfunkempfang am Zahlort und macht eine Testzahlung. Aufschaltung und Einrichtung kosten CHF 0. Danach bleibt er Ihr Ansprechpartner; ein Ersatzgerät erhalten Sie bei Defekt [innert 24 Stunden, schweizweit].
+      Die Installation macht der Berater selbst. Er bringt das Terminal, richtet es ein, bindet die Kasse über OPI, ZVT oder KIT an, prüft WLAN und Mobilfunkempfang am Zahlort und macht eine Testzahlung. Aufschaltung und Einrichtung kosten CHF 0. Danach bleibt er Ihr Ansprechpartner; bei einem Defekt erhalten Sie ein Ersatzgerät [Frist eintragen].
 
       Wir bedienen die Kantone St. Gallen, Thurgau, Appenzell Ausserrhoden und Innerrhoden, Schaffhausen und Graubünden [Einzugsgebiet und Anfahrt bestätigen]. Für die Region Winterthur und den Kanton Zürich gibt es eigene Seiten: [Zahlterminal Winterthur](/zahlterminal-winterthur) und [Zahlterminal Zürich](/zahlterminal-zuerich). Den Termin für das erste Gespräch vereinbaren Sie über [Kontakt](/kontakt).
   - heading: Typische Betriebe in der Ostschweiz
@@ -33,23 +31,23 @@ sections:
       **Märkte, Feste, Vereine.** Saisonaler Umsatz, Terminal für einige Wochen. Die Miete ist monatlich kündbar, siehe [Zahlterminal mieten](/zahlterminal-mieten).
   - heading: Automaten und Selbstbedienung
     body: |
-      Die Ostschweiz hat viele Verkaufsstellen ohne Personal: Hofladen-Automaten mit Eiern, Milch und Käse, Selbstbedienungs-Kühlschränke, Getränkeautomaten, Parkplätze bei Ausflugszielen, Waschanlagen, Ladestationen. Dort zahlt der Kunde allein, oft im Freien und bei Minusgraden.
+      Hofladen-Automaten, Selbstbedienungs-Kühlschränke, Getränkeautomaten, Parkplätze bei Ausflugszielen, Waschanlagen, Ladestationen: Dort zahlt der Kunde allein, oft im Freien und bei Minusgraden.
 
       Dafür gibt es zwei Terminals. Der [PayTec UN20](/geraete/paytec-un20) wird in den Automaten eingebaut, ist mit IP65 gegen Staub und Strahlwasser und mit IK10 gegen Schläge geschützt und läuft von minus 20 bis plus 70 Grad. Angebunden wird er über MDB oder RS232 an die Automatensteuerung. Der [PayTec N62 Vending](/geraete/paytec-n62-vending) ist die kompakte Variante für Automaten mit wenig Platz an geschützten Standorten.
 
-      Beide nehmen Karten, Handy-Wallets und TWINT an [TWINT für Automaten bestätigen] und werden pro Projekt offeriert, weil Einbau und Anbindung je nach Automat verschieden sind. Ob UN20 oder N62 Vending passt, hängt vom Automaten, vom Standort und von der Steuerung ab. Das klären wir vor Ort, nicht am Telefon.
+      Beide nehmen Karten, Handy-Wallets und TWINT an [TWINT für Automaten bestätigen] und werden pro Projekt offeriert, weil Einbau und Anbindung je nach Automat verschieden sind. Ob UN20 oder N62 Vending passt, hängt vom Automaten, vom Standort und von der Steuerung ab. Das klären wir vor Ort.
   - heading: Was es kostet
     body: |
-      Die Konditionen gelten für die Ostschweiz wie für die ganze Schweiz, alle Preise exkl. MwSt.: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, ausländische und Firmenkarten plus 0.90 Prozentpunkte, CHF 0.05 pro Zahlung. Terminal-Miete ab CHF 19 pro Monat inklusive Wartung, Updates und Ersatzgerät, Kauf ab CHF 390 mit zwei Jahren Garantie. Automatenterminals nach Offerte.
+      Die Konditionen gelten für die Ostschweiz wie für die ganze Schweiz, alle Preise exkl. MwSt.: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, Ausland- und Firmenkarten plus 0.90 Prozentpunkte, CHF 0.05 pro Zahlung. Terminal-Miete ab CHF 19 pro Monat inklusive Wartung, Updates und Ersatzgerät, Kauf ab CHF 390. Automatenterminals nach Offerte.
 
-      Keine Aufschaltgebühr, keine Mindestgebühr, keine Mindestlaufzeit, monatlich kündbar. Das ist für saisonale Betriebe in der Ostschweiz der entscheidende Punkt: Wer im Winter wenig Umsatz hat, zahlt im Winter wenig. Gutschrift gesammelt pro Tag am nächsten Werktag, Abrechnung einmal pro Monat auf einer Seite.
+      Keine Aufschaltgebühr, keine Mindestgebühr, keine Mindestlaufzeit, monatlich kündbar. Für saisonale Betriebe ist das der entscheidende Punkt: Wer im Winter wenig Umsatz hat, zahlt im Winter wenig. Gutschrift gesammelt pro Tag am nächsten Werktag, Abrechnung einmal pro Monat auf einer Seite.
 
-      Die Beispielrechnung unten zeigt einen Hofladen mit kleinem Umsatz und tiefem Kreditkartenanteil. Setzen Sie Ihre eigenen Zahlen ein. Wer heute schon ein Terminal hat, schickt uns die Abrechnung: Wir unterbieten Ihre heutige Abrechnung, oder wir sagen Ihnen, dass es nicht geht.
+      Die Beispielrechnung unten zeigt einen Hofladen mit kleinem Umsatz und tiefem Kreditkartenanteil. Setzen Sie Ihre eigenen Zahlen ein. Haben Sie heute schon ein Terminal, schicken Sie uns die Abrechnung: Wir unterbieten Ihre heutige Abrechnung, oder wir sagen Ihnen, dass es nicht geht.
   - heading: Verbindung, wo kein WLAN ist
     body: |
-      Am Hof, auf der Alp und im Festzelt gibt es selten WLAN. Die mobilen Terminals von PayTec haben 4G eingebaut und brauchen nur Mobilfunkempfang. Wo beides vorhanden ist, wechseln sie automatisch zwischen WLAN und 4G. Ob der Empfang am Zahlort reicht, prüfen wir bei der Installation, nicht erst beim ersten Marktag.
+      Am Hof, auf der Alp und im Festzelt gibt es selten WLAN. Die mobilen Terminals von PayTec haben 4G eingebaut und brauchen nur Mobilfunkempfang. Wo beides vorhanden ist, wechseln sie automatisch zwischen WLAN und 4G. Ob der Empfang am Zahlort reicht, prüfen wir bei der Installation, nicht erst am ersten Markttag.
 
-      Für stationäre Terminals in Läden und Werkstätten braucht es LAN oder stabiles WLAN. Wenn das Netzwerk im Betrieb nicht ausreicht, ziehen wir unseren Partner InfraOne IT Solutions aus Winterthur hinzu, der WLAN und Netzwerk einrichtet und auch in der Ostschweiz installiert [Einsatzgebiet InfraOne bestätigen].
+      Stationäre Terminals in Läden und Werkstätten brauchen LAN oder stabiles WLAN. Reicht das Netzwerk im Betrieb nicht, ziehen wir unseren Partner InfraOne IT Solutions aus Winterthur hinzu, der WLAN und Netzwerk einrichtet [Einsatzgebiet Ostschweiz bestätigen].
 
       Wer ein älteres Terminal hat, sollte den Wechsel nicht aufschieben: Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung. Worauf Sie beim Vergleich der Anbieter achten müssen, steht auf der Seite [Zahlterminal Vergleich](/zahlterminal-vergleich).
 beispiel:
@@ -67,7 +65,7 @@ faq:
       Ja. Beratung, Installation und Einweisung finden im Betrieb statt, in den Kantonen St. Gallen, Thurgau, Appenzell, Schaffhausen und Graubünden [Einzugsgebiet bestätigen]. Die Anfahrt klären wir vorab.
   - frage: Funktioniert das Terminal auf dem Hof oder auf der Alp ohne WLAN?
     antwort: |
-      Ja, die mobilen Terminals haben 4G eingebaut. Ob der Mobilfunkempfang am Zahlort reicht, prüfen wir bei der Installation. Für Automaten im Freien ist der UN20 mit externer Antenne ausgelegt.
+      Ja, die mobilen Terminals haben 4G eingebaut. Ob der Mobilfunkempfang am Zahlort reicht, prüfen wir bei der Installation. Für Automaten im Freien hat der UN20 einen Anschluss für eine externe Antenne.
   - frage: Welches Terminal passt für einen Hofladen mit Selbstbedienung?
     antwort: |
       Ein Automatenterminal, das in den Verkaufsautomaten oder Kühlschrank eingebaut wird: der UN20 für den Aussenbereich, der N62 Vending für geschützte Standorte. Beide werden pro Projekt offeriert, weil die Anbindung an die Automatensteuerung je nach Modell verschieden ist.
@@ -76,10 +74,10 @@ faq:
       Nein. Die Sätze auf der Seite [Konditionen](/konditionen) gelten schweizweit. Es gibt keine Mindestgebühr, was für saisonale Betriebe mit schwachen Wintermonaten entscheidend ist.
   - frage: Kann ich das Terminal nur für die Saison mieten?
     antwort: |
-      Ja. Die Miete ist monatlich kündbar, Sie zahlen nur für die Monate, in denen Sie das Terminal nutzen. Wie Rückgabe und Wiederaufschaltung ablaufen, regeln wir in der Offerte.
+      Ja. Die Miete ist monatlich kündbar, Sie zahlen nur für die Monate, in denen Sie das Terminal nutzen. Wie Rückgabe und Wiederaufschaltung ablaufen, regeln wir in der Offerte [Ablauf bestätigen].
   - frage: Wie schnell bekomme ich in der Ostschweiz Ersatz bei einem Defekt?
     antwort: |
-      Ein Ersatzgerät erhalten Sie [innert 24 Stunden, schweizweit], bei der Miete ohne Zusatzkosten. Bis dahin können Sie Kartenzahlungen über die App Softpay auf dem Handy annehmen, siehe [Handy als Terminal](/handy-als-terminal).
+      Ein Ersatzgerät erhalten Sie bei der Miete ohne Zusatzkosten [Frist eintragen]. Bis dahin können Sie Kartenzahlungen über die App Softpay auf dem Handy annehmen, siehe [Handy als Terminal](/handy-als-terminal).
 bausteine:
   rechner: true
   geraete: true

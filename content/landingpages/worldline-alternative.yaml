@@ -3,28 +3,28 @@ pfad: /worldline-alternative
 cluster: payment
 navTitle: Worldline Alternative
 metaTitle: Worldline Alternative Schweiz, offene Preise | ibis payment
-metaDescription: 'Worldline Alternative für Kartenterminals in der Schweiz: öffentliche Konditionen, ein Berater, Installation vor Ort, monatlich kündbar, Wechsel geplant.'
+metaDescription: 'Worldline Alternative für Terminals in der Schweiz: öffentliche Konditionen, ein Berater, Installation vor Ort, monatlich kündbar. So läuft der Wechsel ab.'
 kicker: Wechsel
 lead: Wer von Worldline zu einem anderen Terminalanbieter wechseln will, braucht zwei Dinge. Einen Vergleich auf Basis der eigenen Abrechnung und einen klaren Ablauf für die Kündigung.
 intro: |
-  Worldline ist in der Schweiz ein etablierter Anbieter für Kartenterminals und Acquiring und hat 2018 SIX Payment Services übernommen [Quelle eintragen]. Viele Betriebe haben ihren Terminalvertrag dort seit Jahren, oft über die Hausbank abgeschlossen, und haben ihn seither nicht mehr angeschaut. Das ist kein Vorwurf, sondern der Normalfall. Ein Terminal, das funktioniert, zieht keine Aufmerksamkeit auf sich.
+  Worldline ist in der Schweiz ein etablierter Anbieter für Terminals und Acquiring und hat 2018 SIX Payment Services übernommen; viele Verträge laufen deshalb noch unter dem Namen SIX. Oft wurden sie über die Hausbank abgeschlossen und seit Jahren nicht mehr angeschaut. Das ist der Normalfall, kein Vorwurf.
 
-  Diese Seite ist für Betriebe, die eine Worldline Alternative prüfen wollen. Sie erklärt, was ibis payment anders macht, worauf Sie bei der Kündigungsfrist achten müssen und wie der Wechsel abläuft. Über Worldline selbst machen wir nur Aussagen, die sich belegen lassen. Die Preise von ibis payment stehen offen auf der Seite [Konditionen](/konditionen).
+  Diese Seite ist für Betriebe, die eine Worldline Alternative prüfen. Sie zeigt, was ibis payment anders macht, worauf Sie bei der Kündigungsfrist achten müssen und wie der Wechsel abläuft. Über Worldline selbst machen wir nur Aussagen, die sich belegen lassen; unsere Preise stehen auf der Seite [Konditionen](/konditionen).
 
-  Ob sich ein Wechsel lohnt, entscheidet nicht diese Seite, sondern Ihre Abrechnung. Schicken Sie sie uns über [Kontakt](/kontakt), und Sie erhalten innert 24 Stunden eine Gegenrechnung.
+  Ob sich ein Wechsel lohnt, entscheidet Ihre Abrechnung. Schicken Sie sie über [Kontakt](/kontakt), die Gegenrechnung kommt innert 24 Stunden.
 sections:
   - heading: Was sich belegen lässt
     body: |
-      Worldline publiziert keine Endpreise für Kartenterminals und Acquiring. Die Gebühr setzt sich aus einer Servicegebühr plus Interchange zusammen und wird in der individuellen Offerte festgelegt [Stand prüfen, Quelle und Datum eintragen]. Für einen Betrieb heisst das: Der eigene Satz steht nur auf der eigenen Abrechnung, ein Vergleich mit einer öffentlichen Preisliste ist nicht möglich.
+      Worldline publiziert keine Endpreise für Terminals und Acquiring. Die Gebühr setzt sich aus einer Servicegebühr plus Interchange zusammen und wird in der individuellen Offerte festgelegt [Stand, Quelle und Datum eintragen]. Ihr Satz steht also nur auf Ihrer Abrechnung, ein Vergleich mit einer öffentlichen Preisliste ist nicht möglich.
 
-      Was sich daraus ergibt, ist keine Wertung, sondern eine Aufgabe. Wer vergleichen will, muss die eigene Abrechnung lesen: Umsatz pro Kartenart, Anzahl Zahlungen, Gebühr pro Kartenart, Terminalmiete, Fixbeträge, allfällige Mindestgebühren und Zuschläge für Auslandkarten. Diese Positionen legen Sie neben die Sätze von ibis payment.
+      Wer vergleichen will, liest deshalb die eigene Abrechnung: Umsatz pro Kartenart, Anzahl Zahlungen, Gebühr pro Kartenart, Terminalmiete, Fixbeträge, Mindestgebühren, Zuschläge für Auslandkarten. Diese Positionen legen Sie neben die Sätze von ibis payment.
 
-      Die Interchange-Anteile sind für alle Anbieter gleich und in der Schweiz reguliert: Debit Mastercard Inland am Verkaufspunkt 0.12 %, Visa Debit im Durchschnitt höchstens 0.15 %, Kreditkarten Inland 0.44 %. Was ein Anbieter darüber hinaus verrechnet, ist Netzwerkgebühr und Marge. Nur dort unterscheiden sich die Angebote.
+      Die Interchange ist für alle Anbieter gleich und in der Schweiz reguliert: Debit Mastercard Inland am Verkaufspunkt 0.12 %, Visa Debit im Durchschnitt höchstens 0.15 %, Kreditkarten Inland 0.44 %. Was ein Anbieter darüber hinaus verrechnet, ist Netzwerkgebühr und Marge. Nur dort unterscheiden sich die Angebote.
   - heading: Was ibis payment anders macht
     body: |
       **Preise sind öffentlich.** Jeder Satz steht auf der Seite [Konditionen](/konditionen): Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, Ausland- und Firmenkarten plus 0.90 Prozentpunkte, CHF 0.05 pro Zahlung, Terminalmiete ab CHF 19 pro Monat, Kauf ab CHF 390, alles exkl. MwSt. In der Offerte weisen wir aus, wie viel davon Interchange, Netzwerkgebühr und Marge sind.
 
-      **Ein Berater.** Sie haben eine Person mit Direktwahl, die Ihr Terminal selbst installiert hat und Ihren Betrieb kennt. Keine Hotline, keine Ticketnummer. Wie schnell Sie einen Rückruf erhalten, steht in der Offerte [Rückruf innert einer Stunde während der Erreichbarkeit].
+      **Ein Berater.** Eine Person mit Direktwahl, die Ihr Terminal selbst installiert hat und Ihren Betrieb kennt. Rückruf [innert einer Stunde während der Erreichbarkeit].
 
       **Installation vor Ort.** Der Berater kommt vorbei, richtet das Terminal ein, bindet die Kasse über OPI, ZVT oder KIT an, prüft das WLAN und macht eine Testzahlung. Aufschaltung CHF 0.
 
@@ -36,7 +36,7 @@ sections:
       Der häufigste Fehler beim Anbieterwechsel ist, die Kündigungsfrist zu spät zu lesen. Nehmen Sie Ihren Vertrag hervor und prüfen Sie fünf Punkte:
 
       - Laufzeit des Acquiring-Vertrags und Datum des Vertragsbeginns.
-      - Kündigungsfrist und ob sie sich auf das Vertragsende oder auf das Monatsende bezieht.
+      - Kündigungsfrist, und ob sie sich auf das Vertragsende oder auf das Monatsende bezieht.
       - Verlängerungsklausel: Um wie viele Monate oder Jahre verlängert sich der Vertrag, wenn nicht gekündigt wird.
       - Terminalmiete: Ist sie ein separater Vertrag mit eigener Laufzeit, oder hängt sie am Acquiring-Vertrag.
       - Form der Kündigung: schriftlich, per Brief, per E-Mail, an welche Adresse.
@@ -44,22 +44,22 @@ sections:
       Diese Angaben stehen in den Vertragsbedingungen, nicht auf der Abrechnung. Finden Sie sie nicht, schicken Sie uns den Vertrag mit der Abrechnung. Wir prüfen die Frist, übernehmen die Kündigung und planen die Installation auf den Stichtag. Läuft der Vertrag noch länger, rechnen wir vor, ob sich ein früherer Ausstieg trotz Restlaufzeit lohnt oder ob Sie den Wechsel auf das Vertragsende legen.
   - heading: So läuft der Wechsel ab
     body: |
-      Der Wechsel läuft in fünf Schritten, und Sie müssen davon nur den ersten selbst machen.
+      Der Wechsel läuft in fünf Schritten. Nur den ersten machen Sie selbst.
 
       - **Abrechnung schicken.** Ihre letzte Monatsabrechnung, als PDF oder Foto, über [Kontakt](/kontakt). Innert 24 Stunden erhalten Sie dieselben Umsätze mit unseren Sätzen gerechnet, Position für Position.
-      - **Offerte und Vertrag.** Jede Gebühr steht in der Offerte, die drei Kostenanteile sind ausgewiesen. Wählen Sie Miete oder Kauf und das Modell, siehe [Geräte](/geraete).
+      - **Offerte und Vertrag.** Jede Gebühr steht in der Offerte, die drei Kostenanteile sind ausgewiesen. Sie wählen Miete oder Kauf und das Modell, siehe [Geräte](/geraete).
       - **Kündigung.** Wir übernehmen die Kündigung beim bisherigen Anbieter und stimmen den Stichtag ab.
-      - **Installation am Stichtag.** Der Berater kommt vor Ort, richtet das neue Terminal ein, bindet die Kasse an und macht eine Testzahlung. Das alte Terminal geht zurück an den bisherigen Anbieter; wie, steht in dessen Vertrag.
-      - **Erste Abrechnung.** Nach dem ersten Monat erhalten Sie eine Abrechnung auf einer Seite. Vergleichen Sie sie mit der Offerte. Alles, was dort nicht steht, wird nicht verrechnet.
+      - **Installation am Stichtag.** Der Berater kommt vor Ort, richtet das neue Terminal ein, bindet die Kasse an und macht eine Testzahlung. Das alte Terminal geht an den bisherigen Anbieter zurück; wie, steht in dessen Vertrag.
+      - **Erste Abrechnung.** Nach dem ersten Monat erhalten Sie eine Abrechnung auf einer Seite. Vergleichen Sie sie mit der Offerte. Was dort nicht steht, wird nicht verrechnet.
 
       Die Beispielrechnung unten zeigt ein Restaurant mit mittlerem Bon und höherem Kreditkartenanteil. Setzen Sie Ihre eigenen Zahlen ein oder tragen Sie Ihre heutigen Sätze aus der Abrechnung ein.
   - heading: Was beim Wechsel gleich bleibt
     body: |
-      Ein Wechsel des Terminalanbieters ändert nichts daran, welche Zahlungsmittel Ihre Kundschaft nutzt. Visa, Mastercard, Maestro, V Pay, PostFinance Card, TWINT, Apple Pay und Google Pay funktionieren auf den Terminals von PayTec wie auf jedem ep2-zertifizierten Terminal. Reka und Lunch-Check ebenfalls.
+      Ein Wechsel des Terminalanbieters ändert nichts daran, womit Ihre Kundschaft bezahlt. Visa, Mastercard, Maestro, V Pay, PostFinance Card, TWINT, Apple Pay, Google Pay, Reka und Lunch-Check laufen auf den Terminals von PayTec wie auf jedem ep2-zertifizierten Terminal.
 
-      Die Kassenanbindung läuft in der Schweiz über die Protokolle OPI, ZVT und KIT, die von den meisten Kassensystemen unterstützt werden. Welches Protokoll Ihre Kasse spricht, klären wir vor der Installation; die Liste der Kassensysteme, die wir kennen, steht unter [Kassensysteme](/kassensysteme).
+      Die Kassenanbindung läuft in der Schweiz über die Protokolle OPI, ZVT und KIT. Welches Protokoll Ihre Kasse spricht, klären wir vor der Installation; die Kassensysteme, die wir kennen, stehen unter [Kassensysteme](/kassensysteme).
 
-      Was sich ändert: Der Terminalhersteller (PayTec statt des bisherigen), das Bezahlnetzwerk (SwiPay mit TeleCash/Fiserv als Acquirer), die Abrechnung (eine Seite), der Ansprechpartner (ein Berater) und die Gebühren. Ob sich die Gebühren zu Ihren Gunsten ändern, zeigt die Gegenrechnung. Sollte das nicht der Fall sein, sagen wir es Ihnen, und Sie bleiben, wo Sie sind.
+      Was sich ändert: der Terminalhersteller, das Bezahlnetzwerk (SwiPay mit TeleCash/Fiserv als Acquirer), die Abrechnung (eine Seite), der Ansprechpartner (ein Berater) und die Gebühren. Ob sich die Gebühren zu Ihren Gunsten ändern, zeigt die Gegenrechnung. Wenn nicht, sagen wir es Ihnen, und Sie bleiben, wo Sie sind.
 beispiel:
   aktiv: true
   titel: Beispiel Restaurant
@@ -78,7 +78,7 @@ faq:
       Bei uns nichts: keine Aufschaltgebühr, Installation vor Ort inbegriffen. Was beim bisherigen Anbieter bei vorzeitiger Kündigung anfällt, steht in dessen Vertrag und ist Teil unserer Gegenrechnung.
   - frage: Kann ich mein Worldline-Terminal behalten?
     antwort: |
-      In der Regel nicht, weil das Terminal an das Bezahlnetzwerk des Anbieters gebunden ist und oft gemietet ist. Sie erhalten ein Terminal von PayTec, zur Miete ab CHF 19 oder zum Kauf ab CHF 390, exkl. MwSt.
+      In der Regel nicht, weil das Terminal an das Bezahlnetzwerk des bisherigen Anbieters gebunden ist [Einzelfall prüfen]. Sie erhalten ein Terminal von PayTec, zur Miete ab CHF 19 oder zum Kauf ab CHF 390, exkl. MwSt.
   - frage: Funktionieren TWINT und PostFinance Card nach dem Wechsel weiter?
     antwort: |
       Ja. Alle Terminals, die wir vermitteln, sind ep2-zertifiziert und wickeln TWINT direkt auf dem Terminal, PostFinance Card, Reka und Lunch-Check ab. Die Zahlungen erscheinen auf derselben Abrechnung wie Debit- und Kreditkarten.
@@ -87,7 +87,7 @@ faq:
       Schicken Sie uns Ihre letzte Monatsabrechnung. Sie erhalten innert 24 Stunden dieselben Umsätze mit unseren Sätzen gerechnet, Position für Position. Liegt unser Angebot nicht unter Ihrer heutigen Abrechnung, sagen wir Ihnen das.
   - frage: Bleibt meine Kasse angebunden?
     antwort: |
-      Ja, wenn Ihre Kasse OPI, ZVT oder KIT spricht, was bei den meisten Schweizer Kassensystemen der Fall ist. Die Anbindung ist Teil der Installation vor Ort. Details unter [Kassensysteme](/kassensysteme).
+      Ja, wenn Ihre Kasse OPI, ZVT oder KIT spricht. Die Anbindung ist Teil der Installation vor Ort. Details unter [Kassensysteme](/kassensysteme).
 bausteine:
   rechner: true
   geraete: true

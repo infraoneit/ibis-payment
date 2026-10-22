@@ -3,7 +3,8 @@
 import { useEffect, useRef } from 'react';
 import { LogoMark, LogoWordmark } from '@/components/brand/Logo';
 
-/** 3D-Terminal: dreht sich beim Scrollen und läuft auf einer kleinen Kreisbahn. Karte bezahlt kontaktlos (CSS). */
+/** 3D-Terminal: leichte Dauerbewegung plus Scroll-Rotation (begrenzt auf -26 bis +26 Grad),
+ *  Karte bezahlt kontaktlos, Haken wird bei Erfolg grün (CSS-Keyframes, 7-Sekunden-Takt). */
 export function HeroTerminal() {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
@@ -13,29 +14,33 @@ export function HeroTerminal() {
       device.style.transform = 'rotateY(-20deg) rotateX(6deg)';
       return;
     }
-    let ticking = false;
-    const render = () => {
-      ticking = false;
-      const y = Math.min(window.scrollY, 1600);
-      const a = -24 + y * 0.28;
-      const rad = (y / 1600) * Math.PI * 2;
-      const ox = Math.sin(rad) * 26;
-      const oy = Math.cos(rad) * 10 - 10;
-      device.style.transform = `translate3d(${ox.toFixed(1)}px,${oy.toFixed(1)}px,0) rotateY(${a.toFixed(1)}deg) rotateX(${(6 - y * 0.004).toFixed(1)}deg)`;
+    let raf = 0;
+    const start = performance.now();
+    const render = (now: number) => {
+      const t = Math.min(window.scrollY, 700) / 700; // Scroll-Anteil 0..1 innerhalb des Hero
+      const idle = Math.sin((now - start) / 2400) * 18; // deutliche Dauerbewegung ±18°
+      const a = -28 + t * 56 + idle; // gesamt -46 bis +46 Grad, nie die Kante
+      const x = 8 - t * 8 + Math.cos((now - start) / 3300) * 3;
+      const ox = Math.sin(t * Math.PI) * 18;
+      const oy = -t * 14;
+      device.style.transform = `translate3d(${ox.toFixed(1)}px,${oy.toFixed(1)}px,0) rotateY(${a.toFixed(2)}deg) rotateX(${x.toFixed(2)}deg)`;
+      raf = requestAnimationFrame(render);
     };
-    const onScroll = () => {
-      if (!ticking) {
-        ticking = true;
-        requestAnimationFrame(render);
-      }
+    raf = requestAnimationFrame(render);
+    const onVis = () => {
+      if (document.hidden) cancelAnimationFrame(raf);
+      else raf = requestAnimationFrame(render);
     };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    render();
-    return () => window.removeEventListener('scroll', onScroll);
+    document.addEventListener('visibilitychange', onVis);
+    return () => {
+      cancelAnimationFrame(raf);
+      document.removeEventListener('visibilitychange', onVis);
+    };
   }, []);
 
   return (
-    <div className="stage" role="img" aria-label="Animiertes Zahlterminal: eine Karte bezahlt kontaktlos CHF 48.50, das Terminal bestätigt die Zahlung.">
+    <div className="stage-wrap">
+    <div className="stage" role="img" aria-label="Animiertes Zahlterminal: eine Karte bezahlt kontaktlos CHF 48.50, das Terminal bestätigt die Zahlung mit einem grünen Haken.">
       <div className="floaty" aria-hidden="true">
         <div className="device" ref={ref}>
           <div className="layer back">
@@ -88,9 +93,10 @@ export function HeroTerminal() {
           <div className="brand">debit</div>
         </div>
       </div>
-      <div className="caption" aria-hidden="true">
+    </div>
+      <p className="caption" aria-hidden="true">
         Smart-Terminal mit Touchscreen, 4G und WLAN. ep2-zertifiziert für die Schweiz.
-      </div>
+      </p>
     </div>
   );
 }

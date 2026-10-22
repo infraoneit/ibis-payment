@@ -51,6 +51,10 @@ Gerätepreise stehen pro Modell in «Terminals und Geräte». Die Vergleichswert
 
 Platzhalter sind in eckigen Klammern geschrieben, z. B. `[052 000 00 00]`. Vollständige Liste: `docs/07-platzhalter.md` im Projektordner darüber.
 
+## Dark Mode
+
+Die Website folgt der Systemeinstellung (`prefers-color-scheme`) und bietet im Header einen Umschalter. Die Wahl liegt im `localStorage` (Schlüssel `theme`), kein Cookie. Farben sind ausschliesslich Tokens in `src/app/globals.css` (`:root` hell, `:root[data-theme="dark"]` dunkel).
+
 ## Rechnerformel
 
 ```

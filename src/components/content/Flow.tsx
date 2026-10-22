@@ -1,31 +1,15 @@
-'use client';
-
-import { useEffect } from 'react';
-import { useInView } from '@/components/motion/Reveal';
+import { Timeline } from './Timeline';
+import { Icon } from '@/components/ui/Icons';
 
 const STEPS = [
-  { b: 'Gespräch vor Ort', p: 'Wir sehen uns Ablauf, Kasse und Netzwerk an. Bringen Sie Ihre letzte Abrechnung mit.', em: 'Tag 1' },
-  { b: 'Offerte', p: 'Alle Gebühren pro Kartenart, Terminal und Monat auf einer Seite. Ohne Fussnoten.', em: 'innert 24 Stunden' },
-  { b: 'Installation', p: 'Terminal, Kassenanbindung und WLAN richten wir ein und schulen Ihr Team.', em: 'Tag 3 bis 7' },
-  { b: 'Betrieb', p: 'Ein Anruf bei Ihrem Berater genügt. Ersatzgerät statt Ticket.', em: 'laufend' },
+  { icon: <Icon.chat />, title: 'Gespräch vor Ort', text: 'Wir sehen uns Ablauf, Kasse und Netzwerk an. Bringen Sie Ihre letzte Abrechnung mit.', meta: 'Tag 1' },
+  { icon: <Icon.receipt />, title: 'Offerte', text: 'Alle Gebühren pro Kartenart, Terminal und Monat auf einer Seite. Ohne Fussnoten.', meta: 'innert 24 Stunden' },
+  { icon: <Icon.tools />, title: 'Installation', text: 'Terminal, Kassenanbindung und WLAN richten wir bei Ihnen ein und testen jede Zahlungsart.', meta: 'Tag 3 bis 7' },
+  { icon: <Icon.user />, title: 'Schulung', text: 'Ihr Team lernt Trinkgeld, Storno, Tagesabschluss und was bei einer Störung zu tun ist.', meta: 'am Installationstag' },
+  { icon: <Icon.phone />, title: 'Betrieb', text: 'Ein Anruf bei Ihrem Berater genügt. Ersatzgerät statt Ticket.', meta: 'laufend' },
 ];
 
-/** Ablauf in vier Schritten; die Linie zeichnet sich beim Scrollen. */
+/** Ablauf in fünf Schritten als horizontale Timeline (mobil vertikal). */
 export function Flow() {
-  const { ref, onEnter } = useInView<HTMLOListElement>(0.3);
-  useEffect(() => {
-    onEnter(() => ref.current?.classList.add('in'));
-  }, [onEnter, ref]);
-  return (
-    <ol className="flow" ref={ref} style={{ listStyle: 'none', margin: 0, padding: 0, paddingTop: 36 }}>
-      <div className="line" aria-hidden="true" />
-      {STEPS.map((s) => (
-        <li className="st" key={s.b}>
-          <b>{s.b}</b>
-          <p>{s.p}</p>
-          <em>{s.em}</em>
-        </li>
-      ))}
-    </ol>
-  );
+  return <Timeline items={STEPS} horizontal />;
 }

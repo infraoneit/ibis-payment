@@ -3,49 +3,47 @@ pfad: /zahlterminal-winterthur
 cluster: regional
 navTitle: Winterthur
 metaTitle: Zahlterminal Winterthur, Beratung vor Ort | ibis payment
-metaDescription: 'Zahlterminal in Winterthur: Beratung, Installation und Support vor Ort, WLAN mit Partner InfraOne. Offene Konditionen, Miete ab CHF 19, monatlich kündbar.'
+metaDescription: 'Zahlterminal in Winterthur: Beratung, Installation und Support im Betrieb, Netzwerk und WLAN mit Partner InfraOne. Konditionen offen, Miete ab CHF 19.'
 kicker: Winterthur
 lead: Für Betriebe in Winterthur und der Region kommt der Berater vorbei, installiert das Terminal und bleibt erreichbar. Die Konditionen sind dieselben wie überall, offen und ohne Mindestgebühr.
 intro: |
-  Ein Zahlterminal kauft man nicht nur, man richtet es ein, bindet es an die Kasse an, bringt es ins WLAN und erklärt es dem Team. Bei vielen Anbietern kommt das Terminal per Post, und der Rest ist Ihre Sache. In Winterthur und Umgebung machen wir es anders: Ihr Berater kommt in den Betrieb, installiert das Terminal vor Ort und macht mit Ihnen die erste Zahlung.
+  Mit dem Kauf eines Terminals ist es nicht getan. Es muss eingerichtet, an die Kasse angebunden, ins WLAN gebracht und dem Team erklärt werden. Bei vielen Anbietern kommt das Terminal per Post, der Rest ist Ihre Sache. In Winterthur und Umgebung kommt Ihr Berater in den Betrieb, installiert vor Ort und macht mit Ihnen die erste Zahlung.
 
-  ibis payment vermittelt Terminals des Schweizer Herstellers PayTec aus Effretikon, in der Nachbarschaft von Winterthur. Die Abwicklung läuft über das SwiPay-Bezahlnetzwerk. Alle Gebühren stehen auf der Seite [Konditionen](/konditionen) und gelten schweizweit gleich; die Nähe ändert nichts am Preis, nur am Service.
-
-  Für Netzwerk, WLAN und IT arbeiten wir mit InfraOne IT Solutions in Winterthur zusammen. Wenn die Verbindung am Kassenplatz nicht steht, ist das kein Problem des Terminals, sondern eines des Netzwerks, und dafür gibt es einen Partner vor Ort.
+  ibis payment vermittelt Terminals des Herstellers PayTec aus dem nahen Effretikon, mit Abwicklung über das SwiPay-Bezahlnetzwerk. Die Gebühren stehen auf der Seite [Konditionen](/konditionen) und gelten schweizweit gleich. Für Netzwerk und WLAN arbeiten wir mit InfraOne IT Solutions in Winterthur zusammen.
 sections:
   - heading: Beratung und Installation in Winterthur
     body: |
-      Der Ablauf beginnt mit einem Gespräch in Ihrem Betrieb oder am Telefon. Wir wollen wissen, wo bezahlt wird: am Tresen, am Tisch, an der Kasse, am Stand. Daraus ergibt sich das Modell. Dann schicken Sie uns Ihre letzte Abrechnung oder nennen uns drei Zahlen, und Sie erhalten innert 24 Stunden eine Offerte, in der jede Gebühr einzeln steht.
+      Der Ablauf beginnt mit einem Gespräch, im Betrieb oder am Telefon. Wir wollen wissen, wo bezahlt wird: Tresen, Tisch, Kasse, Stand. Daraus ergibt sich das Modell. Dann schicken Sie uns Ihre letzte Abrechnung oder drei Zahlen, und Sie erhalten innert 24 Stunden eine Offerte, in der jede Gebühr einzeln steht.
 
-      Die Installation macht der Berater, der die Offerte geschrieben hat. Er bringt das Terminal mit, richtet es ein, bindet die Kasse über OPI, ZVT oder KIT an, prüft die WLAN-Abdeckung am Kassenplatz und auf der Terrasse, macht eine Testzahlung und zeigt dem Team Trinkgeld, Storno und Tagesabschluss. Aufschaltung und Einrichtung kosten CHF 0.
+      Die Installation macht der Berater, der die Offerte geschrieben hat. Er bringt das Terminal mit, richtet es ein, bindet die Kasse über OPI, ZVT oder KIT an, prüft das WLAN am Kassenplatz und auf der Terrasse, macht eine Testzahlung und zeigt dem Team Trinkgeld, Storno und Tagesabschluss. Aufschaltung und Einrichtung kosten CHF 0.
 
-      Danach bleibt er Ihr Ansprechpartner mit Direktwahl. Bei einem Defekt erhalten Sie ein Ersatzgerät [innert 24 Stunden, schweizweit]; in Winterthur und Umgebung bringt es der Berater in der Regel selbst vorbei [Reaktionszeit Region eintragen]. Den Termin für ein erstes Gespräch vereinbaren Sie über [Kontakt](/kontakt).
+      Danach bleibt er Ihr Ansprechpartner mit Direktwahl. Bei einem Defekt erhalten Sie ein Ersatzgerät [Frist eintragen]; in Winterthur und Umgebung bringt es der Berater in der Regel selbst vorbei [Reaktionszeit Region eintragen]. Den Termin für ein erstes Gespräch vereinbaren Sie über [Kontakt](/kontakt).
   - heading: Typische Betriebe in Winterthur und Umgebung
     body: |
-      **Gastronomie in der Altstadt.** Restaurants, Bars und Cafés mit Service am Tisch und Aussenbereich brauchen ein mobiles Terminal mit zuverlässiger Verbindung. Der [PayTec N96](/geraete/paytec-n96) mit Drucker oder der kompakte [PayTec N62](/geraete/paytec-n62) ohne Drucker laufen über WLAN und 4G und wechseln automatisch, wenn eines ausfällt. Trinkgeld wird am Terminal eingegeben, der Beleg gedruckt oder digital verschickt.
+      **Gastronomie.** Restaurants, Bars und Cafés mit Service am Tisch und Aussenbereich brauchen ein mobiles Terminal mit zuverlässiger Verbindung. Der [PayTec N96](/geraete/paytec-n96) mit Drucker oder der kompakte [PayTec N62](/geraete/paytec-n62) ohne Drucker laufen über WLAN und 4G und wechseln automatisch, wenn eines ausfällt. Trinkgeld wird am Terminal eingegeben, der Beleg gedruckt oder digital verschickt.
 
-      **Detailhandel.** Läden mit Kassensystem binden den [PayTec CT20P](/geraete/paytec-ct20p) an die Kasse an. Der Betrag wird von der Kasse übergeben, das physische PIN-Pad ist auch für Menschen mit Sehbehinderung bedienbar. Bäckereien, Metzgereien und Take-aways ohne Kasse nehmen den [PayTec V3CT3](/geraete/paytec-v3ct3) mit Tastatur und Drucker, auf Wunsch mit Kunden-Pinpad für die Theke.
+      **Detailhandel.** Läden mit Kassensystem binden den [PayTec CT20P](/geraete/paytec-ct20p) an die Kasse an. Der Betrag kommt von der Kasse, das physische PIN-Pad ist auch für Menschen mit Sehbehinderung bedienbar. Bäckereien, Metzgereien und Take-aways ohne Kasse nehmen den [PayTec V3CT3](/geraete/paytec-v3ct3) mit Tastatur und Drucker, auf Wunsch mit Kunden-Pinpad für die Theke.
 
-      **Praxen.** Arzt-, Zahnarzt- und Physiopraxen haben wenige Zahlungen mit hohem Betrag und oft einen hohen Kreditkartenanteil. Hier zählt der Prozentsatz mehr als der Fixbetrag. Ein stationäres Terminal am Empfang, bei Bedarf an die Praxissoftware angebunden, deckt den Fall ab.
+      **Praxen.** Arzt-, Zahnarzt- und Physiopraxen haben wenige Zahlungen mit hohem Betrag und oft einen hohen Kreditkartenanteil. Hier zählt der Prozentsatz mehr als der Fixbetrag. Ein stationäres Terminal am Empfang deckt den Fall ab; ob sich die Praxissoftware anbinden lässt, klären wir vorab.
 
       Dazu kommen Coiffeure, Kosmetikstudios, Werkstätten, Märkte und Vereine. Welche Bauform passt, zeigt die Übersicht unter [Zahlterminal](/zahlterminal).
   - heading: Was es kostet
     body: |
-      Die Konditionen gelten für Winterthur wie für die ganze Schweiz, alle Preise exkl. MwSt.: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, ausländische und Firmenkarten plus 0.90 Prozentpunkte, CHF 0.05 pro Zahlung. Terminal-Miete ab CHF 19 pro Monat inklusive Wartung, Updates und Ersatzgerät, oder Kauf ab CHF 390 mit zwei Jahren Garantie.
+      Die Konditionen gelten für Winterthur wie für die ganze Schweiz, alle Preise exkl. MwSt.: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, Ausland- und Firmenkarten plus 0.90 Prozentpunkte, CHF 0.05 pro Zahlung. Terminal-Miete ab CHF 19 pro Monat inklusive Wartung, Updates und Ersatzgerät, oder Kauf ab CHF 390.
 
       Es gibt keine Aufschaltgebühr, keine Mindestgebühr und keine Mindestlaufzeit. Der Vertrag ist monatlich kündbar. Die Gutschrift kommt gesammelt pro Tag am nächsten Werktag auf Ihr Geschäftskonto, die Abrechnung einmal pro Monat auf einer Seite.
 
-      Die Beispielrechnung unten zeigt eine Bäckerei mit vielen kleinen Zahlungen und tiefem Kreditkartenanteil. Setzen Sie Ihre eigenen Zahlen ein. Und wenn Sie heute schon ein Terminal haben: Schicken Sie uns die Abrechnung. Wir unterbieten Ihre heutige Abrechnung, oder wir sagen Ihnen, dass es nicht geht.
+      Die Beispielrechnung unten zeigt eine Bäckerei mit vielen kleinen Zahlungen und tiefem Kreditkartenanteil. Setzen Sie Ihre eigenen Zahlen ein. Haben Sie heute schon ein Terminal, schicken Sie uns die Abrechnung. Wir unterbieten Ihre heutige Abrechnung, oder wir sagen Ihnen, dass es nicht geht.
   - heading: Netzwerk und WLAN mit InfraOne in Winterthur
     body: |
-      Ein Terminal ist nur so zuverlässig wie seine Verbindung. Ein stationäres Terminal braucht LAN oder stabiles WLAN am Kassenplatz, ein mobiles Terminal braucht WLAN auf der Terrasse oder guten 4G-Empfang. In Altbauten mit dicken Wänden, in Untergeschossen und in Innenhöfen ist beides nicht selbstverständlich.
+      Ein Terminal ist nur so zuverlässig wie seine Verbindung. Ein stationäres Terminal braucht LAN oder stabiles WLAN am Kassenplatz, ein mobiles Terminal WLAN auf der Terrasse oder guten 4G-Empfang. Fehlt das, liegt das Problem nicht beim Terminal, sondern beim Netzwerk.
 
-      Dafür arbeiten wir mit InfraOne IT Solutions GmbH in Winterthur zusammen. InfraOne richtet WLAN und Netzwerk ein, trennt bei Bedarf das Kassennetz vom Gästenetz und kümmert sich um Microsoft 365, Backup und IT-Support. Wenn die Verbindung bei der Installation nicht ausreicht, ziehen wir InfraOne hinzu, statt das Terminal mit einer wackligen Verbindung zu übergeben. Mehr dazu unter [Support](/support).
+      Dafür arbeiten wir mit InfraOne IT Solutions GmbH in Winterthur zusammen. InfraOne richtet WLAN und Netzwerk ein, trennt bei Bedarf das Kassennetz vom Gästenetz und kümmert sich um Microsoft 365, Backup und IT-Support. Reicht die Verbindung bei der Installation nicht, ziehen wir InfraOne hinzu, statt das Terminal mit einer wackligen Verbindung zu übergeben. Mehr dazu unter [Support](/support).
 
-      Für Betriebe, die eine neue Website brauchen, bietet InfraOne auch Webdesign an. Das ist unabhängig vom Terminal, läuft aber über denselben Kontakt.
+      Wer eine neue Website braucht, bekommt von InfraOne auch Webdesign. Das ist unabhängig vom Terminal und läuft über denselben Kontakt.
   - heading: Wechsel vom bisherigen Anbieter
     body: |
-      Viele Betriebe in Winterthur haben ihren Terminalvertrag seit Jahren beim selben Anbieter, oft über die Hausbank. Ein Wechsel läuft in drei Schritten: Abrechnung schicken, Gegenrechnung innert 24 Stunden, Kündigung beim bisherigen Anbieter übernehmen wir. Die Installation legen wir auf den Stichtag, damit kein Tag ohne Terminal entsteht.
+      Haben Sie Ihren Terminalvertrag seit Jahren beim selben Anbieter, oft über die Hausbank, läuft der Wechsel in drei Schritten: Abrechnung schicken, Gegenrechnung innert 24 Stunden, Kündigung beim bisherigen Anbieter übernehmen wir. Die Installation legen wir auf den Stichtag, damit kein Tag ohne Terminal entsteht.
 
       Wer ein älteres Terminal hat, sollte den Wechsel nicht zu lange aufschieben: Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung. Ob Ihr Terminal betroffen ist, sagen wir Ihnen anhand von Modell und Baujahr. Worauf Sie beim Vergleich achten müssen, steht auf der Seite [Zahlterminal Vergleich](/zahlterminal-vergleich).
 beispiel:
@@ -63,7 +61,7 @@ faq:
       Ja. Beratung, Installation, Kassenanbindung und Einweisung finden in Ihrem Betrieb statt. Der Berater, der installiert, bleibt danach Ihr Ansprechpartner mit Direktwahl.
   - frage: Welche Gemeinden rund um Winterthur werden bedient?
     antwort: |
-      Die Stadt Winterthur und die Region, inklusive der umliegenden Gemeinden im Kanton Zürich und angrenzenden Thurgau [Einzugsgebiet eintragen]. Ausserhalb davon installieren wir ebenfalls, die Anfahrt klären wir vorab.
+      Die Stadt Winterthur und die Region, inklusive der umliegenden Gemeinden im Kanton Zürich und im angrenzenden Thurgau [Einzugsgebiet eintragen]. Ausserhalb davon installieren wir ebenfalls, die Anfahrt klären wir vorab.
   - frage: Sind die Konditionen in Winterthur anders als im Rest der Schweiz?
     antwort: |
       Nein. Die Sätze auf der Seite [Konditionen](/konditionen) gelten schweizweit. Was sich mit der Nähe ändert, ist der Service: Installation vor Ort, Ersatzgerät durch den Berater, kurze Wege bei Fragen.
@@ -72,7 +70,7 @@ faq:
       Die mobilen Terminals weichen automatisch auf 4G aus. Für stationäre Terminals und für Terrassen richtet unser Partner InfraOne in Winterthur WLAN und Netzwerk ein. Das klären wir bei der Installation, nicht danach.
   - frage: Wie schnell bekomme ich bei einem Defekt Ersatz?
     antwort: |
-      Ein Ersatzgerät erhalten Sie [innert 24 Stunden, schweizweit], bei der Miete ohne Zusatzkosten. In Winterthur und Umgebung bringt es der Berater meist selbst vorbei [Reaktionszeit eintragen].
+      Ein Ersatzgerät erhalten Sie bei der Miete ohne Zusatzkosten [Frist eintragen]. In Winterthur und Umgebung bringt es der Berater meist selbst vorbei [Reaktionszeit eintragen].
 bausteine:
   rechner: true
   geraete: true

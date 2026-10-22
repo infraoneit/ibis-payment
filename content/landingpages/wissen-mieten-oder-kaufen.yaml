@@ -3,31 +3,33 @@ pfad: /wissen/mieten-oder-kaufen
 cluster: wissen
 navTitle: Mieten oder kaufen
 metaTitle: Zahlterminal mieten oder kaufen? | ibis payment
-metaDescription: 'Zahlterminal mieten oder kaufen: Vollkostenvergleich über 1, 2 und 3 Jahre, Leistungen in der Miete, Garantie, Terminalwechsel 2027, Steuern.'
+metaDescription: 'Zahlterminal mieten oder kaufen: Vollkostenvergleich über 1, 2 und 3 Jahre, Leistungen in der Miete, Garantie, Terminalwechsel 2027 und Buchhaltung.'
 kicker: Wissen
 lead: Die Miete kostet mehr, wenn das Terminal lange läuft. Der Kauf kostet mehr, wenn es ausfällt oder die Zulassung verliert. Die Rechnung dazu auf einer Seite.
 intro: |
   Ein Terminal kann man mieten oder kaufen, und beides ist bei uns möglich. Die Frage ist nicht, was günstiger ist, sondern über welchen Zeitraum, mit welchem Risiko und mit welcher Leistung dahinter. Wer nur Mietpreis mal Monate gegen Kaufpreis rechnet, lässt weg, was in der Miete steckt und was beim Kauf dazukommt.
 
-  Dazu kommt der Zeitpunkt. Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung, weil die Kartenorganisationen neue Sicherheitsanforderungen durchsetzen. Wer heute kauft, kauft ein aktuelles Terminal, das diese Anforderungen erfüllt; wer ein älteres Modell besitzt, sollte die Restnutzungsdauer kennen, bevor er in den Vergleich einsteigt.
+  Dazu kommt der Zeitpunkt. Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung, weil die Kartenorganisationen neue Sicherheitsanforderungen durchsetzen. Wer heute kauft, kauft ein aktuelles Terminal, das diese Anforderungen erfüllt. Wer ein älteres Modell besitzt, sollte die Restnutzungsdauer kennen, bevor er in den Vergleich einsteigt.
 
-  Diese Seite zeigt, was in der Miete enthalten ist, was beim Kauf dazugehört, den Vollkostenvergleich über ein, zwei und drei Jahre mit den aktuellen Preisen, die Garantie, den Terminalwechsel 2027 und die steuerliche Seite. Die Preise stehen unter [Konditionen](/konditionen), die Offerte für Ihren Fall gibt es über [Kontakt](/kontakt).
+  Die Preise stehen unter [Konditionen](/konditionen), die Offerte für Ihren Fall gibt es über [Kontakt](/kontakt).
 sections:
   - heading: Was in der Miete enthalten ist
     body: |
-      Die Miete kostet je nach Modell CHF 19 oder CHF 24 pro Monat, exkl. MwSt. Darin enthalten sind das Terminal, die Wartung, die Software-Updates, mit denen das Terminal seine Zulassung behält, und das Ersatzgerät bei einem Defekt. Fällt das Terminal aus, schicken wir Ersatz; die Miete läuft weiter, es gibt keine Reparaturrechnung.
+      Die Miete kostet je nach Modell CHF 19 oder CHF 24 pro Monat, exkl. MwSt. Darin enthalten sind das Terminal, die Wartung, die Software-Updates und das Ersatzgerät bei einem Defekt. Fällt das Terminal aus, schicken wir Ersatz; es gibt keine Reparaturrechnung.
 
-      Die Miete ist monatlich kündbar, es gibt keine Mindestlaufzeit und keine Aufschaltgebühr. Wer das Terminal zurückgibt, zahlt ab dem Folgemonat nichts mehr. Für Betriebe mit Saison oder unsicherer Zukunft ist das der entscheidende Punkt: Das Risiko, ein Gerät zu besitzen, das nicht mehr gebraucht wird, liegt beim Vermieter.
+      Die Miete ist monatlich kündbar, es gibt keine Mindestlaufzeit und keine Aufschaltgebühr. Für Betriebe mit Saison oder unsicherer Zukunft ist das der entscheidende Punkt: Das Risiko, ein Terminal zu besitzen, das nicht mehr gebraucht wird, liegt nicht bei Ihnen.
 
       Mit CHF 19 pro Monat mieten Sie den [PayTec N62](/geraete/paytec-n62) oder den [PayTec V3CT3](/geraete/paytec-v3ct3), mit CHF 24 den N86, N96 oder CT20P. Die Übersicht steht unter [Geräte](/geraete).
-  - heading: Was beim Kauf dazugehört
+  - heading: Was beim Kauf dazugehört und was die Garantie deckt
     body: |
-      Der Kaufpreis beträgt CHF 390 für N62 und V3CT3 und CHF 590 für N86, N96 und CT20P, exkl. MwSt. Die Einrichtung vor Ort ist inbegriffen, die Garantie beträgt 2 Jahre. Das Terminal gehört Ihnen, Sie bilanzieren es, und nach der Garantie tragen Sie das Risiko von Defekt, Akkuverschleiss und Sturzschaden selbst.
+      Der Kaufpreis beträgt CHF 390 für N62 und V3CT3 und CHF 590 für N86, N96 und CT20P, exkl. MwSt. Die Installation vor Ort ist inbegriffen. Das Terminal gehört Ihnen, und Sie bilanzieren es. Die Garantie beträgt 2 Jahre und deckt Material- und Herstellungsfehler, nicht Sturz, Flüssigkeit, Akkuverschleiss oder Verlust [Garantiedauer und Bedingungen bestätigen].
 
-      Updates, die das Terminal für die Zulassung braucht, werden auch bei gekauften Terminals eingespielt; das ist Teil des Acquiring-Vertrags, nicht des Geräts. Was Sie beim Kauf nicht haben, ist das Ersatzgerät ohne Rechnung. Fällt ein gekauftes Terminal nach der Garantie aus, kaufen oder mieten Sie Ersatz. Auf die Gebühren pro Zahlung hat Kauf oder Miete keinen Einfluss, der Satz pro Kartenart bleibt derselbe.
+      Updates, die das Terminal für die Zulassung braucht, werden auch bei gekauften Terminals eingespielt [Update-Regelung bei Kauf bestätigen]. Was Sie beim Kauf nicht haben, ist das Ersatzgerät ohne Rechnung. Fällt ein gekauftes Terminal nach der Garantie aus, kaufen oder mieten Sie Ersatz. Auf die Gebühren pro Zahlung hat die Wahl keinen Einfluss.
+
+      Mobile Terminals in der Schürze oder am Marktstand im Regen haben ein höheres Ausfallrisiko als ein Tischterminal am Kabel. Faustregel: mobile Terminals mieten, stationäre kaufen, wenn die Nutzungsdauer sicher ist. Wer beides hat, kann beides machen, ein gekaufter CT20P an der Kasse und ein gemieteter N62 für die Beratung am Regal.
   - heading: Vollkostenvergleich über ein, zwei und drei Jahre
     body: |
-      Gerechnet mit den Platzhalter-Preisen der Preisliste, exkl. MwSt. Für ein Terminal zu CHF 19 Miete oder CHF 390 Kauf:
+      Gerechnet mit den Preisen der Preisliste, exkl. MwSt. Für ein Terminal zu CHF 19 Miete oder CHF 390 Kauf:
 
       - 1 Jahr: Miete CHF 228, Kauf CHF 390.
       - 2 Jahre: Miete CHF 456, Kauf CHF 390.
@@ -39,22 +41,17 @@ sections:
       - 2 Jahre: Miete CHF 576, Kauf CHF 590.
       - 3 Jahre: Miete CHF 864, Kauf CHF 590.
 
-      Rein rechnerisch ist der Kauf beim günstigeren Modell nach etwa 21 Monaten, beim teureren nach etwa 25 Monaten amortisiert. In dieser Rechnung fehlen das Ersatzgerät, das in der Miete steckt, und das Risiko eines Defekts nach der Garantie. Ein einziger Ersatz im dritten Jahr dreht die Rechnung. Deshalb ist der Kauf vor allem für Betriebe sinnvoll, die das Terminal stationär und geschützt einsetzen und mit mindestens drei Jahren Nutzung rechnen.
-  - heading: Garantie, Verschleiss und Ersatz
-    body: |
-      Die Garantie von 2 Jahren deckt Material- und Herstellungsfehler. Nicht gedeckt sind Sturzschäden, Flüssigkeit, verschlissene Akkus und verlorene Geräte. Mobile Terminals, die den ganzen Tag in der Schürze stecken oder am Marktstand im Regen stehen, haben ein höheres Risiko als ein Tischterminal am Empfang, das am Kabel hängt.
-
-      In der Miete ist das Ersatzgerät bei einem Defekt inbegriffen. Beim Kauf tragen Sie ab dem dritten Jahr das Risiko selbst. Faustregel: Mobile Terminals mieten, stationäre Terminals kaufen, wenn die Nutzungsdauer sicher ist. Wer beides hat, kann auch beides machen, ein gekaufter CT20P an der Kasse und ein gemieteter N62 für die Beratung am Regal.
+      Rein rechnerisch ist der Kauf beim Modell zu CHF 19 nach etwa 21 Monaten amortisiert, beim Modell zu CHF 24 nach etwa 25 Monaten. In dieser Rechnung fehlen das Ersatzgerät, das in der Miete steckt, und das Risiko eines Defekts nach der Garantie. Ein einziger Ersatz im dritten Jahr dreht die Rechnung. Deshalb ist der Kauf vor allem für Betriebe sinnvoll, die das Terminal stationär und geschützt einsetzen und mit mindestens drei Jahren Nutzung rechnen.
   - heading: Terminalwechsel 2027
     body: |
       Die Kartenorganisationen setzen neue Sicherheitsanforderungen durch, und viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung. Für die Entscheidung heisst das zweierlei. Wer ein älteres Terminal besitzt, sollte beim Anbieter schriftlich nachfragen, bis wann es zugelassen bleibt, und die Restnutzungsdauer in den Vergleich einrechnen. Ein Kauf, der in zwei Jahren nicht mehr nutzbar ist, amortisiert sich nicht.
 
-      Wer heute ein aktuelles Terminal kauft, erfüllt die Anforderungen; die PayTec-Terminals sind nach PCI PTS 6.x zertifiziert und ep2-zugelassen. Bei der Miete liegt das Risiko einer künftigen Anforderung beim Vermieter, der ein zugelassenes Gerät stellen muss. Wer dieses Risiko nicht einschätzen will, mietet.
+      Wer heute ein aktuelles Terminal kauft, erfüllt die Anforderungen; die PayTec-Terminals sind nach PCI PTS 6.x zertifiziert und ep2-zugelassen. Bei der Miete sind Updates und Ersatzgerät inbegriffen. Wer das Risiko einer künftigen Anforderung nicht selbst tragen will, mietet.
   - heading: Steuern und Buchhaltung
     body: |
-      Beim Kauf wird das Terminal aktiviert und über die Nutzungsdauer abgeschrieben, die Miete wird im Monat, in dem sie anfällt, als Aufwand verbucht. Für kleine Beträge wie CHF 390 gibt es in vielen Betrieben eine Grenze, unterhalb der ein Kauf direkt als Aufwand gebucht wird; ob das bei Ihnen gilt, hängt von Ihrer Buchhaltungspraxis ab. Die Mehrwertsteuer ist in beiden Fällen als Vorsteuer abziehbar, sofern der Betrieb mehrwertsteuerpflichtig ist.
+      Beim Kauf wird das Terminal aktiviert und über die Nutzungsdauer abgeschrieben, die Miete wird im Monat, in dem sie anfällt, als Aufwand verbucht. Für kleine Beträge gibt es in vielen Betrieben eine Grenze, unterhalb der ein Kauf direkt als Aufwand gebucht wird; ob das bei Ihnen gilt, hängt von Ihrer Buchhaltungspraxis ab. Die Mehrwertsteuer ist in beiden Fällen als Vorsteuer abziehbar, sofern der Betrieb mehrwertsteuerpflichtig ist.
 
-      Welche Variante für Ihre Steuersituation günstiger ist, klären Sie mit Ihrem Treuhänder. Wir liefern dafür die Offerte mit beiden Varianten und die Abrechnung, auf der die Miete als eigene Position steht. Ein [Treuhandpartner] kann das auf Wunsch mit der Kasse und der Kartenabrechnung zusammen anschauen.
+      Welche Variante für Ihre Steuersituation passt, klären Sie mit Ihrem Treuhänder. Wir liefern dafür die Offerte mit beiden Varianten und die Abrechnung, auf der die Miete als eigene Position steht. Ein [Treuhandpartner] kann das auf Wunsch zusammen mit Kasse und Kartenabrechnung anschauen.
   - heading: Entscheidungshilfe
     body: |
       Mieten, wenn das Terminal mobil eingesetzt wird, die Nutzungsdauer unsicher ist, der Betrieb saisonal arbeitet oder Sie das Risiko von Defekt und Zulassung nicht tragen wollen. Kaufen, wenn das Terminal stationär und geschützt steht, Sie mit drei oder mehr Jahren Nutzung rechnen und die Liquidität für den Kaufpreis da ist. Bei mehreren Terminals lohnt sich die Mischung.
@@ -76,10 +73,10 @@ preisliste:
     beschreibung: Pro Monat, inkl. Wartung, Updates und Ersatzgerät
     wert: CHF 24.00
   - label: Kauf N62 oder V3CT3
-    beschreibung: Einmalig, inkl. Einrichtung, 2 Jahre Garantie
+    beschreibung: Einmalig, inkl. Installation vor Ort, 2 Jahre Garantie [bestätigen]
     wert: CHF 390.00
   - label: Kauf N86, N96 oder CT20P
-    beschreibung: Einmalig, inkl. Einrichtung, 2 Jahre Garantie
+    beschreibung: Einmalig, inkl. Installation vor Ort, 2 Jahre Garantie [bestätigen]
     wert: CHF 590.00
   - label: Miete über 3 Jahre
     beschreibung: 36 Monate zu CHF 19 bzw. CHF 24
@@ -90,13 +87,13 @@ faq:
       Rein rechnerisch nach etwa 21 Monaten beim Terminal zu CHF 19 und nach etwa 25 Monaten beim Terminal zu CHF 24. Nicht eingerechnet sind das Ersatzgerät in der Miete und das Defektrisiko nach der Garantie.
   - frage: Was passiert, wenn ein gekauftes Terminal kaputtgeht?
     antwort: |
-      In den ersten 2 Jahren greift die Garantie bei Material- und Herstellungsfehlern. Danach, und bei Sturz oder Flüssigkeit, kaufen oder mieten Sie Ersatz. Bei der Miete ist das Ersatzgerät inbegriffen.
+      Während der Garantie greift diese bei Material- und Herstellungsfehlern. Danach, und bei Sturz oder Flüssigkeit, kaufen oder mieten Sie Ersatz. Bei der Miete ist das Ersatzgerät inbegriffen.
   - frage: Bekommt ein gekauftes Terminal Updates?
     antwort: |
-      Ja. Die Updates, die das Terminal für die Zulassung braucht, gehören zum Acquiring-Vertrag, nicht zum Gerät. Ein gekauftes aktuelles Terminal bleibt auf dem gleichen Stand wie ein gemietetes.
+      Ja. Die Updates, die das Terminal für die Zulassung braucht, werden auch bei gekauften Terminals eingespielt [Update-Regelung bei Kauf bestätigen]. Ein gekauftes aktuelles Terminal bleibt damit auf dem gleichen Stand wie ein gemietetes.
   - frage: Kann ich von Miete auf Kauf wechseln?
     antwort: |
-      Ja. Die Miete ist monatlich kündbar; ob das gemietete Terminal übernommen oder ein neues geliefert wird, klären wir in der Offerte. Eine Anrechnung bezahlter Mieten gibt es nicht.
+      Ja, die Miete ist monatlich kündbar. Ob das gemietete Terminal übernommen wird und ob bezahlte Mieten angerechnet werden, klären wir in der Offerte.
   - frage: Ändert sich die Gebühr pro Zahlung, wenn ich kaufe?
     antwort: |
       Nein. Der Satz pro Kartenart und der Fixbetrag pro Zahlung sind bei Miete und Kauf gleich. Der Unterschied liegt nur bei den Gerätekosten.

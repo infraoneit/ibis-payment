@@ -3,11 +3,11 @@ pfad: /webdesign/website-erstellen-lassen
 cluster: webdesign
 navTitle: Website erstellen lassen
 metaTitle: Website erstellen lassen für KMU | ibis payment
-metaDescription: 'Website erstellen lassen als KMU: Baukasten, Agentur oder Partner im Vergleich, Checkliste für die Anfrage, Zeitplan und laufende Kosten.'
+metaDescription: 'Website erstellen lassen als KMU: Baukasten, Agentur oder Partner im Vergleich, Checkliste für die Anfrage, Ablauf und laufende Kosten nach dem Start.'
 kicker: Webdesign
-lead: Wer eine Website erstellen lassen will, hat drei Wege und muss vorher wenige Dinge klären. Hier steht, welcher Weg zu welchem Betrieb passt, was Sie für die Anfrage bereitlegen und welche Kosten nach dem Start bleiben.
+lead: Wer eine Website erstellen lassen will, hat drei Wege. Hier steht, welcher zu welchem Betrieb passt, was Sie für die Anfrage bereitlegen und welche Kosten nach dem Start bleiben.
 intro: |
-  Eine Website erstellen zu lassen ist für die meisten Betriebe keine technische, sondern eine organisatorische Aufgabe. Die Technik ist in jedem der drei Wege gelöst. Was den Unterschied macht, ist die Frage, wer die Arbeit macht, wem die Website am Ende gehört und wer sich meldet, wenn etwas nicht funktioniert.
+  Eine Website erstellen zu lassen ist für die meisten Betriebe keine technische, sondern eine organisatorische Aufgabe. Die Technik ist auf jedem der drei Wege gelöst. Der Unterschied liegt darin, wer die Arbeit macht, wem die Website am Ende gehört und wer sich meldet, wenn etwas nicht funktioniert.
 
   ibis payment vermittelt Website-Projekte an InfraOne IT Solutions GmbH in Winterthur ([infraone.ch](https://infraone.ch)), den IT-Partner, mit dem unsere Berater auch WLAN, E-Mail und Netzwerk in den Betrieben einrichten. Diese Seite hilft Ihnen, die Anfrage so vorzubereiten, dass die Offerte beim ersten Mal stimmt.
 
@@ -15,27 +15,27 @@ intro: |
 sections:
   - heading: Baukasten, Agentur oder Partner, drei Wege im Vergleich
     body: |
-      **Baukasten.** Sie bauen die Website selbst mit einem Online-Werkzeug. Das ist günstig im Abo und schnell, wenn Sie Zeit und Lust haben. Die Grenzen zeigen sich später: Die Website lässt sich nicht zu einem anderen Anbieter mitnehmen, Reservation und Terminbuchung sind oft nur als Zusatzmodule verfügbar, und Impressum und Datenschutzerklärung müssen Sie selbst korrekt hinbekommen. Wer abends die Kasse abschliesst, pflegt den Baukasten erfahrungsgemäss nach dem Start nicht weiter.
+      **Baukasten.** Sie bauen die Website selbst mit einem Online-Werkzeug. Das ist günstig im Abo und schnell, wenn Sie Zeit dafür haben. Die Grenzen zeigen sich später: Die Website lässt sich nicht zu einem anderen Anbieter mitnehmen, Reservation und Terminbuchung gibt es oft nur als Zusatzmodul, und Impressum und Datenschutzerklärung müssen Sie selbst richtig hinbekommen. Wer abends die Kasse abschliesst, hat selten Zeit, den Baukasten danach weiter zu pflegen.
 
-      **Agentur.** Eine Webagentur liefert Konzept, Design und Text aus einer Hand. Das ist der richtige Weg, wenn die Marke im Vordergrund steht und Budget für Konzeptarbeit vorhanden ist. Für einen Betrieb mit acht Seiten ist der Konzeptanteil oft grösser als der Nutzen.
+      **Agentur.** Eine Webagentur liefert Konzept, Design und Text aus einer Hand. Das ist der richtige Weg, wenn die Marke im Vordergrund steht und Budget für Konzeptarbeit vorhanden ist. Für einen Betrieb mit acht Seiten ist dieser Aufwand oft nicht nötig.
 
-      **Partner über ibis payment.** InfraOne baut Websites für genau die Betriebe, die auch unsere Terminals nutzen: Restaurants, Salons, Praxen, Läden. Der Umfang ist auf das beschränkt, was der Betrieb braucht, der Preis ist eine Pauschale, und derselbe Partner betreut E-Mail, WLAN und Backup. Das ist der passende Weg, wenn Sie eine Website wollen, die funktioniert und die Sie selbst pflegen, ohne Agenturprozess.
+      **Partner über ibis payment.** InfraOne baut Websites für die Betriebe, die auch unsere Terminals nutzen: Restaurants, Salons, Praxen, Detailhandel. Der Umfang ist auf das beschränkt, was der Betrieb braucht, der Preis ist eine Pauschale, und derselbe Partner betreut E-Mail, WLAN und Backup. Das passt, wenn Sie eine Website wollen, die funktioniert und die Sie selbst pflegen, ohne Agenturprozess.
   - heading: Checkliste für die Anfrage
     body: |
       Eine Offerte wird genauer, je mehr Sie vorab klären. Diese Punkte sollten Sie bereitlegen, bevor Sie das Formular ausfüllen:
 
-      - **Texte.** Wer schreibt? Haben Sie Texte aus Flyer, Speisekarte oder Preisliste, die sich übernehmen lassen? Sollen Texte erstellt werden, steht das als eigene Position in der Offerte.
+      - **Texte.** Haben Sie Texte aus Flyer, Speisekarte oder Preisliste, die sich übernehmen lassen? Sollen Texte erstellt werden, steht das als eigene Position in der Offerte.
       - **Fotos.** Eigene Fotos von Betrieb, Team und Produkten wirken besser als Stockbilder. Handyfotos bei Tageslicht genügen oft. Wenn nicht, kann ein Fototermin offeriert werden.
       - **Domain.** Haben Sie schon eine Domain (zum Beispiel ihr-betrieb.ch)? Bei welchem Anbieter liegt sie, und haben Sie die Zugangsdaten? Ohne Zugang zur Domain lässt sich die Website nicht aufschalten.
       - **Logo.** Als Datei in guter Qualität, am besten als Vektorgrafik (SVG oder PDF). Ein Logo aus einem Visitenkarten-Scan reicht nicht.
-      - **Seitenliste.** Welche Seiten brauchen Sie? Üblich sind Start, Angebot oder Speisekarte, Team, Kontakt, Impressum, Datenschutz, dazu je nach Branche Reservation oder Terminbuchung.
+      - **Seitenliste.** Üblich sind Start, Angebot oder Speisekarte, Team, Kontakt, Impressum, Datenschutz, dazu je nach Branche Reservation oder Terminbuchung.
       - **Funktionen.** Reservation, Terminbuchung, Gutscheine mit [Online-Zahlung](/online-zahlungen), Newsletter, Mehrsprachigkeit. Jede Funktion ist eine eigene Position.
       - **Bestehende Konten.** Google-Business-Profil, Instagram, Facebook. Zugangsdaten bereithalten, damit die Website damit verknüpft werden kann.
-  - heading: Zeitplan vom Gespräch bis zum Start
+  - heading: Ablauf vom Gespräch bis zum Start
     body: |
-      Die Dauer eines Projekts bestimmt nicht die Technik, sondern die Zulieferung. Der typische Ablauf hat fünf Schritte: Gespräch und Offerte, Lieferung Ihrer Unterlagen, Entwurf mit einer Rückmeldungsrunde, Aufbau aller Seiten, Abnahme und Aufschaltung. Die Schritte Gespräch, Entwurf und Aufbau liegen bei InfraOne und sind planbar. Der Schritt Unterlagen liegt bei Ihnen und ist in der Praxis der Engpass.
+      Die Dauer eines Projekts bestimmt nicht die Technik, sondern die Zulieferung. Der Ablauf hat fünf Schritte: Gespräch und Offerte, Lieferung Ihrer Unterlagen, Entwurf mit einer Rückmeldungsrunde, Aufbau aller Seiten, Abnahme und Aufschaltung. Gespräch, Entwurf und Aufbau liegen bei InfraOne und sind planbar. Die Unterlagen liegen bei Ihnen, und dort entsteht in der Praxis der Engpass.
 
-      Zwei Hinweise aus der Erfahrung unserer Berater: Legen Sie eine Person im Betrieb fest, die Rückmeldungen gibt. Wenn drei Personen mitreden, dauert jede Runde dreimal so lang. Und planen Sie den Start nicht auf einen Tag, an dem Sie ohnehin viel zu tun haben, etwa die Saisoneröffnung. Der Termin für die Aufschaltung steht in der Offerte und hängt vom Datum ab, an dem Ihre Unterlagen vollständig sind.
+      Zwei Hinweise. Legen Sie eine Person im Betrieb fest, die Rückmeldungen gibt; wenn mehrere mitreden, dauert jede Runde länger. Und planen Sie den Start nicht auf einen Tag, an dem Sie ohnehin viel zu tun haben, etwa die Saisoneröffnung. Der Termin für die Aufschaltung steht in der Offerte und hängt vom Datum ab, an dem Ihre Unterlagen vollständig sind.
   - heading: Laufende Kosten nach dem Start
     body: |
       Der Projektpreis ist einmalig. Dazu kommen drei wiederkehrende Posten, die in jeder Offerte getrennt ausgewiesen sein sollten:
@@ -44,10 +44,10 @@ sections:
       - **Hosting.** Der Server, auf dem die Website liegt, inklusive SSL-Zertifikat und Backup. Monatlich oder jährlich.
       - **Pflege.** Updates des Systems, Sicherheitspatches, kleine Anpassungen. Als Pflegevertrag mit festem Monatsbetrag oder nach Aufwand.
 
-      Fragen Sie bei jeder Offerte, welche dieser Posten enthalten sind und welche nicht. Ein tiefer Projektpreis mit hohen Pflichtabos ist nach zwei Jahren teurer als eine ehrliche Pauschale. Das ist dasselbe Prinzip, das wir bei den Terminalgebühren anwenden: Auf der Seite [Konditionen](/konditionen) steht jede Gebühr, damit der Vergleich möglich ist. Alle Preise exkl. MwSt.
+      Fragen Sie bei jeder Offerte, welche dieser Posten enthalten sind und welche nicht. Ein tiefer Projektpreis mit Pflichtabos kann über die Jahre teurer werden als eine Pauschale mit getrennt ausgewiesenen Nebenkosten. Das ist dasselbe Prinzip wie bei den Terminalgebühren: Auf der Seite [Konditionen](/konditionen) steht jede Gebühr, damit der Vergleich möglich ist. Alle Preise exkl. MwSt.
   - heading: Fünf Fehler, die Sie vermeiden können
     body: |
-      Erstens: Die Domain auf den Namen des Dienstleisters registrieren lassen. Dann gehört Ihnen die Adresse nicht, und ein Wechsel wird zur Verhandlung. Zweitens: Die Speisekarte oder Preisliste als PDF hochladen. Google liest PDF-Inhalte schlecht, auf dem Handy sind sie kaum lesbar, und die Aktualisierung wird jedes Mal zum Aufwand. Drittens: Öffnungszeiten an drei Orten pflegen (Website, Google-Profil, Instagram) und nur an einem ändern. Legen Sie fest, wo die Zeiten führend sind. Viertens: Das Kontaktformular an eine E-Mail-Adresse schicken, die niemand liest. Testen Sie es nach dem Start und einmal pro Quartal. Fünftens: Die Datenschutzerklärung von einer anderen Website kopieren. Sie beschreibt dann Dinge, die Ihre Website nicht tut, und lässt aus, was sie tut.
+      Erstens: Die Domain auf den Namen des Dienstleisters registrieren lassen. Dann gehört Ihnen die Adresse nicht, und ein Wechsel wird zur Verhandlung. Zweitens: Die Speisekarte oder Preisliste als PDF hochladen. Auf dem Handy ist sie kaum lesbar, für die Suche schlechter erfassbar als Text, und jede Aktualisierung wird zum Aufwand. Drittens: Öffnungszeiten an drei Orten pflegen (Website, Google-Profil, Instagram) und nur an einem ändern. Legen Sie fest, wo die Zeiten führend sind. Viertens: Das Kontaktformular an eine E-Mail-Adresse schicken, die niemand liest. Testen Sie es nach dem Start und einmal pro Quartal. Fünftens: Die Datenschutzerklärung von einer anderen Website kopieren. Sie beschreibt dann Dinge, die Ihre Website nicht tut, und lässt aus, was sie tut.
 
       Wenn Sie unsicher sind, ob Ihr Betrieb überhaupt eine neue Website braucht, sagen Sie es im Formular. InfraOne sagt Ihnen auch, wenn die bestehende Website mit kleinen Anpassungen reicht. Für Fragen zum Zusammenspiel mit Terminal und Kasse erreichen Sie uns über [Kontakt](/kontakt).
 beispiel:
@@ -62,7 +62,7 @@ preisliste: []
 faq:
   - frage: Was kostet es, eine Website erstellen zu lassen?
     antwort: |
-      Eine Website mit bis zu zehn Unterseiten, eigener Domain, Impressum und Datenschutzerklärung beginnt bei InfraOne pauschal bei [ab CHF 1'200] exkl. MwSt. Funktionen wie Reservation, Terminbuchung oder Online-Zahlung stehen als eigene Positionen in der Offerte. Laufende Kosten für Domain, Hosting und Pflege werden getrennt ausgewiesen.
+      Eine Website mit eigener Domain, Impressum und Datenschutzerklärung kostet bei InfraOne pauschal ab CHF [1'200] exkl. MwSt. [Umfang und Preis mit InfraOne bestätigen]. Funktionen wie Reservation, Terminbuchung oder Online-Zahlung stehen als eigene Positionen in der Offerte. Laufende Kosten für Domain, Hosting und Pflege werden getrennt ausgewiesen.
   - frage: Muss ich die Texte selbst schreiben?
     antwort: |
       Nein, aber es ist günstiger und oft besser, weil Sie Ihren Betrieb am besten kennen. Wenn Sie keine Zeit haben, wird das Schreiben als Position offeriert. Ein Zwischenweg: Sie liefern Stichworte und bestehende Unterlagen, InfraOne formuliert daraus die Seiten.
@@ -71,7 +71,7 @@ faq:
       Ja. Öffnungszeiten, Preise, Texte und Fotos ändern Sie über eine Oberfläche ohne Programmierkenntnisse. Bei der Abnahme erhalten Sie eine Einführung. Grössere Änderungen an Aufbau oder Funktionen laufen über InfraOne.
   - frage: Was passiert mit meiner alten Website?
     antwort: |
-      Bestehende Adressen werden auf die neuen Seiten umgeleitet, damit Besucher und Google keine Fehlerseiten sehen. Inhalte, die noch stimmen, werden übernommen. Das alte Hosting kündigen Sie erst, wenn die neue Website läuft.
+      Bestehende Adressen werden auf die neuen Seiten umgeleitet, damit Besucher und Suchmaschinen keine Fehlerseiten sehen. Inhalte, die noch stimmen, werden übernommen. Das alte Hosting kündigen Sie erst, wenn die neue Website läuft.
   - frage: Brauche ich einen Pflegevertrag?
     antwort: |
       Nicht zwingend. Ohne Pflegevertrag werden Updates nach Aufwand verrechnet, wenn Sie sie bestellen. Ein Pflegevertrag lohnt sich, wenn Sie nicht selbst daran denken wollen; Sicherheitsupdates werden dann ohne Nachfrage eingespielt. Beide Varianten sind kündbar.

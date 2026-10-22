@@ -3,15 +3,15 @@ pfad: /branchen/detailhandel
 cluster: branche
 navTitle: Detailhandel
 metaTitle: Zahlterminal für den Detailhandel | ibis payment
-metaDescription: 'Kartenterminal für den Laden: kassenintegriert mit PIN-Pad, mobil für Beratung am Regal, Self-Checkout. Kartenzahlung ab 0.75 %, CHF 0.05 pro Zahlung.'
+metaDescription: 'Kartenterminal für den Laden: kassenintegriert mit PIN-Pad, mobil für die Beratung am Regal, Self-Checkout. Debit ab 0.75 %, CHF 0.05 pro Zahlung.'
 kicker: Branche
 lead: Das Terminal an der Kasse übernimmt den Betrag, der Kunde zahlt am PIN-Pad, der Abschluss stimmt. Für Laden, Boutique und Self-Checkout.
 intro: |
   Im Detailhandel läuft die Kartenzahlung an der Kasse. Artikel scannen, der Betrag erscheint auf dem Terminal, der Kunde hält die Karte hin oder gibt die PIN ein, der Beleg kommt aus dem Kassendrucker. Jede Sekunde zählt, besonders am Samstag und im Dezember, und jeder abgetippte Betrag ist ein Fehler, der am Abend beim Kassenabschluss auftaucht.
 
-  Gleichzeitig ist der Detailhandel die Branche mit vielen kleinen Beträgen. Bei einer Zeitung oder einem Getränk entscheidet nicht der Prozentsatz, sondern der Fixbetrag pro Zahlung über die Kosten. Und wer Beratung am Regal anbietet, will die Zahlung dort abschliessen, wo der Kunde steht, nicht an einer Kasse mit Schlange.
+  Im Laden sind viele Beträge klein. Bei einer Zeitung oder einem Getränk entscheidet nicht der Prozentsatz, sondern der Fixbetrag pro Zahlung über die Kosten. Und wer am Regal berät, will die Zahlung dort abschliessen, wo der Kunde steht.
 
-  Diese Seite zeigt den Ablauf an der Kasse, welches Terminal für welchen Platz im Laden passt, was Kleinbeträge auf der Abrechnung bedeuten und wie Self-Checkout mit dem Terminal funktioniert. Die Preisliste finden Sie unter [Konditionen](/konditionen), die Offerte über [Kontakt](/kontakt).
+  Die Preisliste finden Sie unter [Konditionen](/konditionen), die Offerte über [Kontakt](/kontakt).
 sections:
   - heading: Betrag aus der Kasse, nicht aus dem Kopf
     body: |
@@ -24,27 +24,27 @@ sections:
 
       Für Läden ohne Kassensystem, etwa Bäckerei, Blumenladen oder Kiosk, passt der [PayTec V3CT3](/geraete/paytec-v3ct3). Betrag eintippen, Karte vorhalten, Beleg abreissen. Mit dem Kunden-Pinpad P200 zahlt der Kunde auf seiner Seite des Tresens, ohne dass das Terminal über die Theke wandert. Miete CHF 19 pro Monat, Kauf CHF 390, exkl. MwSt.
 
-      Für Beratung am Regal, in der Boutique oder im Möbelgeschäft kommt der mobile [PayTec N62](/geraete/paytec-n62) dazu. Er wiegt 176 Gramm, läuft über WLAN oder 4G, der Beleg geht per QR-Code oder E-Mail raus, und über KIT lässt er sich an die Kasse anbinden. Alle Modelle unter [Geräte](/geraete).
+      Für die Beratung am Regal, in der Boutique oder im Möbelgeschäft kommt der mobile [PayTec N62](/geraete/paytec-n62) dazu. Er wiegt 176 Gramm, läuft über WLAN oder 4G, der Beleg geht per QR-Code oder E-Mail raus, und über KIT lässt er sich an die Kasse anbinden. Alle Modelle unter [Geräte](/geraete).
   - heading: Kleinbeträge und der Fixbetrag pro Zahlung
     body: |
-      Bei einem Betrag von CHF 5 entsprechen CHF 0.05 Fixbetrag einem ganzen Prozent des Umsatzes. Bei CHF 50 ist es ein Zehntel davon. Wer viele kleine Beträge hat, vergleicht deshalb nicht nur Prozentsätze, sondern rechnet den Fixbetrag mit. Bei uns kostet eine Zahlung den Satz der Karte plus CHF 0.05, bei Grossanbietern steht in der Liste ein höherer Fixbetrag [CHF 0.15, Quelle und Datum eintragen].
+      Bei einem Betrag von CHF 5 entsprechen CHF 0.05 Fixbetrag einem ganzen Prozent des Umsatzes. Bei CHF 50 ist es ein Zehntel davon. Wer viele kleine Beträge hat, vergleicht deshalb nicht nur Prozentsätze, sondern rechnet den Fixbetrag mit. Bei uns kostet eine Zahlung den Satz der Karte plus CHF 0.05; Grossanbieter nennen in der Liste einen höheren Fixbetrag [CHF 0.15, Quelle und Datum eintragen].
 
-      Die Sätze: Debit Inland 0.75 %, Kredit Inland 1.25 %, TWINT 1.00 %, ausländische und Firmenkarten mit 0.90 Prozentpunkten Zuschlag, alles exkl. MwSt. Im Detailhandel dominiert die Debitkarte, weshalb der Debitsatz die Abrechnung prägt. Die Beispielrechnung unten zeigt, was ein Laden mit den genannten Annahmen pro Monat zahlt, verglichen mit dem Listenpreis eines Grossanbieters. Eine Mindestgebühr gibt es nicht.
+      Die Sätze: Debit Inland 0.75 %, Kredit Inland 1.25 %, TWINT 1.00 %, ausländische und Firmenkarten mit 0.90 Prozentpunkten Zuschlag, alles exkl. MwSt. Wo die Debitkarte den grössten Teil des Umsatzes ausmacht, prägt der Debitsatz die Abrechnung. Die Beispielrechnung unten zeigt, was ein Laden mit den genannten Annahmen pro Monat zahlt, verglichen mit dem Listenpreis eines Grossanbieters. Eine Mindestgebühr gibt es nicht.
   - heading: Samstag, Mittag, Dezember
     body: |
       In Stosszeiten entscheidet die Zahl der Kassen, nicht die Geschwindigkeit eines einzelnen Terminals. Eine zweite Kasse mit eigenem CT20P kostet CHF 24 pro Monat Miete und lässt sich für die Dezemberwochen dazunehmen, weil die Miete monatlich kündbar ist. Ein N62 als mobile Zusatzlinie fängt die Schlange ab, wenn eine Kasse ausfällt oder die Beratung im Laden gleich mit kassieren soll.
 
-      Der CT20P hängt am Kabel, nicht am WLAN. Das ist in Ladenlokalen mit Betonwänden und vielen Handys im Raum die zuverlässige Variante. Mit Strom über das Netzwerkkabel entfällt das Netzteil am Tresen. Bei einem Defekt schicken wir ein Ersatzgerät, in der Miete inbegriffen, und Ihr Berater ist über die Direktwahl erreichbar, siehe [Support](/support).
+      Der CT20P hängt am Kabel, nicht am WLAN. In Ladenlokalen mit Betonwänden und vielen Handys im Raum ist das die zuverlässige Variante. Mit Strom über das Netzwerkkabel entfällt das Netzteil am Tresen. Bei einem Defekt schicken wir ein Ersatzgerät, in der Miete inbegriffen, und Ihr Berater ist über die Direktwahl erreichbar, siehe [Support](/support).
   - heading: Self-Checkout und die Kundenseite
     body: |
       Beim Self-Checkout bedient der Kunde Kasse und Terminal allein. Dafür braucht es ein Terminal mit physischem PIN-Pad, das fest montiert ist und den Betrag direkt von der Kasse bekommt. Der CT20P erfüllt das: PIN-Pad mit fühlbaren Markierungen, das auch Menschen mit Sehbehinderung bedienen können, Kensington-Schloss gegen Diebstahl, Beleg über den Kassendrucker.
 
-      Die fühlbaren Markierungen sind nicht nur Komfort. Im Detailhandel wird barrierefreies Bezahlen zunehmend verlangt, und ein Touchscreen ohne Tasten erfüllt das nicht. Wer heute eine Kasse plant, sollte das Terminal deshalb gleich mit einplanen und nicht als Zubehör nachkaufen.
+      Die fühlbaren Markierungen sind mehr als Komfort. Barrierefreies Bezahlen wird im Detailhandel zunehmend verlangt, und ein reiner Touchscreen ist für Menschen mit Sehbehinderung schwer bedienbar. Wer heute eine Kasse plant, sollte das Terminal gleich mit einplanen.
   - heading: Kassenabschluss, Abrechnung und Wechsel
     body: |
       Die Kartenumsätze werden gesammelt pro Tag am nächsten Werktag auf Ihr Geschäftskonto gutgeschrieben. Das passt zum Kassenabschluss, weil jeder Tag eine Summe ergibt, die sich mit der Gutschrift abgleichen lässt. Einmal pro Monat erhalten Sie eine Abrechnung auf einer Seite mit jeder Position, inklusive Terminalmiete.
 
-      Wenn Sie heute schon ein Terminal haben, schicken Sie uns Ihre letzte Abrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden nach, Position für Position, und unterbieten sie, oder wir sagen Ihnen, dass es nicht geht. Beim Wechsel prüfen wir die Kündigungsfrist, übernehmen die Kündigung und installieren am Stichtag vor Ladenöffnung, inklusive Kassenanbindung. Alle Sätze stehen unter [Konditionen](/konditionen).
+      Wenn Sie heute schon ein Terminal haben, schicken Sie uns Ihre letzte Abrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden nach, Position für Position, und unterbieten sie, oder wir sagen Ihnen, dass es nicht geht. Beim Wechsel prüfen wir die Kündigungsfrist und installieren am Stichtag vor Ladenöffnung, inklusive Kassenanbindung. Alle Sätze stehen unter [Konditionen](/konditionen).
 beispiel:
   aktiv: true
   titel: Beispiel Ladengeschäft
@@ -69,7 +69,7 @@ faq:
       Ja. Die Miete ist monatlich kündbar und die Aufschaltung kostet CHF 0. Ein zusätzlicher CT20P oder ein mobiler N62 lässt sich für die Saison dazunehmen und danach zurückgeben.
   - frage: Wie stimmt die Gutschrift mit dem Kassenabschluss überein?
     antwort: |
-      Die Gutschrift erfolgt gesammelt pro Tag am nächsten Werktag. Jeder Kalendertag ergibt eine Summe, die Sie mit dem Kassenabschluss desselben Tages abgleichen. Jede einzelne Zahlung sehen Sie im Händlerportal.
+      Die Gutschrift erfolgt gesammelt pro Tag am nächsten Werktag. Jeder Kalendertag ergibt eine Summe, die Sie mit dem Kassenabschluss desselben Tages abgleichen.
 bausteine:
   rechner: true
   geraete: true

@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useEffect, useId, useRef, useState } from 'react';
+import { useCallback, useEffect, useId, useRef, useState } from 'react';
 import { NAV, type NavGroup } from '@/lib/nav';
 import { LogoWordmark } from '@/components/brand/Logo';
+import { ThemeToggle } from '@/components/ui/ThemeToggle';
+import { Icon, type IconName } from '@/components/ui/Icons';
 
 const Chevron = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -17,6 +19,16 @@ const Ext = () => (
   </svg>
 );
 
+function MenuIcon({ name }: { name?: IconName }) {
+  if (!name) return <span className="mi" />;
+  const I = Icon[name];
+  return (
+    <span className="mi">
+      <I />
+    </span>
+  );
+}
+
 function GroupLinks({ group, onNavigate }: { group: NavGroup; onNavigate?: () => void }) {
   return (
     <div className="mega-group">
@@ -24,6 +36,7 @@ function GroupLinks({ group, onNavigate }: { group: NavGroup; onNavigate?: () =>
       {group.links.map((l) =>
         l.external ? (
           <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer" onClick={onNavigate}>
+            <MenuIcon name={l.icon} />
             <span>
               {l.label}
               <Ext />
@@ -32,6 +45,7 @@ function GroupLinks({ group, onNavigate }: { group: NavGroup; onNavigate?: () =>
           </a>
         ) : (
           <Link key={l.href} href={l.href} onClick={onNavigate}>
+            <MenuIcon name={l.icon} />
             <span>{l.label}</span>
             {l.description && <small>{l.description}</small>}
           </Link>
@@ -41,9 +55,26 @@ function GroupLinks({ group, onNavigate }: { group: NavGroup; onNavigate?: () =>
   );
 }
 
+/** Dropdown: öffnet bei Hover oder Klick, schliesst mit kurzer Verzögerung, damit die Maus ins Panel wechseln kann. */
 function Dropdown({ label, groups, open, onOpen, onClose }: { label: string; groups: NavGroup[]; open: boolean; onOpen: () => void; onClose: () => void }) {
   const id = useId();
   const ref = useRef<HTMLLIElement>(null);
+  const timer = useRef<number | null>(null);
+  const cancel = () => {
+    if (timer.current) {
+      window.clearTimeout(timer.current);
+      timer.current = null;
+    }
+  };
+  const closeSoon = () => {
+    cancel();
+    timer.current = window.setTimeout(onClose, 180);
+  };
+  const openNow = () => {
+    cancel();
+    onOpen();
+  };
+  useEffect(() => cancel, []);
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && onClose();
@@ -56,16 +87,18 @@ function Dropdown({ label, groups, open, onOpen, onClose }: { label: string; gro
     };
   }, [open, onClose]);
   return (
-    <li ref={ref} onMouseEnter={onOpen} onMouseLeave={onClose}>
-      <button type="button" className="menu-btn" aria-expanded={open} aria-controls={id} onClick={() => (open ? onClose() : onOpen())}>
+    <li ref={ref} onMouseEnter={openNow} onMouseLeave={closeSoon}>
+      <button type="button" className="menu-btn" aria-expanded={open} aria-controls={id} onClick={() => (open ? onClose() : openNow())}>
         {label}
         <Chevron />
       </button>
       {open && (
-        <div id={id} className={`mega cols-${groups.length}`} onBlur={(e) => !e.currentTarget.contains(e.relatedTarget as Node) && onClose()}>
-          {groups.map((g) => (
-            <GroupLinks key={g.title} group={g} onNavigate={onClose} />
-          ))}
+        <div className="mega-wrap" onMouseEnter={cancel}>
+          <div id={id} className={`mega cols-${groups.length}`} onBlur={(e) => !e.currentTarget.contains(e.relatedTarget as Node) && closeSoon()}>
+            {groups.map((g) => (
+              <GroupLinks key={g.title} group={g} onNavigate={onClose} />
+            ))}
+          </div>
         </div>
       )}
     </li>
@@ -132,6 +165,7 @@ export function Header({ phone, phoneHref }: { phone: string; phoneHref: string 
   }, [mobile]);
 
   const isCurrent = (href: string) => (href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/'));
+  const closeIdx = useCallback((i: number) => setOpenIdx((c) => (c === i ? null : c)), []);
 
   return (
     <header className="header">
@@ -143,7 +177,7 @@ export function Header({ phone, phoneHref }: { phone: string; phoneHref: string 
           <ul className="menu">
             {NAV.map((item, i) =>
               'groups' in item ? (
-                <Dropdown key={item.label} label={item.label} groups={item.groups} open={openIdx === i} onOpen={() => setOpenIdx(i)} onClose={() => setOpenIdx((c) => (c === i ? null : c))} />
+                <Dropdown key={item.label} label={item.label} groups={item.groups} open={openIdx === i} onOpen={() => setOpenIdx(i)} onClose={() => closeIdx(i)} />
               ) : (
                 <li key={item.href}>
                   <Link href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>
@@ -155,6 +189,7 @@ export function Header({ phone, phoneHref }: { phone: string; phoneHref: string 
           </ul>
           <div className="nav-right">
             <LangSwitch />
+            <ThemeToggle />
             <a className="tel num" href={`tel:${phoneHref}`}>
               {phone}
             </a>
@@ -213,12 +248,14 @@ export function Header({ phone, phoneHref }: { phone: string; phoneHref: string 
           <Link className="btn btn-ink" href="/kontakt">
             Offerte anfordern
           </Link>
-          <p className="muted" style={{ fontSize: '.9rem' }}>
-            Sprache: Deutsch. Französisch und Italienisch folgen.
-          </p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+            <ThemeToggle />
+            <span className="muted" style={{ fontSize: '.9rem' }}>
+              Hell oder dunkel. Sprache: Deutsch, FR und IT folgen.
+            </span>
+          </div>
         </div>
       </div>
     </header>
   );
 }
-

@@ -15,6 +15,8 @@ const STATIC: { path: string; priority: number; changeFrequency: MetadataRoute.S
   { path: '/ueber-uns', priority: 0.5, changeFrequency: 'yearly' },
   { path: '/kontakt', priority: 0.8, changeFrequency: 'yearly' },
   { path: '/dienstleistungen', priority: 0.6, changeFrequency: 'monthly' },
+  { path: '/branchen', priority: 0.7, changeFrequency: 'monthly' },
+  { path: '/wissen', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/impressum', priority: 0.2, changeFrequency: 'yearly' },
   { path: '/datenschutz', priority: 0.2, changeFrequency: 'yearly' },
   { path: '/agb', priority: 0.2, changeFrequency: 'yearly' },

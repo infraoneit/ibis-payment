@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useInView } from './Reveal';
 import { fmtInt } from '@/lib/format';
 
@@ -8,8 +8,11 @@ import { fmtInt } from '@/lib/format';
 export function CountUp({ to, decimals = 0, prefix = '', suffix = '', duration = 1400 }: { to: number; decimals?: number; prefix?: string; suffix?: string; duration?: number }) {
   const { ref, onEnter } = useInView<HTMLSpanElement>(0.5);
   const [v, setV] = useState(0);
+  const started = useRef(false);
   useEffect(() => {
     onEnter(() => {
+      if (started.current) return; // Animation nur einmal starten
+      started.current = true;
       if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         setV(to);
         return;

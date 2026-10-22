@@ -3,59 +3,57 @@ pfad: /zahlterminal
 cluster: payment
 navTitle: Zahlterminal
 metaTitle: 'Zahlterminal Schweiz: Modelle, Kosten, Ablauf | ibis payment'
-metaDescription: 'Zahlterminal für die Schweiz: ep2-zertifiziert, TWINT auf dem Terminal, Miete ab CHF 19 oder Kauf ab CHF 390. Offene Konditionen, Installation vor Ort.'
+metaDescription: 'Zahlterminal für die Schweiz: ep2-zertifiziert, TWINT auf dem Terminal, Miete ab CHF 19 oder Kauf ab CHF 390. Konditionen offen, Installation vor Ort.'
 kicker: Zahlterminal
-lead: Ein Zahlterminal nimmt Debitkarten, Kreditkarten, TWINT und Handy-Wallets an einem Ort an. Hier steht, was ein Terminal in der Schweiz können muss, welche Bauform zu welchem Betrieb passt und was es kostet.
+lead: Ein Zahlterminal nimmt Debitkarten, Kreditkarten, TWINT und Handy-Wallets an einem Ort an. Hier steht, was es in der Schweiz können muss, welche Bauform zu welchem Betrieb passt und was es kostet.
 intro: |
-  Wer in der Schweiz ein Zahlterminal sucht, findet viele Begriffe für dieselbe Sache: Kartenterminal, Kartenlesegerät, EFT/POS-Terminal, Bezahlterminal. Gemeint ist immer das Terminal, an dem Ihre Kundschaft mit Karte oder Handy bezahlt. Entscheidend ist nicht der Name, sondern drei Fragen: Welche Zahlungsmittel nimmt es an, wie ist es gebaut, und was kostet jede Zahlung.
+  Kartenterminal, Kartenlesegerät, EFT/POS-Terminal, Bezahlterminal: Die Begriffe meinen dasselbe, nämlich das Terminal, an dem Ihre Kundschaft mit Karte oder Handy bezahlt. Für die Wahl zählen drei Fragen. Welche Zahlungsmittel nimmt es an, wie ist es gebaut, und was kostet jede Zahlung.
 
-  ibis payment vermittelt Terminals des Schweizer Herstellers PayTec aus Effretikon. Die Abwicklung läuft über das SwiPay-Bezahlnetzwerk mit TeleCash/Fiserv als Acquirer. Alle Gebühren stehen offen auf der Seite [Konditionen](/konditionen), und der Berater, der Ihnen die Offerte schreibt, installiert das Terminal auch vor Ort.
-
-  Diese Seite ist der Einstieg. Für die Entscheidung zwischen Miete und Kauf, für den Anbietervergleich und für die einzelnen Modelle gibt es eigene Seiten, die unten verlinkt sind.
+  ibis payment vermittelt Terminals des Herstellers PayTec aus Effretikon. Die Abwicklung läuft über das SwiPay-Bezahlnetzwerk mit TeleCash/Fiserv als Acquirer. Jede Gebühr steht auf der Seite [Konditionen](/konditionen), und der Berater, der die Offerte schreibt, installiert das Terminal auch bei Ihnen im Betrieb.
 sections:
   - heading: Was ein Zahlterminal in der Schweiz können muss
     body: |
-      Der Schweizer Markt hat eigene Anforderungen, die ein Terminal aus dem Ausland nicht automatisch erfüllt. Die wichtigste ist die ep2-Zertifizierung. ep2 ist der Schweizer Standard für den Datenaustausch zwischen Terminal und Acquirer; ohne ihn lassen sich PostFinance Card, Reka und Lunch-Check nicht abwickeln. Alle Terminals, die wir vermitteln, sind ep2-zertifiziert und erfüllen den Sicherheitsstandard PCI PTS 6.x.
+      Ein Terminal aus dem Ausland erfüllt die Schweizer Anforderungen nicht automatisch. Die erste ist ep2, der Schweizer Standard für den Datenaustausch zwischen Terminal und Acquirer. Ohne ep2 lassen sich PostFinance Card, Reka und Lunch-Check am Terminal nicht abwickeln. Alle Terminals, die wir vermitteln, sind ep2-zertifiziert und erfüllen den Sicherheitsstandard PCI PTS 6.x.
 
-      Die zweite Anforderung ist TWINT. In vielen Betrieben steht dafür ein QR-Aufsteller neben der Kasse, mit eigener Abrechnung und ohne Verbindung zum Terminal. Auf unseren Terminals wird TWINT direkt auf dem Display angezeigt. Der Betrag kommt vom Terminal, der Kunde scannt mit der TWINT-App, und die Zahlung erscheint auf derselben Abrechnung wie die Kartenzahlungen. Mehr dazu auf der Seite [TWINT Terminal](/twint-terminal).
+      Die zweite ist TWINT. In vielen Betrieben steht dafür ein QR-Aufsteller neben der Kasse, mit eigener Abrechnung und ohne Verbindung zum Terminal. Auf unseren Terminals zeigt das Display den TWINT-Code mit dem Betrag an, der Kunde scannt ihn, und die Zahlung erscheint auf derselben Abrechnung wie die Kartenzahlungen. Mehr dazu unter [TWINT Terminal](/twint-terminal).
 
-      Drittens: kontaktlos. Karten und Handys mit Apple Pay, Google Pay oder Samsung Pay werden per NFC gelesen, Chipkarten über den Schlitz. Und viertens eine Verbindung, die hält. Die mobilen Modelle arbeiten mit 4G und WLAN und wechseln automatisch, wenn eines ausfällt. Die stationären Modelle hängen am LAN oder WLAN.
+      Dazu kommen kontaktloses Bezahlen per NFC, auch mit Apple Pay, Google Pay und Samsung Pay, und eine Verbindung, die hält. Die mobilen Modelle arbeiten mit 4G und WLAN und wechseln automatisch, wenn eines ausfällt. Die stationären Modelle hängen am LAN oder WLAN.
   - heading: Vier Bauformen, vier Einsatzorte
     body: |
       Welche Bauform passt, entscheidet der Ort, an dem bezahlt wird.
 
-      - **Mobil**: Der Kunde bezahlt am Tisch, am Marktstand, an der Haustür. Der [PayTec N62](/geraete/paytec-n62) ist kompakt, 176 Gramm, ohne Drucker; der Beleg geht per QR-Code, SMS oder E-Mail raus. Der [PayTec N86](/geraete/paytec-n86) und der [PayTec N96](/geraete/paytec-n96) haben einen eingebauten Drucker und einen Akku für lange Schichten.
-      - **Stationär ohne Kasse**: Der Betrag wird am Terminal eingetippt, der Beleg gedruckt. Der [PayTec V3CT3](/geraete/paytec-v3ct3) ist das klassische Tischterminal mit Tastatur und Drucker, auf Wunsch mit einem Kunden-Pinpad für die Theke.
-      - **Kassenintegriert**: Die Kasse übergibt den Betrag ans Terminal, niemand tippt ihn ab. Der [PayTec CT20P](/geraete/paytec-ct20p) spricht die Schweizer Kassenprotokolle OPI, ZVT und KIT und hat ein physisches PIN-Pad.
-      - **Automat**: Der [PayTec UN20](/geraete/paytec-un20) wird in Verkaufsautomaten, Parkanlagen und Ladestationen eingebaut und ist wetterfest. Der [PayTec N62 Vending](/geraete/paytec-n62-vending) ist die kompakte Variante für Automaten mit wenig Platz. Beide werden pro Projekt offeriert.
+      - **Mobil**: am Tisch, am Marktstand, an der Haustür. Der [PayTec N62](/geraete/paytec-n62) wiegt 176 Gramm und hat keinen Drucker, der Beleg geht per QR-Code, SMS oder E-Mail raus. [PayTec N86](/geraete/paytec-n86) und [PayTec N96](/geraete/paytec-n96) haben einen Drucker eingebaut und halten eine lange Schicht durch.
+      - **Stationär ohne Kasse**: Der Betrag wird am Terminal eingetippt, der Beleg gedruckt. Der [PayTec V3CT3](/geraete/paytec-v3ct3) ist das Tischterminal mit Tastatur und Drucker, auf Wunsch mit Kunden-Pinpad für die Theke.
+      - **Kassenintegriert**: Die Kasse übergibt den Betrag ans Terminal, niemand tippt ihn ab. Der [PayTec CT20P](/geraete/paytec-ct20p) spricht die Kassenprotokolle OPI, ZVT und KIT und hat ein physisches PIN-Pad.
+      - **Automat**: Der [PayTec UN20](/geraete/paytec-un20) wird in Verkaufsautomaten, Parkanlagen oder Ladestationen eingebaut und ist gegen Staub und Wasser geschützt. Der [PayTec N62 Vending](/geraete/paytec-n62-vending) ist die kompakte Variante für wenig Platz. Beide offerieren wir pro Projekt.
 
-      Eine Übersicht aller Modelle mit technischen Daten finden Sie unter [Geräte](/geraete). Wenn Sie unsicher sind, welches Terminal zu Ihrem Ablauf passt, schauen wir es uns vor Ort an.
+      Alle Modelle mit technischen Daten stehen unter [Geräte](/geraete). Wenn Sie unsicher sind, schauen wir uns den Ablauf bei Ihnen an.
   - heading: Was ein Zahlterminal kostet
     body: |
-      Ein Terminal verursacht zwei Arten von Kosten: den Preis für das Terminal selbst und die Gebühr pro Zahlung. Beide stehen bei uns offen auf der Seite [Konditionen](/konditionen), alle Preise exkl. MwSt.
+      Ein Terminal verursacht zwei Arten von Kosten: den Preis für das Terminal und die Gebühr pro Zahlung. Beide stehen auf der Seite [Konditionen](/konditionen), alle Preise exkl. MwSt.
 
-      Das Terminal mieten Sie ab CHF 19 pro Monat, inklusive Wartung, Updates und Ersatzgerät, oder Sie kaufen es ab CHF 390 mit zwei Jahren Garantie. Aufschaltung und Einrichtung kosten CHF 0, die Installation vor Ort ist inbegriffen.
+      Das Terminal mieten Sie ab CHF 19 pro Monat, inklusive Wartung, Updates und Ersatzgerät, oder Sie kaufen es ab CHF 390. Aufschaltung und Installation vor Ort kosten CHF 0.
 
-      Pro Zahlung fallen ein Prozentsatz je Kartenart und ein Fixbetrag von CHF 0.05 an: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, ausländische und Firmenkarten mit einem Zuschlag von 0.90 Prozentpunkten. Apple Pay und Google Pay werden zum Satz der hinterlegten Karte abgerechnet. Es gibt keine Mindestgebühr und keine Mindestlaufzeit.
+      Pro Zahlung fallen ein Prozentsatz je Kartenart und CHF 0.05 an: Debitkarten Inland 0.75 %, Kreditkarten Inland 1.25 %, TWINT 1.00 %, American Express 1.90 %, Ausland- und Firmenkarten plus 0.90 Prozentpunkte. Apple Pay und Google Pay kosten den Satz der hinterlegten Karte. Es gibt keine Mindestgebühr und keine Mindestlaufzeit.
 
-      Die Beispielrechnung unten zeigt, was das für ein Restaurant bedeutet. Setzen Sie Ihre eigenen Zahlen ein; drei Angaben aus Ihrer letzten Abrechnung genügen.
+      Die Beispielrechnung unten zeigt ein Restaurant. Setzen Sie Ihre eigenen Zahlen ein, drei Angaben aus Ihrer letzten Abrechnung genügen.
   - heading: Vom ersten Gespräch bis zur ersten Zahlung
     body: |
-      Der Ablauf ist in jedem Betrieb ähnlich und dauert in der Regel wenige Wochen, abhängig von der Kündigungsfrist beim bisherigen Anbieter.
+      Der Ablauf ist in jedem Betrieb ähnlich. Wie lange er dauert, hängt vor allem von der Kündigungsfrist beim bisherigen Anbieter ab.
 
       - Sie schicken uns Ihre letzte Monatsabrechnung oder nennen uns Umsatz, Durchschnittsbetrag und Kartenmix. Innert 24 Stunden erhalten Sie eine Offerte, in der jede Gebühr einzeln steht.
-      - Haben Sie noch einen laufenden Vertrag, prüfen wir die Kündigungsfrist und übernehmen die Kündigung.
-      - Ihr Berater konfiguriert das Terminal und kommt zur Installation vor Ort: Kassenanbindung, WLAN, Belegdesign, Testzahlung. Sie und Ihr Team sehen, wie Trinkgeld, Storno und Tagesabschluss funktionieren.
-      - Ab der ersten Zahlung wird der Umsatz gesammelt pro Tag am nächsten Werktag auf Ihr Geschäftskonto gutgeschrieben. Einmal pro Monat erhalten Sie eine Abrechnung auf einer Seite.
+      - Läuft noch ein Vertrag, prüfen wir die Kündigungsfrist und übernehmen die Kündigung.
+      - Ihr Berater konfiguriert das Terminal und installiert es vor Ort: Kassenanbindung, WLAN, Testzahlung. Ihr Team sieht, wie Trinkgeld, Storno und Tagesabschluss funktionieren.
+      - Der Umsatz wird gesammelt pro Tag am nächsten Werktag auf Ihr Geschäftskonto gutgeschrieben. Einmal pro Monat erhalten Sie eine Abrechnung auf einer Seite.
 
       Der Berater, der installiert hat, bleibt Ihr Ansprechpartner mit Direktwahl. Den Start machen Sie über [Kontakt](/kontakt).
-  - heading: Terminalwechsel 2027, was Sie jetzt prüfen sollten
+  - heading: Terminalwechsel ab 2027 rechtzeitig planen
     body: |
-      Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung, weil die Kartenorganisationen neue Sicherheitsanforderungen stellen. Betroffen sind vor allem Modelle mit älteren PCI-Zertifizierungen. Ob Ihr Terminal dazugehört, sagen wir Ihnen anhand von Modell und Baujahr.
+      Viele ältere Terminals verlieren voraussichtlich ab 2027 die Zulassung, weil die Kartenorganisationen neue Sicherheitsanforderungen stellen. Ob Ihr Terminal betroffen ist, sagen wir Ihnen anhand von Modell und Baujahr.
 
-      Wenn ein Wechsel ansteht, ist das der richtige Moment, auch die Gebühren neu zu verhandeln. Wer nur das Terminal tauscht und den alten Vertrag weiterlaufen lässt, verpasst den grösseren Hebel. Die Seite [Zahlterminal Vergleich](/zahlterminal-vergleich) zeigt, worauf Sie beim Vergleich achten müssen.
+      Steht ein Wechsel an, ist das der Moment, auch die Gebühren neu zu verhandeln. Wer nur das Terminal tauscht und den alten Vertrag weiterlaufen lässt, verpasst den grösseren Hebel. Worauf Sie beim Vergleich achten müssen, steht unter [Zahlterminal Vergleich](/zahlterminal-vergleich).
 
-      Alle Terminals, die wir vermitteln, erfüllen PCI PTS 6.x und sind ep2-zertifiziert. Bei der Miete sind Updates und Ersatzgerät enthalten, das Risiko einer späteren Nachrüstung liegt damit nicht bei Ihnen. Mehr dazu unter [Zahlterminal mieten](/zahlterminal-mieten) und [Zahlterminal kaufen](/zahlterminal-kaufen).
+      Alle Terminals, die wir vermitteln, erfüllen PCI PTS 6.x und sind ep2-zertifiziert. Bei der Miete sind Updates und Ersatzgerät enthalten, das Risiko einer späteren Nachrüstung tragen Sie damit nicht. Mehr unter [Zahlterminal mieten](/zahlterminal-mieten) und [Zahlterminal kaufen](/zahlterminal-kaufen).
 beispiel:
   aktiv: true
   titel: Beispiel Restaurant
@@ -68,22 +66,22 @@ preisliste: []
 faq:
   - frage: Welches Zahlterminal passt zu meinem Betrieb?
     antwort: |
-      Das hängt davon ab, wo bezahlt wird. Am Tisch oder am Stand ein mobiles Terminal, am Tresen ohne Kasse ein Tischterminal mit Drucker, an der Kasse ein kassenintegriertes Terminal. Wir schauen uns Ihren Ablauf vor Ort an und empfehlen ein Modell; wenn es nicht passt, tauschen wir es.
+      Das hängt davon ab, wo bezahlt wird. Am Tisch oder am Stand ein mobiles Terminal, am Tresen ohne Kasse ein Tischterminal mit Drucker, an der Kasse ein kassenintegriertes Terminal. Wir schauen uns Ihren Ablauf vor Ort an und empfehlen ein Modell.
   - frage: Brauche ich ein Kassensystem für ein Zahlterminal?
     antwort: |
-      Nein. Die mobilen Terminals und der V3CT3 funktionieren eigenständig, der Betrag wird am Terminal eingetippt. Haben Sie eine Kasse, binden wir das Terminal über OPI, ZVT oder KIT an, damit der Betrag nicht doppelt erfasst wird. Mehr dazu unter [Kassensysteme](/kassensysteme).
+      Nein. Die mobilen Terminals und der V3CT3 laufen eigenständig, der Betrag wird am Terminal eingetippt. Haben Sie eine Kasse, binden wir das Terminal über OPI, ZVT oder KIT an, damit der Betrag nicht doppelt erfasst wird. Mehr unter [Kassensysteme](/kassensysteme).
   - frage: Was ist der Unterschied zwischen Zahlterminal und Kartenlesegerät?
     antwort: |
-      Im Alltag werden die Begriffe gleich verwendet. Als Kartenlesegerät werden oft kleine Leser bezeichnet, die an ein Handy gekoppelt werden. Ein Zahlterminal im Schweizer Sinn ist ep2-zertifiziert, läuft eigenständig und kann TWINT, PostFinance Card und die Kassenanbindung abwickeln.
+      Im Alltag werden die Begriffe gleich verwendet. Als Kartenlesegerät werden oft kleine Leser bezeichnet, die an ein Handy gekoppelt werden. Ein Zahlterminal im Schweizer Sinn ist ep2-zertifiziert, läuft eigenständig und wickelt TWINT, PostFinance Card und die Kassenanbindung ab.
   - frage: Funktioniert das Terminal ohne WLAN?
     antwort: |
-      Die mobilen Modelle haben 4G eingebaut und brauchen kein WLAN. Fällt eines der beiden Netze aus, wechselt das Terminal automatisch auf das andere. Die stationären Modelle hängen am LAN oder WLAN; bei der Installation prüfen wir, ob die Verbindung an Ihrem Kassenplatz stabil ist.
+      Die mobilen Modelle haben 4G eingebaut und brauchen kein WLAN. Fällt eines der beiden Netze aus, wechselt das Terminal auf das andere. Die stationären Modelle hängen am LAN oder WLAN; bei der Installation prüfen wir die Verbindung an Ihrem Kassenplatz.
   - frage: Wie schnell ist das Terminal einsatzbereit?
     antwort: |
-      Die Offerte erhalten Sie innert 24 Stunden. Danach hängt der Termin von Ihrem bisherigen Vertrag ab; ohne Kündigungsfrist installieren wir innert weniger Tage nach Vertragsunterzeichnung [Lieferfrist bestätigen]. Die Installation vor Ort dauert in der Regel unter einer Stunde, inklusive Kassenanbindung und Testzahlung.
+      Die Offerte erhalten Sie innert 24 Stunden. Danach hängt der Termin von Ihrem bisherigen Vertrag ab. Ohne Kündigungsfrist installieren wir kurz nach der Vertragsunterzeichnung [Lieferfrist eintragen].
   - frage: Kann ich mein bestehendes Terminal weiterverwenden?
     antwort: |
-      In Einzelfällen ja, wenn das Modell ep2-zertifiziert und für das SwiPay-Netzwerk freigegeben ist. Bei vielen älteren Terminals lohnt sich das wegen der Zulassungsfrage 2027 nicht. Schicken Sie uns Modell und Baujahr, und wir sagen Ihnen, ob es geht.
+      In Einzelfällen, wenn das Modell ep2-zertifiziert und für das SwiPay-Netzwerk freigegeben ist. Bei vielen älteren Terminals lohnt es sich wegen der Zulassungsfrage ab 2027 nicht. Schicken Sie uns Modell und Baujahr, wir sagen Ihnen, ob es geht.
 bausteine:
   rechner: true
   geraete: true

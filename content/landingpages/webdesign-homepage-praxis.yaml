@@ -5,11 +5,11 @@ navTitle: Homepage Praxis
 metaTitle: Website für Arztpraxis und Therapie | ibis payment
 metaDescription: 'Homepage für Arztpraxis, Physiotherapie oder Zahnarzt: Leistungen, Notfall-Info, Terminanfrage ohne Gesundheitsdaten, Datenschutz nach DSG.'
 kicker: Webdesign
-lead: Eine Praxis-Website hat andere Pflichten als ein Restaurant. Patientinnen und Patienten suchen Leistungen, Öffnungszeiten und einen Termin, und die Website muss dabei mit Gesundheitsdaten sorgfältiger umgehen als jede andere.
+lead: Eine Praxis-Website hat andere Pflichten als ein Restaurant. Patientinnen und Patienten suchen Leistungen, Öffnungszeiten und einen Termin, und die Website muss dabei sorgfältiger mit Daten umgehen als jede andere.
 intro: |
   Für eine Arztpraxis, eine Physiotherapie oder eine Zahnarztpraxis ist die Website oft der erste Kontakt. Neue Patientinnen und Patienten prüfen, ob die Praxis die gesuchte Leistung anbietet, ob sie neue Patienten aufnimmt, wie sie erreichbar ist und was im Notfall gilt. Die Website muss diese Fragen beantworten, ohne dass jemand anrufen muss.
 
-  ibis payment vermittelt Praxis-Websites an InfraOne IT Solutions GmbH in Winterthur ([infraone.ch](https://infraone.ch)). InfraOne richtet in Praxen auch Netzwerk, E-Mail und Backup ein, während unser Berater das Terminal am Empfang installiert und an die Praxissoftware anbindet. Ein Ansprechpartner für die ganze Infrastruktur.
+  ibis payment vermittelt Praxis-Websites an InfraOne IT Solutions GmbH in Winterthur ([infraone.ch](https://infraone.ch)). InfraOne richtet in Praxen auch Netzwerk, E-Mail und Backup ein, während unser Berater das Terminal am Empfang installiert und bei Bedarf an die Kasse anbindet. Ein Ansprechpartner für die ganze Infrastruktur.
 
   Diese Seite beschreibt, was eine Praxis-Website braucht und worauf beim Datenschutz zu achten ist. Preisfaktoren und Ablauf stehen auf der Seite [Webdesign](/webdesign), die Checkliste für die Anfrage unter [Website erstellen lassen](/webdesign/website-erstellen-lassen).
 sections:
@@ -18,31 +18,31 @@ sections:
       Patientinnen und Patienten suchen nach einer Leistung, nicht nach einer Praxis: «Physiotherapie nach Knieoperation», «Zahnreinigung», «Hausarzt nimmt neue Patienten». Die Website sollte jede Leistung auf einer eigenen Seite oder in einem eigenen Abschnitt beschreiben, in verständlicher Sprache, ohne Fachbegriffe, die ein Laie nicht einordnen kann. Was wird gemacht, wie lange dauert es, was muss der Patient mitbringen.
 
       Die Teamseite nennt Name, Funktion, Fachgebiet und Sprachen. Für Praxen, die neue Patienten aufnehmen, gehört dieser Hinweis gut sichtbar auf die Startseite; wer keine aufnimmt, sagt das ebenso deutlich und spart sich Anrufe. Sprechzeiten pro Person sind sinnvoll, wenn das Team in Teilzeit arbeitet.
-  - heading: Notfall-Info, die man in Sekunden findet
+  - heading: Notfall-Info, die man sofort findet
     body: |
-      Wer die Website einer Praxis am Samstagabend aufruft, hat meist ein akutes Problem. Die Notfall-Information gehört deshalb auf jede Seite, sichtbar ohne Scrollen: Was tun ausserhalb der Sprechzeiten, welche Notfallnummer gilt (regionaler Notfalldienst, 144 bei Lebensgefahr, Zahnärztlicher Notfalldienst), wer vertritt die Praxis in den Ferien.
+      Wer die Website einer Praxis am Samstagabend aufruft, hat meist ein akutes Problem. Die Notfall-Information gehört deshalb auf jede Seite, sichtbar ohne Scrollen: Was tun ausserhalb der Sprechzeiten, welche Notfallnummer gilt (regionaler Notfalldienst, 144 bei Lebensgefahr, zahnärztlicher Notfalldienst), wer vertritt die Praxis in den Ferien.
 
-      Dieser Bereich muss von Ihnen selbst in Minuten anpassbar sein, zum Beispiel wenn eine Ferienvertretung beginnt. InfraOne richtet dafür ein eigenes Feld in der Pflegeoberfläche ein, damit Sie nicht in der Seitenstruktur suchen müssen.
+      Diesen Bereich müssen Sie selbst in Minuten anpassen können, zum Beispiel wenn eine Ferienvertretung beginnt. InfraOne richtet dafür ein eigenes Feld in der Pflegeoberfläche ein, damit Sie nicht in der Seitenstruktur suchen müssen. Die Änderung ist danach auf allen Seiten sichtbar.
   - heading: Terminanfrage ohne Gesundheitsdaten im Formular
     body: |
-      Eine Online-Terminanfrage entlastet den Empfang. Sie muss aber so gebaut sein, dass keine Gesundheitsdaten über das Formular laufen. Ein Formular, das nach dem Grund des Besuchs fragt, sammelt besonders schützenswerte Personendaten nach DSG und verschickt sie unverschlüsselt per E-Mail. Das sollte eine Praxis vermeiden.
+      Eine Online-Terminanfrage entlastet den Empfang. Sie muss aber so gebaut sein, dass keine Gesundheitsdaten über das Formular laufen. Ein Formular, das nach dem Grund des Besuchs fragt, sammelt besonders schützenswerte Personendaten nach DSG und verschickt sie oft unverschlüsselt per E-Mail. Das sollte eine Praxis vermeiden.
 
-      Der sinnvolle Aufbau: Name, Telefonnummer, gewünschter Zeitraum, bestehender oder neuer Patient. Kein Freitextfeld für Beschwerden, oder ein Feld mit dem Hinweis, keine Angaben zur Gesundheit einzutragen. Die Praxis ruft zurück und klärt den Rest am Telefon. Wer eine Online-Terminbuchung mit Kalender will, nutzt dafür ein System, das für Praxen zugelassen ist und die Daten in der Schweiz oder unter einem gleichwertigen Datenschutz speichert; InfraOne bindet ein solches System ein, betreibt aber selbst keines.
+      Der sinnvolle Aufbau: Name, Telefonnummer, gewünschter Zeitraum, bestehender oder neuer Patient. Kein Freitextfeld für Beschwerden, oder ein Feld mit dem Hinweis, keine Angaben zur Gesundheit einzutragen. Die Praxis ruft zurück und klärt den Rest am Telefon. Wer eine Online-Terminbuchung mit Kalender will, nutzt dafür ein System, das für Praxen geeignet ist und die Daten in der Schweiz oder unter gleichwertigem Datenschutz speichert. InfraOne bindet ein solches System ein, betreibt aber selbst keines.
   - heading: Datenschutz nach DSG
     body: |
-      Seit September 2023 gilt das revidierte Datenschutzgesetz. Für eine Praxis-Website heisst das konkret: Die Datenschutzerklärung beschreibt, welche Daten die Website erhebt (Formulare, Serverprotokolle, allfällige Analyse-Werkzeuge), wohin sie gehen und wie lange sie bleiben. Werkzeuge, die Daten in Drittländer übertragen, sind zu prüfen oder wegzulassen; eine Praxis-Website kommt in der Regel ohne Tracking aus.
+      Seit September 2023 gilt das revidierte Datenschutzgesetz. Für eine Praxis-Website heisst das: Die Datenschutzerklärung beschreibt, welche Daten die Website erhebt (Formulare, Serverprotokolle, allfällige Analyse-Werkzeuge), wohin sie gehen und wie lange sie bleiben. Werkzeuge, die Daten in Drittländer übertragen, sind zu prüfen oder wegzulassen; eine Praxis-Website kommt in der Regel ohne Tracking aus.
 
-      Das Kontaktformular wird verschlüsselt übertragen (SSL), die eingehenden Anfragen landen in einem Postfach, das nur berechtigte Personen lesen. Keine Patientendaten auf der Website speichern, keine Bilder von Patienten ohne schriftliche Einwilligung. Das Impressum nennt die verantwortliche Person und die Praxis als Betreiberin. InfraOne liefert die Datenschutzerklärung passend zu dem, was die Website tatsächlich tut, nicht als Kopie einer fremden Seite; die rechtliche Prüfung bleibt bei Ihnen oder Ihrem Berufsverband.
+      Das Kontaktformular wird verschlüsselt übertragen (SSL), die eingehenden Anfragen landen in einem Postfach, das nur berechtigte Personen lesen. Keine Patientendaten auf der Website speichern, keine Bilder von Patienten ohne schriftliche Einwilligung. Das Impressum nennt die verantwortliche Person und die Praxis als Betreiberin. InfraOne liefert die Datenschutzerklärung passend zu dem, was die Website tatsächlich tut, nicht als Kopie einer fremden Seite. Die rechtliche Prüfung bleibt bei Ihnen, Ihrem Berufsverband oder einer Fachperson für Datenschutz.
   - heading: Barrierefreiheit ist Teil der Leistung
     body: |
       Ein Teil der Patientinnen und Patienten sieht schlecht, ist älter oder bedient das Handy mit einer Hand. Barrierefreiheit heisst deshalb: ausreichender Kontrast, Schrift, die sich vergrössern lässt, Buttons, die man trifft, Bilder mit Alternativtext, eine Seitenstruktur, die ein Vorleseprogramm versteht. Das sind keine Zusatzfunktionen, sondern die Art, wie die Website gebaut wird.
 
-      Dazu gehört auch die Wegbeschreibung: Parkplätze, Lift, rollstuhlgängiger Zugang, öffentlicher Verkehr. Ein Foto vom Eingang hilft Menschen, die die Praxis zum ersten Mal besuchen.
+      Dazu gehört auch die Wegbeschreibung: Parkplätze, Lift, rollstuhlgängiger Zugang, öffentlicher Verkehr. Ein Foto vom Eingang hilft Menschen, die die Praxis zum ersten Mal besuchen. Eine formale Zertifizierung der Barrierefreiheit ist nicht Teil der Pauschale, kann aber offeriert werden.
   - heading: Krankenkassen-Hinweise und Abrechnung
     body: |
-      Patientinnen und Patienten wollen vor dem ersten Termin wissen, wie abgerechnet wird. Für die Website heisst das: Welche Leistungen gehen über die Grundversicherung, welche über Zusatzversicherung, was wird direkt bezahlt. Bei Therapien gehört der Hinweis dazu, ob eine ärztliche Verordnung nötig ist. Bei Zahnärzten, dass die Behandlung in der Regel privat bezahlt wird und ein Kostenvoranschlag möglich ist.
+      Patientinnen und Patienten wollen vor dem ersten Termin wissen, wie abgerechnet wird. Für die Website heisst das: Welche Leistungen gehen über die Grundversicherung, welche über eine Zusatzversicherung, was wird direkt bezahlt. Bei Therapien gehört der Hinweis dazu, ob eine ärztliche Verordnung nötig ist. Bei Zahnärzten, dass die Behandlung in der Regel privat bezahlt wird und ein Kostenvoranschlag möglich ist. Die Angaben dazu liefert die Praxis; InfraOne bringt sie verständlich auf die Seite.
 
-      Wer am Empfang mit Karte oder TWINT bezahlen lässt, sagt das auf der Website. Das Terminal am Empfang vermittelt ibis payment; die Gebühren stehen auf der Seite [Konditionen](/konditionen), Fragen dazu beantworten wir über [Kontakt](/kontakt). Praxen, die Rechnungen online bezahlen lassen wollen, können [Online-Zahlungen](/online-zahlungen) einbinden, mit TWINT und Karte, ohne dass Gesundheitsdaten über die Zahlung laufen.
+      Wer am Empfang mit Karte oder TWINT bezahlen lässt, sagt das auf der Website. Das Terminal am Empfang kommt von ibis payment; die Gebühren stehen auf der Seite [Konditionen](/konditionen), Fragen dazu beantworten wir über [Kontakt](/kontakt). Praxen, die Rechnungen online bezahlen lassen wollen, können [Online-Zahlungen](/online-zahlungen) einbinden, mit TWINT und Karte, ohne dass Gesundheitsdaten über die Zahlung laufen.
 beispiel:
   aktiv: false
   titel: Keine Beispielrechnung
@@ -55,7 +55,7 @@ preisliste: []
 faq:
   - frage: Was kostet eine Website für eine Praxis?
     antwort: |
-      Eine Website mit bis zu zehn Unterseiten, Leistungen, Team, Notfall-Info, Terminanfrage, Impressum und Datenschutzerklärung beginnt bei InfraOne pauschal bei [ab CHF 1'200] exkl. MwSt. Online-Terminbuchung mit Kalender, Mehrsprachigkeit und Online-Zahlung stehen als eigene Positionen in der Offerte.
+      Eine Website mit Leistungen, Team, Notfall-Info, Terminanfrage, Impressum und Datenschutzerklärung kostet bei InfraOne pauschal ab CHF [1'200] exkl. MwSt. [Umfang und Preis mit InfraOne bestätigen]. Online-Terminbuchung mit Kalender, Mehrsprachigkeit und Online-Zahlung stehen als eigene Positionen in der Offerte.
   - frage: Darf ein Kontaktformular nach dem Grund des Besuchs fragen?
     antwort: |
       Besser nicht. Angaben zur Gesundheit sind besonders schützenswerte Personendaten nach DSG und sollten nicht unverschlüsselt per E-Mail verschickt werden. Das Formular nimmt Name, Telefonnummer und Zeitraum entgegen; der Rest wird am Telefon geklärt.
@@ -64,7 +64,7 @@ faq:
       Ja, über ein System, das für Praxen geeignet ist und die Daten unter Schweizer Datenschutz speichert. InfraOne bindet das System auf der Website ein und stimmt die Einbindung mit Ihrer Praxissoftware ab. Nennen Sie im Formular, welches System Sie nutzen oder in Betracht ziehen.
   - frage: Brauche ich Cookie-Banner und Tracking?
     antwort: |
-      Eine Praxis-Website kommt in der Regel ohne Tracking aus. Wenn keine Analyse-Werkzeuge und keine Einbindungen von Drittanbietern laufen, braucht es keinen Cookie-Banner. Das macht die Website schneller und die Datenschutzerklärung kürzer.
+      Eine Praxis-Website kommt in der Regel ohne Tracking aus. Wenn keine Analyse-Werkzeuge und keine Einbindungen von Drittanbietern laufen, braucht es keinen Cookie-Banner. Das macht die Website schlanker und die Datenschutzerklärung kürzer.
   - frage: Kann ich die Notfall-Info und die Ferienzeiten selbst ändern?
     antwort: |
       Ja. Dafür gibt es ein eigenes Feld in der Pflegeoberfläche, das Sie ohne Programmierkenntnisse anpassen. Die Änderung ist sofort auf allen Seiten sichtbar.

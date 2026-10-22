@@ -23,17 +23,19 @@ export function Breadcrumbs({ crumbs }: { crumbs: Crumb[] }) {
   );
 }
 
-export function PageHero({ label, title, lead, crumbs, children }: { label: string; title: string; lead?: string; crumbs?: Crumb[]; children?: ReactNode }) {
+/** Seitenkopf: Überzeile, H1, Lead, optional ein Visual rechts. */
+export function PageHero({ label, title, lead, crumbs, visual, children }: { label: string; title: string; lead?: string; crumbs?: Crumb[]; visual?: ReactNode; children?: ReactNode }) {
   return (
     <section className="page-hero section no-line">
-      <div className="wrap row">
-        <div className="lbl">{label}</div>
-        <div>
+      <div className={`wrap${visual ? '' : ' single'}`}>
+        <div className="copy">
           {crumbs && <Breadcrumbs crumbs={crumbs} />}
+          <p className="overline">{label}</p>
           <h1>{title}</h1>
           {lead && <p className="lead">{lead}</p>}
           {children}
         </div>
+        {visual && <div className="visual-stage">{visual}</div>}
       </div>
     </section>
   );

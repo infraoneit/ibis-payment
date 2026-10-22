@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 
 type Tone = 'white' | 'grey' | 'dark';
 
-/** Schweizer Raster: Label links (3 Spalten), Inhalt rechts (9 Spalten). */
+/** Sektion mit Kopfzeile oben (Überzeile mit Akzentstrich, optionaler Untertitel) und Inhalt in voller Breite. */
 export function Section({
   id,
   label,
@@ -18,7 +18,7 @@ export function Section({
   sub?: string;
   tone?: Tone;
   tight?: boolean;
-  /** Label nur visuell (kein h2), z. B. für Nummerierungen */
+  /** Überzeile nur visuell (kein h2), wenn der Inhalt selbst mit einer Überschrift beginnt */
   plainLabel?: boolean;
   children: ReactNode;
   className?: string;
@@ -26,16 +26,11 @@ export function Section({
   const cls = ['section', tone === 'grey' ? 'grey' : tone === 'dark' ? 'dark' : '', tight ? 'tight' : '', className ?? ''].filter(Boolean).join(' ');
   return (
     <section id={id} className={cls}>
-      <div className="wrap row">
-        {label && !plainLabel ? (
-          <h2 className="lbl">
-            {label}
-            {sub && <span>{sub}</span>}
-          </h2>
-        ) : (
-          <div className="lbl">
-            {label}
-            {sub && <span>{sub}</span>}
+      <div className="wrap">
+        {label && (
+          <div className="sec-head">
+            {plainLabel ? <p className="overline">{label}</p> : <h2 className="overline">{label}</h2>}
+            {sub && <p className="sec-sub">{sub}</p>}
           </div>
         )}
         <div className="content">{children}</div>

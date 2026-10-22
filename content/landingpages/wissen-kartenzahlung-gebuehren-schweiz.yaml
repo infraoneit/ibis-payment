@@ -11,64 +11,55 @@ intro: |
 
   Dazu kommen Positionen, die in keinem Prozentsatz stecken: der Fixbetrag pro Zahlung, Zuschläge für ausländische Karten, Mindestgebühren, Monatsgebühren, die Terminalmiete. Ob ein Angebot günstig ist, zeigt sich erst, wenn man alle Positionen auf den eigenen Umsatz und den eigenen Kartenmix anwendet.
 
-  Diese Seite erklärt die drei Anteile mit den aktuellen Sätzen der Wettbewerbskommission, die zwei gängigen Preismodelle, die Rolle des Fixbetrags bei kleinen Beträgen und wie Sie aus Ihrer eigenen Abrechnung den effektiven Satz berechnen. Die Konditionen von ibis payment stehen unter [Konditionen](/konditionen), Fragen beantworten wir über [Kontakt](/kontakt).
+  Die Konditionen von ibis payment stehen unter [Konditionen](/konditionen), Fragen beantworten wir über [Kontakt](/kontakt).
 sections:
   - heading: Drei Anteile in jeder Kartengebühr
     body: |
       Der erste Anteil ist die Interchange-Gebühr. Sie geht an die Bank des Karteninhabers, den Issuer, als Entschädigung dafür, dass die Bank die Karte ausgibt, das Konto führt und das Risiko des Kartenmissbrauchs trägt. In der Schweiz legt die Wettbewerbskommission WEKO die Obergrenzen für Inlandkarten fest.
 
-      Der zweite Anteil ist die Netzwerk- oder Scheme-Gebühr. Sie geht an Visa oder Mastercard für den Betrieb des Netzwerks, über das die Zahlung autorisiert und abgerechnet wird. Die Höhe setzen die Netzwerke fest; in der Zerlegung unten steht sie mit 0.09 % [Platzhalter, Wert bestätigen lassen].
+      Der zweite Anteil ist die Netzwerk- oder Scheme-Gebühr. Sie geht an Visa oder Mastercard für den Betrieb des Netzwerks, über das die Zahlung autorisiert und abgerechnet wird. Die Höhe setzen die Netzwerke fest. In der Zerlegung unten steht sie mit 0.09 % [Wert von SwiPay bestätigen lassen].
 
-      Der dritte Anteil ist die Acquiring-Marge. Sie deckt die Abwicklung, die Auszahlung an den Betrieb, das Terminal, den Support und den Gewinn des Anbieters. Nur dieser Anteil unterscheidet sich zwischen Anbietern, und nur hier entsteht ein Preisunterschied. Die Zerlegung auf dieser Seite zeigt die drei Anteile am Beispiel einer Schweizer Debitkarte.
-  - heading: Interchange in der Schweiz, die Sätze der WEKO
+      Der dritte Anteil ist die Acquiring-Marge. Sie deckt die Abwicklung, die Auszahlung an den Betrieb, das Terminal, den Support und den Gewinn des Anbieters. Nur dieser Anteil unterscheidet sich zwischen Anbietern. Die Zerlegung auf dieser Seite zeigt die drei Anteile am Beispiel einer Schweizer Debitkarte.
+  - heading: 'Interchange in der Schweiz: die Sätze der WEKO'
     body: |
-      Für Inlandzahlungen am Verkaufspunkt gelten diese Obergrenzen. Debit Mastercard: 0.12 %, mit einem Deckel von 30 Rappen ab CHF 300, gemäss Einigung der WEKO mit Mastercard vom Mai 2024. Visa Debit: im Durchschnitt höchstens 0.15 %, je nach Händlerkategorie 0.12 % oder 0.20 %, gemäss Einigung der WEKO mit Visa vom Juli 2025. Kreditkarten Inland: 0.44 %, seit der Verfügung der WEKO von 2014.
+      Für Inlandzahlungen am Verkaufspunkt gelten diese Obergrenzen. Debit Mastercard: 0.12 %, mit einem Deckel von 30 Rappen ab CHF 300, gemäss Einigung der WEKO mit Mastercard vom Mai 2024. Visa Debit: im Durchschnitt höchstens 0.15 %, je nach Händlerkategorie 0.12 % oder 0.20 %, gemäss Einigung der WEKO mit Visa vom Juli 2025. Kreditkarten Inland: 0.44 %, WEKO 2014.
 
       Für Online-Zahlungen mit Debitkarten gilt ab November 2025 ein Satz von 0.28 % bei Mastercard und 0.25 % bei Visa. Karten aus dem Europäischen Wirtschaftsraum, die in der Schweiz eingesetzt werden, tragen 0.2 % bei Visa Debit und 0.44 % bei Kreditkarten.
 
-      Diese Sätze erklären, warum Debitkarten für den Betrieb günstiger sind als Kreditkarten: Der Interchange-Anteil ist bei Kredit fast viermal so hoch. Sie erklären auch, warum eine Debitgebühr unter 0.12 % nicht kostendeckend sein kann, weil schon der erste Anteil mehr kostet.
-  - heading: Blended oder Interchange++, zwei Arten, dieselben Kosten zu zeigen
+      Diese Sätze erklären, warum Debitkarten für den Betrieb günstiger sind als Kreditkarten: Der Interchange-Anteil liegt bei Kreditkarten deutlich höher. Sie erklären auch, warum eine Debitgebühr unter dem Interchange nicht kostendeckend sein kann; schon der erste Anteil kostet mehr.
+  - heading: 'Blended oder Interchange++: zwei Arten, dieselben Kosten zu zeigen'
     body: |
       Beim Modell Blended nennt der Anbieter einen Satz pro Kartenart, in dem alle drei Anteile enthalten sind, etwa 0.75 % für Debit und 1.25 % für Kredit. Der Betrieb weiss vorher, was eine Zahlung kostet. Er sieht aber nicht, wie viel davon Marge ist, es sei denn, der Anbieter weist es aus.
 
-      Beim Modell Interchange++ werden Interchange und Netzwerkgebühr zum effektiven Satz durchgereicht und die Marge separat verrechnet. Das ist transparent, aber die Abrechnung wird lang: Jede Kartenart und jede Händlerkategorie hat einen eigenen Interchange-Satz, und Änderungen der Netzwerke schlagen direkt durch. Für Betriebe mit sehr hohem Kartenumsatz kann sich das lohnen, für einen Salon oder ein Restaurant ist die Abrechnung meist nicht mehr lesbar.
+      Beim Modell Interchange++ werden Interchange und Netzwerkgebühr zum effektiven Satz durchgereicht und die Marge separat verrechnet. Das ist transparent, aber die Abrechnung wird lang: Jede Kartenart und jede Händlerkategorie hat einen eigenen Interchange-Satz, und Änderungen der Netzwerke schlagen direkt durch. Für Betriebe mit sehr hohem Kartenumsatz kann sich das lohnen. Für einen kleinen Betrieb wird die Abrechnung damit schwer vergleichbar.
 
-      ibis payment arbeitet mit einem Satz pro Kartenart und weist in der Offerte aus, wie viel davon Interchange, Netzwerkgebühr und Marge ist. Damit ist der Satz planbar und die Marge sichtbar.
+      ibis payment arbeitet mit einem Satz pro Kartenart und weist in der Offerte aus, wie viel davon Interchange, Netzwerkgebühr und Marge ist. Der Satz ist planbar, die Marge sichtbar.
   - heading: Der Fixbetrag pro Zahlung entscheidet bei kleinen Beträgen
     body: |
-      Neben dem Prozentsatz verrechnen die meisten Anbieter einen Fixbetrag pro Transaktion. Er sieht klein aus, ist aber bei kleinen Beträgen die grössere Position. Bei einer Zahlung von CHF 5 entsprechen CHF 0.05 einem ganzen Prozent, bei CHF 100 nur 0.05 Prozentpunkten. Ein Café mit einem Durchschnittsbetrag von CHF 12 zahlt deshalb relativ mehr Fixbetrag als eine Praxis mit CHF 120.
+      Neben dem Prozentsatz verrechnen die meisten Anbieter einen Fixbetrag pro Transaktion. Er sieht klein aus, ist aber bei kleinen Beträgen die grössere Position. Bei einer Zahlung von CHF 5 entsprechen CHF 0.05 einem ganzen Prozent, bei CHF 100 nur 0.05 Prozentpunkten.
 
-      Der Fixbetrag ist auch der Grund, warum sich zwei Angebote mit gleichem Prozentsatz stark unterscheiden können. Bei uns liegt er bei CHF 0.05, der Listenpreis eines Grossanbieters nennt [CHF 0.15, Quelle und Datum eintragen], App-Anbieter verzichten oft auf den Fixbetrag und verlangen dafür einen höheren Satz [1.5 % Debit / 2.5 % Kredit, Quelle und Datum eintragen].
+      Der Fixbetrag ist auch der Grund, warum sich zwei Angebote mit gleichem Prozentsatz stark unterscheiden können. Bei uns liegt er bei CHF 0.05. Der Listenpreis eines Grossanbieters nennt einen höheren Fixbetrag [CHF 0.15, Quelle und Datum eintragen]. App-Anbieter verzichten oft auf den Fixbetrag und verlangen dafür einen höheren Satz [1.5 % Debit / 2.5 % Kredit, Quelle und Datum eintragen].
 
-      Die Beispielrechnung unten zeigt die Wirkung für ein Café mit kleinem Durchschnittsbetrag. Setzen Sie im Rechner Ihren Durchschnittsbetrag ein, er steht als Umsatz geteilt durch Anzahl Zahlungen auf Ihrer Abrechnung.
-  - heading: Auslandkarten, Firmenkarten, American Express
+      Die Beispielrechnung unten zeigt die Wirkung für ein Café mit kleinem Durchschnittsbetrag. Setzen Sie im Rechner Ihren Durchschnittsbetrag ein; er ergibt sich aus Umsatz geteilt durch Anzahl Zahlungen auf Ihrer Abrechnung.
+  - heading: Auslandkarten, American Express, Mindest- und Aufschaltgebühren
     body: |
-      Karten ausländischer Banken und Firmenkarten fallen nicht unter die Schweizer Interchange-Regelung. Ihr Interchange ist höher, deshalb verrechnen die Anbieter einen Zuschlag. Bei uns beträgt er 0.90 Prozentpunkte auf den jeweiligen Satz. Wer Touristen bedient oder viele Geschäftskunden hat, sieht diese Position auf jeder Abrechnung und sollte sie beim Vergleich mitnehmen.
+      Für Karten ausländischer Banken und für Firmenkarten gelten andere, meist höhere Interchange-Sätze. Deshalb verrechnen die Anbieter einen Zuschlag; bei uns beträgt er 0.90 Prozentpunkte auf den jeweiligen Satz. Wer Touristen bedient oder viele Geschäftskunden hat, sieht diese Position auf jeder Abrechnung.
 
-      American Express ist ein eigenes Netzwerk mit eigener Preisstruktur und wird bei uns auf Wunsch zu 1.90 % freigeschaltet. Apple Pay, Google Pay und Samsung Pay sind keine eigenen Kartenarten, sondern Hüllen um eine hinterlegte Karte; sie kosten den Satz dieser Karte. TWINT ist kein Kartennetzwerk, hat deshalb keinen Interchange im Sinne der WEKO und wird bei uns zu 1.00 % abgerechnet. Alle Sätze exkl. MwSt.
-  - heading: Mindestgebühren, Monatsgebühren, Aufschaltung
-    body: |
-      Drei Positionen stehen oft nicht im Prozentsatz und werden deshalb übersehen. Eine Mindestgebühr pro Monat fällt an, wenn der Umsatz unter einer Schwelle liegt, und trifft Betriebe mit Saison oder wenig Kartenumsatz. Eine Monats- oder Servicegebühr fällt unabhängig vom Umsatz an. Eine Aufschalt- oder Einrichtungsgebühr fällt einmal am Anfang an und wird beim Vergleich gern vergessen, obwohl sie im ersten Jahr mitzählt.
+      American Express ist ein eigenes Netzwerk mit eigener Preisstruktur und wird bei uns auf Wunsch zu 1.90 % freigeschaltet. Apple Pay, Google Pay und Samsung Pay sind keine eigenen Kartenarten, sondern Hüllen um eine hinterlegte Karte; sie kosten den Satz dieser Karte. TWINT läuft ausserhalb der Kartennetzwerke und wird bei uns zu 1.00 % abgerechnet. Alle Sätze exkl. MwSt.
 
-      Dazu kommt die Terminalmiete, die bei den meisten Anbietern die einzige planbare Fixposition ist. Bei uns kostet sie CHF 19 oder CHF 24 pro Monat je nach Modell, es gibt keine Mindestgebühr, keine Monatsgebühr und keine Aufschaltgebühr. Die Preisliste zeigt alle Positionen, die auf einer Abrechnung erscheinen können.
+      Drei weitere Positionen stehen nicht im Prozentsatz. Eine Mindestgebühr pro Monat fällt an, wenn der Umsatz unter einer Schwelle liegt, und trifft Saisonbetriebe. Eine Monats- oder Servicegebühr fällt unabhängig vom Umsatz an. Eine Aufschaltgebühr fällt einmal am Anfang an und zählt im ersten Jahr mit. Bei uns kostet die Terminalmiete je nach Modell CHF 19 oder CHF 24 pro Monat; es gibt keine Mindestgebühr und keine Aufschaltgebühr.
   - heading: So lesen Sie Ihre eigene Abrechnung
     body: |
-      Der aussagekräftigste Wert ist der effektive Satz: alle Gebühren eines Monats geteilt durch den Kartenumsatz desselben Monats. Er enthält Prozentsätze, Fixbeträge, Zuschläge, Mindest- und Monatsgebühren und die Terminalmiete in einer Zahl und lässt sich mit jedem Angebot vergleichen, egal nach welchem Modell es aufgebaut ist.
+      Der aussagekräftigste Wert ist der effektive Satz: alle Gebühren eines Monats geteilt durch den Kartenumsatz desselben Monats. Er fasst Prozentsätze, Fixbeträge, Zuschläge, Monatsgebühren und Terminalmiete in einer Zahl zusammen und lässt sich mit jedem Angebot vergleichen.
 
       So gehen Sie vor:
 
-      - Nehmen Sie die letzte Monatsabrechnung und notieren Sie den Kartenumsatz, die Anzahl Zahlungen und die Summe aller Gebühren inklusive Miete.
+      - Notieren Sie aus der letzten Monatsabrechnung den Kartenumsatz, die Anzahl Zahlungen und die Summe aller Gebühren inklusive Miete.
       - Teilen Sie den Umsatz durch die Anzahl Zahlungen. Das ist Ihr Durchschnittsbetrag.
       - Lesen Sie ab, welcher Anteil des Umsatzes mit Kredit- und welcher mit Debitkarten bezahlt wurde. Das ist Ihr Kartenmix.
       - Teilen Sie die Summe aller Gebühren durch den Umsatz. Das ist Ihr effektiver Satz.
-      - Suchen Sie Positionen, die Sie nicht erklären können: Zuschläge, Pauschalen, Gebühren für Belege oder Portale.
 
-      Mit Durchschnittsbetrag, Kartenmix und Umsatz haben Sie die drei Angaben, die der Rechner auf dieser Seite braucht.
-  - heading: Was Sie mit dem Ergebnis tun
-    body: |
-      Vergleichen Sie den effektiven Satz mit dem, was ein anderes Angebot bei gleichem Umsatz, Durchschnittsbetrag und Kartenmix ergibt. Ein tieferer Prozentsatz allein sagt nichts, wenn der Fixbetrag höher ist oder eine Monatsgebühr dazukommt. Wer das einmal im Jahr macht, braucht dafür eine halbe Stunde.
-
-      Wenn Sie den Vergleich nicht selbst rechnen wollen, schicken Sie uns die Abrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden dieselben Umsätze mit unseren Sätzen nach, Position für Position, und unterbieten Ihre heutige Abrechnung, oder wir sagen Ihnen, dass es nicht geht. Die Sätze, mit denen wir rechnen, stehen unter [Konditionen](/konditionen), die Rollen hinter den drei Anteilen unter [Rollen im Payment](/wissen/rollen-im-payment).
+      Mit Durchschnittsbetrag, Kartenmix und Umsatz haben Sie die drei Angaben für den Rechner auf dieser Seite. Wer das nicht selbst rechnen will, schickt uns die Abrechnung über [Kontakt](/kontakt). Wir rechnen innert 24 Stunden mit den Sätzen unter [Konditionen](/konditionen) nach und unterbieten Ihre heutige Abrechnung, oder wir sagen Ihnen, dass es nicht geht. Die Rollen hinter den drei Anteilen stehen unter [Rollen im Payment](/wissen/rollen-im-payment).
 beispiel:
   aktiv: true
   titel: Beispiel Café
@@ -81,22 +72,22 @@ preisliste: []
 faq:
   - frage: Warum sind Debitkarten für den Betrieb günstiger als Kreditkarten?
     antwort: |
-      Weil der Interchange-Anteil tiefer ist. Für Debit Mastercard gilt 0.12 %, für Kreditkarten 0.44 %, jeweils für Inlandzahlungen am Verkaufspunkt nach WEKO. Dieser Unterschied geht an die kartenausgebende Bank und ist für alle Anbieter gleich.
+      Weil der Interchange-Anteil tiefer ist. Für Debit Mastercard gilt 0.12 %, für Kreditkarten 0.44 %, jeweils für Inlandzahlungen am Verkaufspunkt nach WEKO. Dieser Anteil geht an die kartenausgebende Bank und ist für alle Anbieter gleich.
   - frage: Ist Interchange++ günstiger als ein fester Satz?
     antwort: |
       Nicht automatisch. Interchange++ zeigt die drei Anteile getrennt, verrechnet aber dieselben Kosten. Ob es günstiger ist, hängt von der Marge ab, die der Anbieter daraufschlägt, und von Ihrem Kartenmix. Vergleichen Sie beide Modelle über den effektiven Satz.
   - frage: Was ist der effektive Satz?
     antwort: |
-      Alle Gebühren eines Monats inklusive Fixbeträge, Zuschläge und Terminalmiete, geteilt durch den Kartenumsatz desselben Monats. Er ist die einzige Zahl, mit der sich zwei Angebote mit unterschiedlicher Struktur vergleichen lassen.
+      Alle Gebühren eines Monats inklusive Fixbeträge, Zuschläge und Terminalmiete, geteilt durch den Kartenumsatz desselben Monats. Mit dieser Zahl lassen sich zwei Angebote mit unterschiedlicher Struktur vergleichen.
   - frage: Warum kostet eine Zahlung mit Apple Pay dasselbe wie mit der Karte?
     antwort: |
-      Apple Pay, Google Pay und Samsung Pay sind keine eigenen Kartenarten. Hinter der Wallet liegt eine Debit- oder Kreditkarte, und diese Karte bestimmt Interchange und Satz. Es gibt keinen zusätzlichen Wallet-Zuschlag.
+      Apple Pay, Google Pay und Samsung Pay sind keine eigenen Kartenarten. Hinter der Wallet liegt eine Debit- oder Kreditkarte, und diese Karte bestimmt Interchange und Satz. Bei uns gibt es keinen Wallet-Zuschlag.
   - frage: Gibt es Gebühren, die nicht auf der Preisliste stehen?
     antwort: |
       Bei uns nicht. Was nicht auf der [Preisliste](/konditionen) steht, wird nicht verrechnet. Bei anderen Anbietern prüfen Sie die Abrechnung auf Mindestgebühren, Portalgebühren, Beleggebühren und Aufschaltgebühren.
   - frage: Wie oft sollte ich die Gebühren prüfen?
     antwort: |
-      Einmal im Jahr, mit einer vollständigen Monatsabrechnung. Interchange-Sätze ändern sich, zuletzt 2024 und 2025, und ein Angebot, das vor fünf Jahren fair war, kann es heute nicht mehr sein.
+      Einmal im Jahr, mit einer vollständigen Monatsabrechnung. Die Interchange-Sätze wurden zuletzt 2024 und 2025 neu festgelegt, und ein Angebot, das vor Jahren fair war, muss es heute nicht mehr sein.
 bausteine:
   rechner: true
   geraete: false

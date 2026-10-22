@@ -31,7 +31,7 @@ partner:
   acquiring: SwiPay AG, Baar (Bezahlnetzwerk mit TeleCash/Fiserv als Acquirer)
   terminals: PayTec AG, Effretikon
   it: InfraOne IT Solutions GmbH, Winterthur
-  telefonie: '[Telefonie-Partner]'
+  telefonie: InfraOne IT Solutions GmbH, Winterthur (Telefonie mit peoplefone, Internet mit iway)
   versicherung: '[Versicherungsbroker, unabhängig]'
   treuhand: '[Treuhandpartner]'
 vertragspartner: >-

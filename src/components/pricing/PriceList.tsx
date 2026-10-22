@@ -16,7 +16,7 @@ export function priceRows(k: Konditionen, variant: 'full' | 'short' = 'full'): R
   rows.push({ label: 'Pro Zahlung', beschreibung: 'Fixbetrag je Transaktion, alle Kartenarten', wert: chf(k.txFix, 2) });
   rows.push({ label: 'Terminal-Miete', beschreibung: 'Inklusive Wartung, Updates und Ersatzgerät', wert: chf(k.miete, 2), unit: '/ Monat' });
   if (variant === 'full') {
-    if (k.kauf != null) rows.push({ label: 'Terminal-Kauf', beschreibung: 'Mobil oder stationär, inklusive Einrichtung, 2 Jahre Garantie', wert: `ab ${chf(k.kauf, 2)}` });
+    if (k.kauf != null) rows.push({ label: 'Terminal-Kauf', beschreibung: 'Mobil oder stationär, inklusive Einrichtung und Herstellergarantie [Dauer bestätigen]', wert: `ab ${chf(k.kauf, 2)}` });
     k.weitere.forEach((w) => rows.push({ label: w.label, beschreibung: w.beschreibung, wert: w.wert }));
   } else {
     const w = k.weitere[0];

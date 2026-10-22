@@ -5,7 +5,7 @@ navTitle: Homepage Restaurant
 metaTitle: Homepage für Restaurant erstellen | ibis payment
 metaDescription: 'Homepage für Ihr Restaurant: Speisekarte als Text statt PDF, Online-Reservation, Google-Profil, Fotos und Gutscheine mit Online-Zahlung.'
 kicker: Webdesign
-lead: Eine Restaurant-Website muss drei Fragen auf dem Handy beantworten, bevor der Gast weiterwischt. Was gibt es, wann ist offen, wie reserviere ich. Hier steht, wie die Website das leistet und was sie darüber hinaus für den Betrieb tun kann.
+lead: 'Eine Restaurant-Website muss auf dem Handy drei Fragen beantworten: Was gibt es, wann ist offen, wie reserviere ich. Hier steht, wie die Website das leistet und was sie darüber hinaus für den Betrieb tun kann.'
 intro: |
   Gäste suchen ein Restaurant auf dem Handy, oft unterwegs und mit wenig Geduld. Die Website muss die Speisekarte lesbar zeigen, die Reservation ohne Telefon ermöglichen und mit dem Google-Business-Profil übereinstimmen. Alles andere ist Zugabe.
 
@@ -15,31 +15,31 @@ intro: |
 sections:
   - heading: Speisekarte als Text, nicht als PDF
     body: |
-      Der häufigste Fehler auf Restaurant-Websites ist die Speisekarte als PDF. Auf dem Handy muss der Gast zoomen und schieben, Google kann die Gerichte nicht als Inhalt der Seite lesen, und jede Änderung heisst: PDF neu erstellen, hochladen, alten Link ersetzen.
+      Ein häufiger Fehler auf Restaurant-Websites ist die Speisekarte als PDF. Auf dem Handy muss der Gast zoomen und schieben, für die Suche ist der Inhalt schlechter erfassbar als Text, und jede Änderung heisst: PDF neu erstellen, hochladen, alten Link ersetzen.
 
-      Als Text auf der Seite ist die Karte auf jedem Bildschirm lesbar, Gerichte und Preise sind für die Suche sichtbar (wer «Cordon bleu Winterthur» sucht, findet Sie), und Sie ändern ein Gericht in zwei Minuten über die Pflegeoberfläche. Allergene und vegetarische Kennzeichnung lassen sich als Symbole oder Kürzel hinterlegen. Die Tageskarte oder das Mittagsmenü bekommt einen eigenen Bereich, den Sie morgens anpassen.
+      Als Text auf der Seite ist die Karte auf jedem Bildschirm lesbar, und Sie ändern ein Gericht in wenigen Minuten über die Pflegeoberfläche. Allergene und vegetarische Kennzeichnung lassen sich als Symbole oder Kürzel hinterlegen. Die Tageskarte oder das Mittagsmenü bekommt einen eigenen Bereich, den Sie morgens anpassen.
 
-      Wenn Sie die Karte zusätzlich als PDF zum Ausdrucken anbieten wollen, geht das. Aber die führende Version ist der Text auf der Seite. Wer eine Kasse mit Artikelstamm hat, kann prüfen, ob sich die Preise mit der Website abgleichen lassen; das hängt vom [Kassensystem](/kassensysteme) ab.
+      Wenn Sie die Karte zusätzlich als PDF zum Ausdrucken anbieten wollen, geht das. Die führende Version bleibt aber der Text auf der Seite. Wer eine Kasse mit Artikelstamm hat, kann prüfen, ob sich die Preise mit der Website abgleichen lassen; das hängt vom [Kassensystem](/kassensysteme) ab.
   - heading: Reservation ohne Telefon
     body: |
-      Jeder Anruf während des Service kostet Zeit am Pass oder am Tisch. Eine Online-Reservation nimmt Anfragen entgegen, während Sie kochen. Es gibt zwei Stufen: Erstens ein Reservationsformular mit Datum, Uhrzeit, Personenzahl und Kontakt, das per E-Mail bei Ihnen ankommt und das Sie bestätigen. Zweitens ein Reservationssystem mit Tischplan, das freie Zeiten anzeigt und selbst bestätigt.
+      Jeder Anruf während des Service kostet Zeit am Pass oder am Tisch. Eine Online-Reservation nimmt Anfragen entgegen, während Sie kochen. Es gibt zwei Stufen. Erstens ein Reservationsformular mit Datum, Uhrzeit, Personenzahl und Kontakt, das per E-Mail bei Ihnen ankommt und das Sie bestätigen. Zweitens ein Reservationssystem mit Tischplan, das freie Zeiten anzeigt und selbst bestätigt.
 
-      Das Formular reicht für Betriebe, die wenige Reservationen pro Tag haben und die Kontrolle behalten wollen. Das System lohnt sich, wenn täglich viele Anfragen kommen oder wenn Sie Stosszeiten begrenzen wollen. Beides lässt sich einbauen; welches System sinnvoll ist, klärt InfraOne mit Ihnen im Gespräch. Wichtig ist in beiden Fällen, dass die Reservation auf der Startseite sichtbar ist, auch auf dem Handy, und dass die Bestätigung an eine Adresse geht, die während des Service gelesen wird.
+      Das Formular reicht für Betriebe mit wenigen Reservationen pro Tag, die die Kontrolle behalten wollen. Das System lohnt sich, wenn täglich viele Anfragen kommen oder wenn Sie Stosszeiten begrenzen wollen. Beides lässt sich einbauen; welches sinnvoll ist, klärt InfraOne mit Ihnen im Gespräch. In beiden Fällen muss die Reservation auf der Startseite sichtbar sein, auch auf dem Handy, und die Bestätigung an eine Adresse gehen, die während des Service gelesen wird.
   - heading: Öffnungszeiten und Google-Profil müssen übereinstimmen
     body: |
-      Ein Gast, der vor verschlossener Tür steht, weil die Website Montag als offen zeigt und das Google-Profil nicht, kommt nicht wieder. Öffnungszeiten stehen auf der Website, im Google-Business-Profil, auf Instagram und oft noch auf Bewertungsportalen. Legen Sie fest, welcher Ort führend ist, und pflegen Sie Änderungen zuerst dort.
+      Ein Gast, der vor verschlossener Tür steht, weil die Website Montag als offen zeigt und das Google-Profil nicht, kommt so schnell nicht wieder. Öffnungszeiten stehen auf der Website, im Google-Business-Profil, auf Instagram und oft noch auf Bewertungsportalen. Legen Sie fest, welcher Ort führend ist, und pflegen Sie Änderungen zuerst dort.
 
-      Das Google-Business-Profil ist für Restaurants der wichtigste Eintrag überhaupt. Es erscheint bei der Suche nach «Restaurant in der Nähe» vor jeder Website. Name, Adresse und Telefonnummer müssen exakt mit der Website übereinstimmen. Fotos, Speisekarte als Link auf die Website (nicht als PDF), Reservationslink und Antworten auf Bewertungen gehören dazu. InfraOne richtet das Profil beim Start mit ein oder prüft ein bestehendes.
+      Bei der Suche nach «Restaurant in der Nähe» zeigt Google die Karte mit den Profilen der Betriebe an. Name, Adresse und Telefonnummer im Profil müssen exakt mit der Website übereinstimmen. Fotos, die Speisekarte als Link auf die Website (nicht als PDF), der Reservationslink und Antworten auf Bewertungen gehören dazu. InfraOne richtet das Profil beim Start mit ein oder prüft ein bestehendes. Ob und wo Google den Betrieb anzeigt, entscheidet Google; eine Zusage dazu gibt es nicht.
   - heading: Fotos, die den Betrieb zeigen
     body: |
-      Gäste entscheiden über Bilder. Fotos vom Gastraum, von drei bis fünf Gerichten und vom Team wirken mehr als jede Beschreibung. Stockfotos erkennen Gäste und ziehen daraus den falschen Schluss. Handyfotos bei Tageslicht ohne Blitz reichen für den Anfang; bei dunklen Räumen oder für die Startseite lohnt sich ein Fototermin, der als eigene Position offeriert wird.
+      Gäste entscheiden oft nach Bildern. Fotos vom Gastraum, von drei bis fünf Gerichten und vom Team sagen mehr als jede Beschreibung. Stockfotos erkennen Gäste und ziehen daraus den falschen Schluss. Handyfotos bei Tageslicht ohne Blitz reichen für den Anfang; bei dunklen Räumen oder für die Startseite lohnt sich ein Fototermin, der als eigene Position offeriert wird.
 
-      Technisch wichtig: Bilder werden für die Website verkleinert, sonst lädt die Startseite auf dem Handy mehrere Sekunden. Das übernimmt die Website automatisch, wenn sie richtig eingerichtet ist. Sie laden das Foto hoch, die Website erzeugt die passenden Grössen.
+      Technisch wichtig: Bilder werden für die Website verkleinert, sonst lädt die Startseite im Mobilfunknetz langsam. Das übernimmt die Website automatisch, wenn sie richtig eingerichtet ist. Sie laden das Foto hoch, die Website erzeugt die passenden Grössen.
   - heading: Gutscheine online verkaufen
     body: |
-      Gutscheine sind für viele Restaurants ein Umsatz, der ohne Website nur an der Kasse stattfindet. Auf der Website kann der Gast einen Gutschein mit Betrag wählen, mit TWINT, Karte oder PostFinance bezahlen und erhält ihn als PDF per E-Mail. Das läuft über [Online-Zahlungen](/online-zahlungen) von ibis payment, über dasselbe Gateway, das auch Shops nutzen. Die Gutschein-Umsätze erscheinen auf derselben Abrechnung wie die Zahlungen am Terminal, die Gebühren stehen auf der Seite [Konditionen](/konditionen).
+      Viele Restaurants verkaufen Gutscheine nur an der Kasse. Auf der Website kann der Gast einen Gutschein mit Betrag wählen, mit TWINT, Karte oder PostFinance bezahlen und erhält ihn per E-Mail. Das läuft über [Online-Zahlungen](/online-zahlungen) von ibis payment, über dasselbe Gateway, das auch Shops nutzen. Die Gebühren stehen auf der Seite [Konditionen](/konditionen).
 
-      Für Betriebe, die Anzahlungen für Gruppen oder Anlässe nehmen, funktioniert derselbe Weg: Betrag, Zahlung, Bestätigung. Das spart Rechnungen und Mahnungen.
+      Für Betriebe, die Anzahlungen für Gruppen oder Anlässe nehmen, funktioniert derselbe Weg: Betrag, Zahlung, Bestätigung. Das spart Rechnungen und Mahnungen. Ob der Gutscheinverkauf als eigene Seite oder als Button neben der Speisekarte eingebaut wird, legen Sie mit InfraOne im Gespräch fest.
   - heading: Mehrsprachig, wenn die Gäste es sind
     body: |
       Ob eine zweite Sprache sinnvoll ist, entscheidet die Gästestruktur, nicht der Standort. Ein Restaurant in einer Touristenregion oder in der Nähe von Firmen mit internationalem Personal profitiert von einer englischen Version der Speisekarte und der Reservation. Ein Quartierrestaurant braucht sie meistens nicht.
@@ -57,7 +57,7 @@ preisliste: []
 faq:
   - frage: Was kostet eine Website für ein Restaurant?
     antwort: |
-      Eine Website mit bis zu zehn Unterseiten, Speisekarte als Text, Reservationsformular, Impressum und Datenschutzerklärung beginnt bei InfraOne pauschal bei [ab CHF 1'200] exkl. MwSt. Reservationssystem mit Tischplan, Gutscheinverkauf und Mehrsprachigkeit stehen als eigene Positionen in der Offerte.
+      Eine Website mit Speisekarte als Text, Reservationsformular, Impressum und Datenschutzerklärung kostet bei InfraOne pauschal ab CHF [1'200] exkl. MwSt. [Umfang und Preis mit InfraOne bestätigen]. Reservationssystem mit Tischplan, Gutscheinverkauf und Mehrsprachigkeit stehen als eigene Positionen in der Offerte.
   - frage: Kann ich die Speisekarte selbst ändern?
     antwort: |
       Ja. Gerichte, Preise und Tageskarte ändern Sie über eine Pflegeoberfläche, ohne Programmierkenntnisse. Das ist der Hauptgrund, die Karte als Text und nicht als PDF zu führen.
@@ -66,7 +66,7 @@ faq:
       Für wenige Reservationen pro Tag reicht ein Formular, das Sie per E-Mail bestätigen. Ein System mit Tischplan lohnt sich bei vielen täglichen Anfragen oder wenn Sie Stosszeiten begrenzen wollen. InfraOne klärt das mit Ihnen anhand Ihrer Zahlen.
   - frage: Wie funktioniert der Gutscheinverkauf über die Website?
     antwort: |
-      Der Gast wählt einen Betrag, bezahlt mit TWINT, Karte oder PostFinance und erhält den Gutschein per E-Mail. Die Zahlung läuft über Online-Zahlungen von ibis payment und erscheint auf Ihrer Abrechnung neben den Terminalzahlungen. Die Gebühren stehen auf der Seite Konditionen.
+      Der Gast wählt einen Betrag, bezahlt mit TWINT, Karte oder PostFinance und erhält den Gutschein per E-Mail. Die Zahlung läuft über Online-Zahlungen von ibis payment. Die Gebühren stehen auf der Seite Konditionen.
   - frage: Wer pflegt das Google-Business-Profil?
     antwort: |
       Sie, mit wenig Aufwand: neue Fotos einstellen, auf Bewertungen antworten, Feiertagszeiten eintragen. InfraOne richtet das Profil beim Start ein und verknüpft es mit der Website, damit Speisekarte und Reservation dort verlinkt sind.

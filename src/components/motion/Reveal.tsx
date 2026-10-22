@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, type ReactNode } from 'react';
+import { useCallback, useEffect, useRef, type ReactNode } from 'react';
 
 /** Blendet Elemente beim Scrollen ein. Nur Elemente unterhalb des ersten Bildschirms werden
  *  anfangs ausgeblendet; bei prefers-reduced-motion passiert nichts (CSS). */
@@ -65,5 +65,9 @@ export function useInView<T extends HTMLElement>(threshold = 0.3) {
     io.observe(el);
     return () => io.disconnect();
   }, [threshold]);
-  return { ref, onEnter: (f: () => void) => (seen.current ? f() : subs.current.push(f)) };
+  const onEnter = useCallback((f: () => void) => {
+    if (seen.current) f();
+    else subs.current.push(f);
+  }, []);
+  return { ref, onEnter };
 }

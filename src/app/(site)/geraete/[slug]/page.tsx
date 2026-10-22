@@ -53,14 +53,14 @@ export default async function GeraetPage({ params }: { params: Promise<{ slug: s
         }}
       />
       <section className="page-hero section no-line" style={{ paddingBottom: 0 }}>
-        <div className="wrap">
+        <div className="wrap single" style={{ display: 'grid', gap: 24 }}>
           <Breadcrumbs crumbs={[{ name: 'Terminals', href: '/geraete' }, { name: g.name, href: `/geraete/${g.slug}` }]} />
           <div className="product">
             <div className="sticky">
               <ProductImage src={g.bild} alt={g.bildAlt || g.name} name={g.name} kind={miniKind(g)} />
             </div>
             <div style={{ display: 'grid', gap: 28 }}>
-              <div className="lbl" style={{ paddingTop: 0 }}>
+              <div className="overline">
                 {KATEGORIE_LABEL[g.kategorie]} · {g.hersteller}
               </div>
               <h1 style={{ fontSize: 'clamp(2.4rem,5vw,4.4rem)' }}>{g.name}</h1>
@@ -75,7 +75,7 @@ export default async function GeraetPage({ params }: { params: Promise<{ slug: s
                       {chf(g.mieteMonat, 2)}
                     </span>
                     <span className="s">
-                      {g.kauf != null ? `Kauf ${chf(g.kauf, 2)}, inklusive Einrichtung, 2 Jahre Garantie. ` : ''}
+                      {g.kauf != null ? `Kauf ${chf(g.kauf, 2)}, inklusive Einrichtung und Herstellergarantie [Dauer bestätigen]. ` : ''}
                       {k.hinweis} Stand {dateDE(k.stand)}.
                     </span>
                   </>
