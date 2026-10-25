@@ -105,43 +105,6 @@ function Dropdown({ label, groups, open, onOpen, onClose }: { label: string; gro
   );
 }
 
-function LangSwitch() {
-  const [open, setOpen] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (!open) return;
-    const onDoc = (e: MouseEvent) => !ref.current?.contains(e.target as Node) && setOpen(false);
-    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false);
-    document.addEventListener('mousedown', onDoc);
-    document.addEventListener('keydown', onKey);
-    return () => {
-      document.removeEventListener('mousedown', onDoc);
-      document.removeEventListener('keydown', onKey);
-    };
-  }, [open]);
-  return (
-    <div className="lang" ref={ref}>
-      <button type="button" className="lang-btn" aria-expanded={open} aria-label="Sprache wählen, aktuell Deutsch" onClick={() => setOpen((o) => !o)}>
-        DE
-        <Chevron />
-      </button>
-      {open && (
-        <div className="lang-menu" role="list">
-          <Link href="/" lang="de" aria-current="true" role="listitem">
-            Deutsch <small>aktiv</small>
-          </Link>
-          <span lang="fr" role="listitem">
-            Français <small>folgt</small>
-          </span>
-          <span lang="it" role="listitem">
-            Italiano <small>folgt</small>
-          </span>
-        </div>
-      )}
-    </div>
-  );
-}
-
 export function Header({ phone, phoneHref }: { phone: string; phoneHref: string }) {
   const pathname = usePathname();
   const [openIdx, setOpenIdx] = useState<number | null>(null);
@@ -188,7 +151,6 @@ export function Header({ phone, phoneHref }: { phone: string; phoneHref: string 
             )}
           </ul>
           <div className="nav-right">
-            <LangSwitch />
             <ThemeToggle />
             <a className="tel num" href={`tel:${phoneHref}`}>
               {phone}
@@ -251,7 +213,7 @@ export function Header({ phone, phoneHref }: { phone: string; phoneHref: string 
           <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
             <ThemeToggle />
             <span className="muted" style={{ fontSize: '.9rem' }}>
-              Hell oder dunkel. Sprache: Deutsch, FR und IT folgen.
+              Hell oder dunkel.
             </span>
           </div>
         </div>

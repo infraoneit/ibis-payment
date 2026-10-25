@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const SITE_URL = 'https://ibis-payment.ch';
 export const SITE_NAME = 'ibis payment';
 
-/** Metadaten mit Canonical und hreflang-Vorbereitung (FR und IT folgen später). */
+/** Metadaten mit Canonical (Website nur auf Deutsch). */
 export function pageMeta(input: { title: string; description: string; path: string; image?: string; noIndex?: boolean }): Metadata {
   const url = `${SITE_URL}${input.path === '/' ? '' : input.path}`;
   return {
@@ -14,8 +14,6 @@ export function pageMeta(input: { title: string; description: string; path: stri
       languages: {
         'de-CH': url,
         'x-default': url,
-        // 'fr-CH': `${SITE_URL}/fr${input.path}`,
-        // 'it-CH': `${SITE_URL}/it${input.path}`,
       },
     },
     openGraph: { title: input.title, description: input.description, url, images: [{ url: input.image ?? '/og-image.png', width: 1200, height: 630 }] },
