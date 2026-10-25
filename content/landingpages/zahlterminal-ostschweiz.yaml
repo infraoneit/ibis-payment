@@ -57,7 +57,7 @@ beispiel:
   bon: 25
   kreditanteil: 20
   vergleich: gross
-  erklaerung: Für einen Hofladen nehmen wir einen kleinen Kartenumsatz mit kleinem Bon und tiefem Kreditkartenanteil an, wie er bei Lebensmitteln ab Hof typisch ist; die Werte sind Platzhalter.
+  erklaerung: Für einen Hofladen nehmen wir einen kleinen Kartenumsatz mit kleinem Bon an, wie er bei Lebensmitteln ab Hof typisch ist; die Werte sind Platzhalter.
 preisliste: []
 faq:
   - frage: Kommt der Berater auch in abgelegene Betriebe in der Ostschweiz?

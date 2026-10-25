@@ -710,3 +710,11 @@ a.svc:hover .arrow { background: var(--ink); color: var(--bg); border-color: var
 /* Logo: Vogel grösser, Schrift kleiner (Wortmarke neu gesetzt), Header-Höhe bleibt */
 .logo svg { height: 44px; }
 .foot .about .logo svg { height: 40px; }
+
+/* Rechner: Texteingaben und Segment-Schalter */
+.calc .k-input { width: 100%; min-width: 0; padding: 13px 14px; border: 1px solid var(--line-2); border-radius: 8px; font-family: var(--font); font-size: 1.05rem; background: var(--surface); color: var(--ink); }
+.seg { display: flex; flex-wrap: wrap; gap: 8px; }
+.seg label { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line-2); border-radius: 999px; font-size: 0.95rem; color: var(--text-2); cursor: pointer; }
+.seg label.on { border-color: var(--ink); color: var(--ink); background: var(--bg-2); }
+.seg input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.seg label:has(input:focus-visible) { outline: 2px solid var(--ink); outline-offset: 2px; }

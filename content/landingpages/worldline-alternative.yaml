@@ -67,7 +67,7 @@ beispiel:
   bon: 48
   kreditanteil: 35
   vergleich: gross
-  erklaerung: Für ein Restaurant mit Service am Tisch nehmen wir einen mittleren Bon und einen höheren Kreditkartenanteil an; die Werte sind Platzhalter, tragen Sie Ihre heutigen Sätze aus der Abrechnung in den Rechner ein.
+  erklaerung: Für ein Restaurant mit Service am Tisch nehmen wir einen mittleren Bon an; die Werte sind Platzhalter, tragen Sie Ihre heutige Gebühr aus der Abrechnung in den Rechner ein.
 preisliste: []
 faq:
   - frage: Kann ich mit laufendem Worldline-Vertrag wechseln?

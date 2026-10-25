@@ -53,7 +53,7 @@ beispiel:
   bon: 14
   kreditanteil: 15
   vergleich: gross
-  erklaerung: Für eine Bäckerei nehmen wir viele kleine Zahlungen mit tiefem Kreditkartenanteil an, bei denen der Fixbetrag pro Zahlung mehr zählt als der Prozentsatz; die Werte sind Platzhalter.
+  erklaerung: Für eine Bäckerei nehmen wir viele kleine Zahlungen an, bei denen die Gebühr pro Zahlung mehr zählt als der Prozentsatz; die Werte sind Platzhalter.
 preisliste: []
 faq:
   - frage: Kommt der Berater nach Winterthur in den Betrieb?

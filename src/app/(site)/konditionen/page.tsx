@@ -22,7 +22,6 @@ export const metadata: Metadata = pageMeta({
 
 export default async function KonditionenPage() {
   const [site, k, faq] = await Promise.all([getSite(), getKonditionen(), getFaq('konditionen')]);
-  const vergleiche = k.vergleiche.filter((v) => v.quelle).map((v) => ({ id: v.id, label: v.label, debit: v.debit ?? 0, kredit: v.kredit ?? 0, tx: v.tx ?? 0, fix: v.fix ?? 0, quelle: v.quelle, stand: v.stand }));
   return (
     <>
       <PageHero label="Konditionen" title="Die vollständige Preisliste." lead={`Jede Position, die auf Ihrer Abrechnung erscheinen kann, steht hier. Was hier nicht steht, wird nicht verrechnet. ${k.hinweis} Stand ${dateDE(k.stand)}.`} crumbs={[{ name: 'Konditionen', href: '/konditionen' }]}>
@@ -60,7 +59,7 @@ export default async function KonditionenPage() {
 
       <Section tone="grey" label="Rechner" sub="Mit Ihren Zahlen, nicht mit unseren.">
         <Reveal>
-          <Calculator ours={{ debit: k.debit, kredit: k.kredit, tx: k.txFix, fix: k.miete }} vergleiche={vergleiche} defaults={{ umsatz: k.rechner.umsatz ?? 25000, bon: k.rechner.bon ?? 45, kreditanteil: k.rechner.kreditanteil ?? 35 }} stand={dateDE(k.stand)} />
+          <Calculator stand={dateDE(k.stand)} />
         </Reveal>
       </Section>
 

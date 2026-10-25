@@ -37,7 +37,6 @@ const PAKET = [
 
 export default async function Home() {
   const [site, k, refs] = await Promise.all([getSite(), getKonditionen(), getReferenzen()]);
-  const vergleiche = k.vergleiche.filter((v) => v.quelle).map((v) => ({ id: v.id, label: v.label, debit: v.debit ?? 0, kredit: v.kredit ?? 0, tx: v.tx ?? 0, fix: v.fix ?? 0, quelle: v.quelle, stand: v.stand }));
 
   return (
     <>
@@ -145,7 +144,7 @@ export default async function Home() {
           </Link>
         </Reveal>
         <Reveal>
-          <Calculator ours={{ debit: k.debit, kredit: k.kredit, tx: k.txFix, fix: k.miete }} vergleiche={vergleiche} defaults={{ umsatz: k.rechner.umsatz ?? 25000, bon: k.rechner.bon ?? 45, kreditanteil: k.rechner.kreditanteil ?? 35 }} stand={dateDE(k.stand)} />
+          <Calculator stand={dateDE(k.stand)} />
         </Reveal>
       </Section>
 

@@ -52,7 +52,7 @@ beispiel:
   bon: 120
   kreditanteil: 40
   vergleich: gross
-  erklaerung: Annahmen für eine Praxis mit hohem Betrag pro Zahlung und dem für Praxen typischen höheren Kreditkartenanteil; Platzhalter, setzen Sie Ihre Zahlen aus der letzten Abrechnung ein.
+  erklaerung: Annahmen für eine Praxis mit wenigen, dafür hohen Zahlungen pro Monat; Platzhalter, setzen Sie Ihre Zahlen aus der letzten Abrechnung ein.
 preisliste: []
 faq:
   - frage: Lässt sich das Terminal an unsere Praxissoftware anbinden?

@@ -51,7 +51,7 @@ beispiel:
   bon: 12
   kreditanteil: 25
   vergleich: app
-  erklaerung: Für ein Café nehmen wir viele kleine Zahlungen mit tiefem Kreditkartenanteil an, bei denen Fixbeträge pro Zahlung stark ins Gewicht fallen; die Werte sind Platzhalter, der TWINT-Anteil wird im Rechner als Teil des Debitumsatzes behandelt.
+  erklaerung: Für ein Café nehmen wir viele kleine Zahlungen an, bei denen die Gebühr pro Zahlung stark ins Gewicht fällt; die Werte sind Platzhalter.
 preisliste: []
 faq:
   - frage: Funktioniert TWINT auf jedem Terminal von ibis payment?

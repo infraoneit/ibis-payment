@@ -56,7 +56,7 @@ beispiel:
   bon: 65
   kreditanteil: 30
   vergleich: gross
-  erklaerung: Annahmen für einen Salon mit zwei bis drei Stühlen, mittlerem Betrag pro Termin und einem Kreditkartenanteil unter dem der Gastronomie; Platzhalter, setzen Sie Ihre eigenen Zahlen aus der letzten Abrechnung ein.
+  erklaerung: Annahmen für einen Salon mit zwei bis drei Stühlen und mittlerem Betrag pro Termin; Platzhalter, setzen Sie Ihre eigenen Zahlen aus der letzten Abrechnung ein.
 preisliste: []
 faq:
   - frage: Brauche ich im Salon ein Terminal mit Drucker?

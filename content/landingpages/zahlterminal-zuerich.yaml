@@ -51,7 +51,7 @@ beispiel:
   bon: 22
   kreditanteil: 30
   vergleich: gross
-  erklaerung: Für eine Bar nehmen wir viele Zahlungen mit kleinem bis mittlerem Bon und einem Kreditkartenanteil von knapp einem Drittel an; die Werte sind Platzhalter und lassen sich im Rechner anpassen.
+  erklaerung: Für eine Bar nehmen wir viele Zahlungen mit kleinem bis mittlerem Bon an; die Werte sind Platzhalter und lassen sich im Rechner anpassen.
 preisliste: []
 faq:
   - frage: Kommt der Berater in Zürich in den Betrieb?

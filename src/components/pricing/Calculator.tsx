@@ -2,187 +2,212 @@
 
 import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { compare, type Tarif } from '@/lib/calc';
-import { chf, fmtInt, pct } from '@/lib/format';
+import { CLUSTERS, calcSavings, marketCost, type ClusterKey } from '@/lib/swipay-calc';
+import { chf, fmtInt } from '@/lib/format';
 
-export type Vergleich = Tarif & { id: string; label: string; quelle: string; stand: string };
-
-type Props = {
-  ours: Tarif;
-  vergleiche: Vergleich[];
-  defaults: { umsatz: number; bon: number; kreditanteil: number };
-  stand: string;
-};
+type Props = { stand: string; defaultCluster?: ClusterKey; defaultUmsatzJahr?: number; defaultBon?: number };
 
 const SESSION_KEY = 'ibis_calc';
+const fmt = (n: number) => `CHF ${fmtInt(n)}`;
 
-/** Rechner mit Vergleich. Formel in lib/calc.ts. Übergibt seine Werte an das Kontaktformular (sessionStorage). */
-export function Calculator({ ours, vergleiche, defaults, stand }: Props) {
-  const [umsatz, setUmsatz] = useState(defaults.umsatz);
-  const [bon, setBon] = useState(defaults.bon);
-  const [kredit, setKredit] = useState(defaults.kreditanteil);
-  const [mode, setMode] = useState<string>(vergleiche[0]?.id ?? 'eigen');
-  const [custom, setCustom] = useState<Tarif>({ debit: vergleiche[0]?.debit ?? 1.29, kredit: vergleiche[0]?.kredit ?? 1.29, tx: vergleiche[0]?.tx ?? 0.15, fix: vergleiche[0]?.fix ?? 35 });
-  const firstCustom = useRef<HTMLInputElement>(null);
+/** Ersparnis-Rechner nach dem SwiPay-Partnerrechner: Branche, Jahresumsatz, Durchschnittsbon,
+ *  optional heutige Kondition. Ergebnis als Spanne pro Monat und Jahr (Modell in lib/swipay-calc.ts). */
+export function Calculator({ stand, defaultCluster = 'gastro', defaultUmsatzJahr = 300000, defaultBon }: Props) {
+  const [cluster, setCluster] = useState<ClusterKey>(defaultCluster);
+  const clusterDef = CLUSTERS.find((c) => c.key === cluster) ?? CLUSTERS[0];
+  const [umsatz, setUmsatz] = useState<string>(String(defaultUmsatzJahr));
+  const [bon, setBon] = useState<string>(String(defaultBon ?? clusterDef.bon));
+  const [bonAuto, setBonAuto] = useState(defaultBon == null);
+  const [istTyp, setIstTyp] = useState<'none' | 'prozent' | 'monat'>('none');
+  const [istProzent, setIstProzent] = useState('');
+  const [istMonat, setIstMonat] = useState('');
+  const [shown, setShown] = useState(false);
+  const resultRef = useRef<HTMLDivElement>(null);
 
-  const theirs: Tarif = mode === 'eigen' ? custom : (vergleiche.find((v) => v.id === mode) ?? custom);
-  const r = useMemo(() => compare(ours, theirs, { umsatz, bon, kreditanteil: kredit }), [ours, theirs, umsatz, bon, kredit]);
+  const num = (s: string) => parseFloat(s.replace(/['’\s]/g, '').replace(',', '.')) || 0;
+  const input = useMemo(
+    () => ({
+      cluster,
+      umsatzJahr: num(umsatz),
+      bon: num(bon),
+      istProzent: istTyp === 'prozent' ? num(istProzent) : null,
+      istMonat: istTyp === 'monat' ? num(istMonat) : null,
+    }),
+    [cluster, umsatz, bon, istTyp, istProzent, istMonat]
+  );
+  const r = useMemo(() => calcSavings(input), [input]);
+  const valid = input.umsatzJahr > 0 && input.bon > 0;
 
-  // Ersparnis zählt beim Ändern weich hoch
-  const [shown, setShown] = useState(Math.abs(r.diffYear));
+  const onCluster = (key: ClusterKey) => {
+    setCluster(key);
+    const def = CLUSTERS.find((c) => c.key === key)?.bon;
+    if (def && (bonAuto || !bon)) setBon(String(def));
+  };
+
+  // Zähler für die Ersparnis
+  const [anim, setAnim] = useState({ low: 0, high: 0 });
   useEffect(() => {
-    const target = Math.abs(r.diffYear);
+    if (!shown) return;
+    const target = r.monthly;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      setShown(target);
+      setAnim(target);
       return;
     }
-    const from = shown;
+    const from = { ...anim };
     let raf = 0;
     let t0: number | null = null;
     const step = (ts: number) => {
       if (t0 === null) t0 = ts;
-      const p = Math.min(1, (ts - t0) / 420);
+      const p = Math.min(1, (ts - t0) / 500);
       const e = 1 - Math.pow(1 - p, 3);
-      setShown(from + (target - from) * e);
+      setAnim({ low: from.low + (target.low - from.low) * e, high: from.high + (target.high - from.high) * e });
       if (p < 1) raf = requestAnimationFrame(step);
     };
     raf = requestAnimationFrame(step);
     return () => cancelAnimationFrame(raf);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [r.diffYear]);
+  }, [r.monthly.low, r.monthly.high, shown]);
 
-  const saving = r.diffMonth >= 0;
-  const mx = Math.max(r.feeThem, r.feeUs, 1);
-  const selected = vergleiche.find((v) => v.id === mode);
+  const submit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!valid) return;
+    setShown(true);
+    setTimeout(() => resultRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 50);
+  };
 
   const remember = () => {
     try {
+      const ist = r.istMonthly != null ? `, heutige Kosten ca. ${chf(r.istMonthly)} pro Monat` : '';
       sessionStorage.setItem(
         SESSION_KEY,
-        `Kartenumsatz ca. ${chf(umsatz)} pro Monat, Durchschnittsbetrag ${chf(bon)}, Kreditkartenanteil ${kredit} %. Heutige Gebühren ca. ${chf(r.feeThem)} pro Monat (${mode === 'eigen' ? 'eigene Konditionen' : theirs && selected ? selected.label : ''}). Rechner-Ersparnis ca. ${chf(r.diffYear)} pro Jahr.`
+        `Branche ${clusterDef.label}, Kartenumsatz ca. ${chf(input.umsatzJahr)} pro Jahr, Durchschnittsbon ${chf(input.bon)}${ist}. Geschätzte Ersparnis ${fmt(r.monthly.low)} bis ${fmt(r.monthly.high)} pro Monat.`
       );
     } catch {}
   };
 
   return (
-    <div className="calc" id="rechner">
+    <form className="calc" id="rechner" onSubmit={submit} noValidate>
       <div className="in">
         <div>
-          <h3>Rechnen Sie nach.</h3>
-          <p className="muted">Drei Angaben aus Ihrer letzten Abrechnung genügen.</p>
+          <h3>Zahlen Sie zu viel? In 60 Sekunden wissen Sie es.</h3>
+          <p className="muted">Drei Angaben genügen. Wer seine heutige Kondition kennt, bekommt eine genauere Spanne.</p>
         </div>
         <div className="field">
-          <label htmlFor="umsatz">
-            <span>Kartenumsatz pro Monat</span>
-            <output htmlFor="umsatz" className="num">
-              {chf(umsatz)}
-            </output>
+          <label htmlFor="k-cluster">
+            <span>Was beschreibt Ihren Betrieb am besten?</span>
           </label>
-          <input id="umsatz" type="range" min={1000} max={150000} step={500} value={umsatz} onChange={(e) => setUmsatz(+e.target.value)} />
-        </div>
-        <div className="field">
-          <label htmlFor="bon">
-            <span>Durchschnittlicher Betrag pro Zahlung</span>
-            <output htmlFor="bon" className="num">
-              {chf(bon)}
-            </output>
-          </label>
-          <input id="bon" type="range" min={5} max={500} step={1} value={bon} onChange={(e) => setBon(+e.target.value)} />
-        </div>
-        <div className="field">
-          <label htmlFor="kredit">
-            <span>Anteil Kreditkarten</span>
-            <output htmlFor="kredit" className="num">
-              {kredit} %
-            </output>
-          </label>
-          <input id="kredit" type="range" min={0} max={100} step={5} value={kredit} onChange={(e) => setKredit(+e.target.value)} />
-        </div>
-        <div className="field">
-          <label htmlFor="vergleich">
-            <span>Vergleich mit</span>
-          </label>
-          <select
-            id="vergleich"
-            value={mode}
-            onChange={(e) => {
-              setMode(e.target.value);
-              if (e.target.value === 'eigen') setTimeout(() => firstCustom.current?.focus(), 0);
-            }}
-          >
-            {vergleiche.map((v) => (
-              <option key={v.id} value={v.id}>
-                {v.label} ({pct(v.debit)} Debit, {pct(v.kredit)} Kredit, {chf(v.tx, 2)} pro Zahlung, {chf(v.fix)} pro Monat)
+          <select id="k-cluster" value={cluster} onChange={(e) => onCluster(e.target.value as ClusterKey)}>
+            {CLUSTERS.map((c) => (
+              <option key={c.key} value={c.key}>
+                {c.label}
               </option>
             ))}
-            <option value="eigen">Meine heutigen Konditionen</option>
           </select>
-          <div className={`custom${mode === 'eigen' ? ' show' : ''}`}>
-            <label>
-              Debit %
-              <input ref={firstCustom} type="number" step="0.01" min="0" value={custom.debit} onChange={(e) => setCustom({ ...custom, debit: +e.target.value || 0 })} />
-            </label>
-            <label>
-              Kredit %
-              <input type="number" step="0.01" min="0" value={custom.kredit} onChange={(e) => setCustom({ ...custom, kredit: +e.target.value || 0 })} />
-            </label>
-            <label>
-              CHF / Zahlung
-              <input type="number" step="0.01" min="0" value={custom.tx} onChange={(e) => setCustom({ ...custom, tx: +e.target.value || 0 })} />
-            </label>
-            <label>
-              CHF / Monat
-              <input type="number" step="1" min="0" value={custom.fix} onChange={(e) => setCustom({ ...custom, fix: +e.target.value || 0 })} />
-            </label>
+        </div>
+        <div className="field">
+          <label htmlFor="k-umsatz">
+            <span>Jahresumsatz Kartenzahlungen (CHF)</span>
+          </label>
+          <input id="k-umsatz" type="text" inputMode="numeric" value={umsatz} onChange={(e) => setUmsatz(e.target.value)} placeholder="z. B. 300'000" className="k-input" />
+        </div>
+        <div className="field">
+          <label htmlFor="k-bon">
+            <span>Durchschnittsbon (CHF)</span>
+            <output className="num">{bonAuto ? 'Branchenwert' : ''}</output>
+          </label>
+          <input
+            id="k-bon"
+            type="text"
+            inputMode="decimal"
+            value={bon}
+            onChange={(e) => {
+              setBon(e.target.value);
+              setBonAuto(false);
+            }}
+            className="k-input"
+          />
+          {num(bon) > 0 && num(bon) < 25 && <p className="note">Bei Ihrem Bon zählt vor allem die Gebühr pro Zahlung, nicht der Prozentsatz.</p>}
+        </div>
+        <fieldset className="field" style={{ border: 0, padding: 0, margin: 0 }}>
+          <legend className="flabel" style={{ marginBottom: 8 }}>
+            Kennen Sie Ihre heutige Kondition? (optional, macht die Rechnung genauer)
+          </legend>
+          <div className="seg">
+            {(['none', 'prozent', 'monat'] as const).map((t) => (
+              <label key={t} className={istTyp === t ? 'on' : ''}>
+                <input type="radio" name="ist_typ" value={t} checked={istTyp === t} onChange={() => setIstTyp(t)} />
+                {t === 'none' ? 'Weiss ich nicht' : t === 'prozent' ? 'In Prozent' : 'In CHF pro Monat'}
+              </label>
+            ))}
           </div>
+          {istTyp === 'prozent' && (
+            <input type="text" inputMode="decimal" aria-label="Heutige Gebühr in Prozent" placeholder="z. B. 1.5" value={istProzent} onChange={(e) => setIstProzent(e.target.value)} className="k-input" style={{ marginTop: 10 }} />
+          )}
+          {istTyp === 'monat' && (
+            <input type="text" inputMode="numeric" aria-label="Heutige Gebühren in CHF pro Monat" placeholder="z. B. 450" value={istMonat} onChange={(e) => setIstMonat(e.target.value)} className="k-input" style={{ marginTop: 10 }} />
+          )}
+        </fieldset>
+        <div>
+          <button type="submit" className="btn btn-primary" disabled={!valid}>
+            Ersparnis berechnen
+          </button>
         </div>
       </div>
-      <div className="out" aria-live="polite">
-        <div className="big">
-          <span className="l">{saving ? 'Ihre Ersparnis pro Jahr' : 'Mehrkosten pro Jahr'}</span>
-          <span className="v num">{chf(shown)}</span>
-          <span className="s">{saving ? `${chf(r.diffMonth)} pro Monat bei gleichem Umsatz, gegenüber dem gewählten Vergleich` : 'Mit diesen Werten wären Sie heute günstiger. Schicken Sie uns Ihre Abrechnung, wir prüfen das.'}</span>
-        </div>
-        <div className="cmp">
-          <div className="r them">
-            <b>Heute</b>
-            <span className="num">{chf(r.feeThem)} pro Monat</span>
+      <div className="out" aria-live="polite" ref={resultRef}>
+        {!shown ? (
+          <div className="big" style={{ borderBottom: 0 }}>
+            <span className="l">Ihre geschätzte Ersparnis</span>
+            <span className="v" style={{ fontSize: 'clamp(1.6rem,3vw,2.2rem)', color: 'var(--text-2)', letterSpacing: '-0.02em' }}>
+              Erscheint hier nach dem Klick.
+            </span>
+            <span className="s">Basis: Branchendurchschnitte und Ihre Angaben.</span>
           </div>
-          <div className="t them">
-            <i style={{ width: `${(r.feeThem / mx) * 100}%` }} />
+        ) : !r.hasSavings ? (
+          <div className="big">
+            <span className="l">Ergebnis</span>
+            <span className="v" style={{ fontSize: 'clamp(1.6rem,3vw,2.4rem)', letterSpacing: '-0.02em' }}>
+              Ihre heutigen Konditionen sehen schon gut aus.
+            </span>
+            <span className="s">Wir prüfen persönlich anhand Ihrer Abrechnung, ob trotzdem etwas für Sie drin ist.</span>
           </div>
-          <div className="r">
-            <b>Bei ibis payment</b>
-            <span className="num">{chf(r.feeUs)} pro Monat</span>
+        ) : (
+          <div className="big">
+            <span className="l">Sie sparen schätzungsweise</span>
+            <span className="v num" style={{ fontSize: 'clamp(2.2rem,4.6vw,3.8rem)' }}>
+              {fmt(anim.low)} – {fmt(anim.high)}
+            </span>
+            <span className="s">
+              pro Monat ({fmt(r.yearly.low)} – {fmt(r.yearly.high)} pro Jahr)
+            </span>
           </div>
-          <div className="t">
-            <i style={{ width: `${(r.feeUs / mx) * 100}%` }} />
+        )}
+        {shown && (
+          <div className="cmp">
+            <div className="r">
+              <span className="muted">Zahlungen pro Monat</span>
+              <span className="num">{fmtInt(r.tx)}</span>
+            </div>
+            <div className="r">
+              <span className="muted">Geschätzte Kosten bei ibis payment</span>
+              <span className="num">{chf(r.swipayMonthly)} pro Monat</span>
+            </div>
+            <div className="r">
+              <span className="muted">{r.basis === 'ist' ? 'Ihre heutigen Kosten' : 'Heutige Kosten, Branchendurchschnitt'}</span>
+              <span className="num">{r.basis === 'ist' && r.istMonthly != null ? `${chf(r.istMonthly)} pro Monat` : `${chf(marketCost(input.umsatzJahr / 12, input.bon).low)} – ${chf(marketCost(input.umsatzJahr / 12, input.bon).high)} pro Monat`}</span>
+            </div>
           </div>
-        </div>
-        <div className="cmp">
-          <div className="r">
-            <span className="muted">Zahlungen pro Monat</span>
-            <span className="num">{fmtInt(r.tx)}</span>
-          </div>
-          <div className="r">
-            <span className="muted">Effektive Gebühr heute</span>
-            <span className="num">{pct(r.effThem)}</span>
-          </div>
-          <div className="r">
-            <span className="muted">Effektive Gebühr bei ibis</span>
-            <span className="num">{pct(r.effUs)}</span>
-          </div>
-        </div>
+        )}
+        {shown && r.micropayment && <p className="note">Bei Ihrem Bon zählt vor allem die Gebühr pro Zahlung, nicht der Prozentsatz. Genau das rechnen wir in der Offerte nach.</p>}
         <div>
           <Link className="btn btn-ink" href="/kontakt?rechner=1" onClick={remember}>
             Offerte mit diesen Zahlen anfordern
           </Link>
         </div>
         <p className="note">
-          Richtwerte, exkl. MwSt. Verbindlich sind die Konditionen in Ihrer Offerte (Stand {stand}).
-          {selected ? ` Vergleichswert: ${selected.quelle}, Stand ${selected.stand}.` : ''}
+          Diese Berechnung basiert auf Branchendurchschnitten und Ihren Angaben; sie entspricht dem Rechner unseres Acquiring-Partners SwiPay. Für eine transaktionsgenaue Analyse Ihrer Abrechnung melden wir uns persönlich.
+          Richtwerte exkl. MwSt., Stand {stand}.
         </p>
       </div>
-    </div>
+    </form>
   );
 }

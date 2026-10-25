@@ -58,7 +58,7 @@ beispiel:
   bon: 48
   kreditanteil: 35
   vergleich: gross
-  erklaerung: Annahmen für ein Restaurant mit Mittag- und Abendservice, mittlerem Betrag pro Zahlung und dem für die Gastronomie typischen höheren Kreditkartenanteil; Platzhalter, setzen Sie Ihre Zahlen aus der letzten Abrechnung ein.
+  erklaerung: Annahmen für ein Restaurant mit Mittag- und Abendservice und mittlerem Betrag pro Zahlung; Platzhalter, setzen Sie Ihre Zahlen aus der letzten Abrechnung ein.
 preisliste: []
 faq:
   - frage: Wie viele Terminals braucht mein Restaurant?

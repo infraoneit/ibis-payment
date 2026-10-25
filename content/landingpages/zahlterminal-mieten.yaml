@@ -69,7 +69,7 @@ beispiel:
   bon: 18
   kreditanteil: 20
   vergleich: gross
-  erklaerung: Für einen Marktstand nehmen wir einen kleinen Bon und einen tiefen Kreditkartenanteil an, wie er bei Lebensmitteln und Kleinbeträgen typisch ist; die Werte sind Platzhalter für die Saisonmonate.
+  erklaerung: Für einen Marktstand nehmen wir einen kleinen Bon an, wie er bei Lebensmitteln und Kleinbeträgen typisch ist; die Werte sind Platzhalter für die Saisonmonate.
 preisliste:
   - label: Miete N62 oder V3CT3
     beschreibung: Mobil ohne Drucker oder Tischterminal mit Drucker

@@ -61,7 +61,7 @@ beispiel:
   bon: 45
   kreditanteil: 35
   vergleich: gross
-  erklaerung: Für ein Restaurant mit Service am Tisch nehmen wir einen mittleren Bon und einen höheren Kreditkartenanteil an; die Werte sind Platzhalter und lassen sich im Rechner auf Ihre Abrechnung anpassen.
+  erklaerung: Für ein Restaurant mit Service am Tisch nehmen wir einen mittleren Bon an; die Werte sind Platzhalter und lassen sich im Rechner auf Ihre Abrechnung anpassen.
 preisliste: []
 faq:
   - frage: Welches Zahlterminal passt zu meinem Betrieb?

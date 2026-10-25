@@ -56,7 +56,7 @@ beispiel:
   bon: 70
   kreditanteil: 30
   vergleich: app
-  erklaerung: Für einen Coiffeursalon nehmen wir einen mittleren Bon und einen Kreditkartenanteil von knapp einem Drittel an, verglichen mit dem Listenpreis eines App-Anbieters ohne Monatsgebühr; die Werte sind Platzhalter.
+  erklaerung: Für einen Coiffeursalon nehmen wir einen mittleren Bon an und vergleichen mit dem Branchendurchschnitt heutiger Anbieter; die Werte sind Platzhalter.
 preisliste: []
 faq:
   - frage: Ab welchem Umsatz lohnt sich der Wechsel von SumUp?

@@ -13,6 +13,7 @@ import { Faq } from '@/components/content/Faq';
 import { CtaBand } from '@/components/content/CtaBand';
 import { ExampleCalc } from '@/components/pricing/ExampleCalc';
 import { Calculator } from '@/components/pricing/Calculator';
+import { clusterForPath } from '@/lib/swipay-calc';
 import { PriceList, SimplePriceList } from '@/components/pricing/PriceList';
 import { FeeBreakdown } from '@/components/pricing/FeeBreakdown';
 import { DeviceGrid } from '@/components/devices/DeviceGrid';
@@ -71,7 +72,6 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
   if (!p) notFound();
   const parent = CLUSTER_PARENT[p.cluster];
   const crumbs = [...(parent && parent.href !== p.pfad ? [parent] : []), { name: p.navTitle || p.title, href: p.pfad }];
-  const vergleiche = k.vergleiche.filter((v) => v.quelle).map((v) => ({ id: v.id, label: v.label, debit: v.debit ?? 0, kredit: v.kredit ?? 0, tx: v.tx ?? 0, fix: v.fix ?? 0, quelle: v.quelle, stand: v.stand }));
   const related = p.verwandt.map((href) => ({ href, name: all.find((x) => x.pfad === href)?.navTitle ?? labelFor(href) })).filter((r) => r.href !== p.pfad);
   const featured = geraete.filter((g) => g.featured).slice(0, 3);
   const isWeb = p.cluster === 'webdesign';
@@ -156,7 +156,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
         <Section tone="dark" label="Beispielrechnung" sub="Gerechnet mit den aktuellen Konditionen; mit Ihren eigenen Zahlen im Rechner.">
           <Reveal>
             <div style={{ color: 'var(--text)' }}>
-              <ExampleCalc k={k} titel={p.beispiel.titel || 'Beispiel'} umsatz={p.beispiel.umsatz} bon={p.beispiel.bon} kreditanteil={p.beispiel.kreditanteil ?? 30} vergleich={p.beispiel.vergleich || 'gross'} erklaerung={p.beispiel.erklaerung} />
+              <ExampleCalc k={k} titel={p.beispiel.titel || 'Beispiel'} umsatz={p.beispiel.umsatz} bon={p.beispiel.bon} pfad={p.pfad} erklaerung={p.beispiel.erklaerung} />
             </div>
           </Reveal>
         </Section>
@@ -222,7 +222,7 @@ export default async function LandingPage({ params }: { params: Promise<{ slug: 
       {p.bausteine.rechner && (
         <Section tone="grey" label="Rechner" sub="Mit Ihren Zahlen, nicht mit unseren.">
           <Reveal>
-            <Calculator ours={{ debit: k.debit, kredit: k.kredit, tx: k.txFix, fix: k.miete }} vergleiche={vergleiche} defaults={{ umsatz: p.beispiel.umsatz ?? k.rechner.umsatz ?? 25000, bon: p.beispiel.bon ?? k.rechner.bon ?? 45, kreditanteil: p.beispiel.kreditanteil ?? k.rechner.kreditanteil ?? 35 }} stand={dateDE(k.stand)} />
+            <Calculator stand={dateDE(k.stand)} defaultCluster={clusterForPath(p.pfad)} defaultUmsatzJahr={(p.beispiel.umsatz ?? 25000) * 12} defaultBon={p.beispiel.bon ?? undefined} />
           </Reveal>
         </Section>
       )}

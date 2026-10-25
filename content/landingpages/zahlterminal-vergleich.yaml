@@ -67,7 +67,7 @@ beispiel:
   bon: 120
   kreditanteil: 40
   vergleich: gross
-  erklaerung: Für eine Praxis nehmen wir wenige Zahlungen mit hohem Bon und einem hohen Kreditkartenanteil an, bei denen der Prozentsatz mehr zählt als der Fixbetrag; die Werte sind Platzhalter.
+  erklaerung: Für eine Praxis nehmen wir wenige Zahlungen mit hohem Bon an, bei denen der Prozentsatz mehr zählt als die Gebühr pro Zahlung; die Werte sind Platzhalter.
 preisliste: []
 faq:
   - frage: Gibt es einen Zahlterminal-Anbieter, der für alle Betriebe günstiger ist?

@@ -35,7 +35,7 @@ npm run start
 | `src/app/(site)` | Seiten mit Header und Footer |
 | `src/app/(site)/[...slug]` | Template für alle Landingpages |
 | `src/components` | Komponenten (Hero-Terminal, Rechner, Preisliste, Formulare, Mega-Menü) |
-| `src/lib/calc.ts` | Rechnerformel |
+| `src/lib/swipay-calc.ts` | Rechnermodell (nach dem SwiPay-Partnerrechner), Branchen-Cluster und Rundung |
 | `src/lib/nav.ts` | Menüstruktur (Header, Footer) |
 | `public/brand` | Logo-Assets (SVG), `public/` Favicons und OG-Bild |
 | `public/__forms.html` | Formulardefinitionen für Netlify Forms |
@@ -47,7 +47,7 @@ npm run start
 2. Sätze ändern, **Stand der Preise** auf das aktuelle Datum setzen, speichern.
 3. Rechner, Preisliste, Gebühren-Zerlegung, Beispielrechnungen auf den Branchenseiten und der Geräteseite aktualisieren sich beim nächsten Deploy automatisch.
 
-Gerätepreise stehen pro Modell in «Terminals und Geräte». Die Vergleichswerte im Rechner (Grossanbieter, App-Anbieter) brauchen eine **Quelle und ein Datum**; ohne Quelle wird die Option im Rechner nicht angezeigt.
+Gerätepreise stehen pro Modell in «Terminals und Geräte». Der Ersparnis-Rechner liest **nicht** aus `konditionen.yaml`, sondern rechnet mit dem Modell des SwiPay-Partnerrechners (siehe unten); die Vergleichswerte in `konditionen.yaml` bleiben für die Gebühren-Zerlegung erhalten.
 
 Platzhalter sind in eckigen Klammern geschrieben, z. B. `[052 000 00 00]`. Vollständige Liste: `docs/07-platzhalter.md` im Projektordner darüber.
 
@@ -55,17 +55,21 @@ Platzhalter sind in eckigen Klammern geschrieben, z. B. `[052 000 00 00]`. Volls
 
 Die Website folgt der Systemeinstellung (`prefers-color-scheme`) und bietet im Header einen Umschalter. Die Wahl liegt im `localStorage` (Schlüssel `theme`), kein Cookie. Farben sind ausschliesslich Tokens in `src/app/globals.css` (`:root` hell, `:root[data-theme="dark"]` dunkel).
 
-## Rechnerformel
+## Rechnermodell
+
+Der Ersparnis-Rechner liefert dieselben Ergebnisse wie der Partnerrechner von SwiPay (`swipay.ch/partner-lead/?partner=ibis`). Das Modell steht in `src/lib/swipay-calc.ts` und wurde am 25. Oktober 2026 aus dessen Resultaten abgeleitet:
 
 ```
-Gebühren pro Monat = Umsatz × (1 − Kreditanteil) × Debitsatz
-                   + Umsatz × Kreditanteil × Kreditsatz
-                   + Anzahl Zahlungen × Fixbetrag
-                   + Terminal-Miete
-Anzahl Zahlungen   = Umsatz / Durchschnittsbetrag (gerundet, mindestens 1)
+U   = Jahresumsatz / 12                      tx = U / Durchschnittsbon
+SwiPay-Kosten  = r(Branche) × U + 0.025 × tx, mindestens 0.077 × tx
+Ist-Basis      (heutige Kondition angegeben): mid = Ist − SwiPay; Spanne 0.9 × mid … 1.1 × mid
+Markt-Basis    (keine Angabe): Markt = 1.49 % × U + 0.0025 × tx … 1.938 % × U; Spanne Markt − SwiPay
+Rundung: Monat auf 10 Franken, Jahr auf 50 Franken (kaufmännisch); Kleinstbetrag-Hinweis bei Bon < 25
 ```
 
-Prüfwert: Umsatz 25'000, Durchschnittsbetrag 45, Kreditanteil 35 %, Vergleich Grossanbieter (1.29 % / 1.29 % / 0.15 / 35) ergibt eine Ersparnis von CHF 1'954 pro Jahr.
+Branchensätze r: Gastronomie und Beauty 0.674 %, Kiosk 0.659 %, Detailhandel und Verein 0.718 %, Dienstleistung 0.744 %, Hotel, Online-Shop und Sonstige 0.774 %. Standardbon je Branche wie bei SwiPay (Gastronomie 34, Detailhandel 85, Beauty 120, Hotel 188, Kiosk 12, Online 60, Dienstleistung 250, Verein 100, Sonstige 50).
+
+Prüfwerte (Gastronomie, 120'000 pro Jahr, Bon 50): ohne Angabe CHF 80–120 pro Monat und 950–1'450 pro Jahr; mit heutiger Gebühr 1.5 % CHF 70–90 pro Monat und 850–1'000 pro Jahr. Von 118 gemessenen SwiPay-Werten trifft das Modell 117 exakt (eine Abweichung von 10 Franken bei Bon 100 ohne Angabe). SwiPays Endpunkt selbst ist auf die Herkunft swipay.ch beschränkt und kann von ibis-payment.ch aus nicht aufgerufen werden.
 
 ## Deploy auf Netlify
 

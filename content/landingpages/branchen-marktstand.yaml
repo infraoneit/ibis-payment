@@ -54,7 +54,7 @@ beispiel:
   bon: 18
   kreditanteil: 20
   vergleich: app
-  erklaerung: Annahmen für einen Stand mit kleinen Beträgen, überwiegend Debit und TWINT und wenigen Kreditkarten, verglichen mit dem Listenpreis eines App-Anbieters ohne Fixbetrag; Platzhalter, setzen Sie Ihre Zahlen ein.
+  erklaerung: Annahmen für einen Stand mit kleinen Beträgen, überwiegend Debit und TWINT; bei solchen Bons zählt die Gebühr pro Zahlung mehr als der Prozentsatz. Platzhalter, setzen Sie Ihre Zahlen ein.
 preisliste: []
 faq:
   - frage: Brauche ich am Stand WLAN?

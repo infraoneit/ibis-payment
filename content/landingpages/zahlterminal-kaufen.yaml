@@ -64,7 +64,7 @@ beispiel:
   bon: 38
   kreditanteil: 30
   vergleich: gross
-  erklaerung: Für ein Detailhandelsgeschäft nehmen wir viele Zahlungen mit mittlerem Bon und einem Kreditkartenanteil von knapp einem Drittel an; die Werte sind Platzhalter und gelten für Kauf und Miete gleich.
+  erklaerung: Für ein Detailhandelsgeschäft nehmen wir viele Zahlungen mit mittlerem Bon an; die Werte sind Platzhalter und gelten für Kauf und Miete gleich.
 preisliste:
   - label: Kauf N62 oder V3CT3
     beschreibung: Mobil ohne Drucker oder Tischterminal mit Drucker
